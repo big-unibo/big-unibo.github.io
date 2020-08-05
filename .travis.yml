@@ -10,7 +10,9 @@ cache: bundler
 
 script: 
   - ./build.sh
-  - zip -r big-website.zip _site/*
+  - cd _site
+  - zip -r ../big-website.zip *
+  - cd ..
   - ls
 
 deploy:
