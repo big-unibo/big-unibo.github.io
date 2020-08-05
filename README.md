@@ -1,6 +1,6 @@
 # BIG Website
 
-[![Build Status](https://travis-ci.com/big-unibo/big-website.svg?token=eCxgQzWEteuAmE58GzVG&branch=master)](https://travis-ci.com/big-unibo/big-website)
+[![Build Status](https://travis-ci.org/big-unibo/big-website.svg?branch=master)](https://travis-ci.org/big-unibo/big-website)
 
 This is the website of our academic research group at the University of Bologna.
 
