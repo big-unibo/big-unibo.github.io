@@ -13,7 +13,7 @@ script:
   - ls
 
 before_deploy:
-  - cd dist
+  - cd _site
 
 deploy:
   provider: releases
