@@ -24,6 +24,8 @@ e.g., ```git clone https://github.com/mpa139/allanlab.git```.
 - The static pages are generated in the _site folder; thus, just copy/paste the content of the _site folder 
 to the webserver
   - To deploy, the site must be *built*, not *served*!
+  - CI is implemented through Travis; after a push, just run the ```update-big-website.sh``` script
+  on the webserver to pull the built website and deploy it
 
 ## Biblio plugin
 
