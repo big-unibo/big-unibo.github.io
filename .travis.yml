@@ -12,11 +12,13 @@ script:
   - ./build.sh
   - ls
 
+before_deploy:
+  - cd dist
+
 deploy:
   provider: releases
   api_key:
     secure: "b6WK5d/KibRKYVN9Ne+xfKGOE5RJ+sxocSLhlaMvPNgXTGo3vW2hs+QdflRvegvf1rG/s16WQu2hQwxMsV2PW6TbaVpHSmIPkbKvIEuQXnO3cGQaroNCT4g3gKgnP7cvUPlDVM00diwOFcYnSCIX2nhDO2Ms4scYI/chUotvhtyZUrwqquacATauJpKXQ+d8h1tXzUOv+/ZYMYAGH8JBzeiPlWR3w8SmcUMITTNsnj5QxNpUzH2Z6UO8616b/4vuM5iQIBXMOQNwf0xYdbXqNQayT84bVlpIG1Fe13G2zffXi6AjR8/MLa74ie0DltX+nS5oyoIpHPnctubSdxF7zgCfFN6hWFjm2JMMxFfk3gAM8/XtIyFbzVqG1BKnsfCrAN7RZL+yJRw6fXe+y69lZnVozzYio28pc8ZKCa/KCo/eKRdMM8dWj95op7/4YH/20vDfpNslwqVFGgN2cAAHLzAHqYUVjL3PYlib26RyjGxOHBp3J3oustvHcJh+hgpslT9F5dUIKAD16lq4YouzosEUlIjJ9Y8HCAe5WWIin/iDOv5rVskpEkGBqwPDjz957OpoBo5GN4pBPmxvw+P415pygd4qDPHIIiBHY2GSqjR8GfoV7bZ2oa3egbie0eIrJFIX8ExvzIq83vDll+aKSRblokdp9Gu0qyvVewJRFpo="
-  file: "_site/"
   cleanup: true
   on:
     all_branches: true
