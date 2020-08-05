@@ -10,8 +10,8 @@ script:
   - ./script/cibuild
 deploy:
   - provider: releases
-    api_key: d32d8790cb30f08f368ced581428b2a934600b38
-    # secure:
+    # api_key: DONOTUSETHIS
+    secure: "h+tWBIftBzLiqyDPsivwmjcFM6/mTSdotmO7QQmMk4C2A7KavX3kSNWx3GRPhwjorhpQMB54UqXwk90wBTDhx4+l7LN3nufJZuo3SeuJlvKo6I2dGOIYpmD5w3kvtQYAD2vroeU0apY7Qwa65Z71JDjjtzLALL4GxOVt+JJS4NzIv85zXJoMoUGQU0BhzmZmrhCrVaAl8ySRbV8mSWftdeoVY7hE0jYKos80hMwN9foYjV3ose7Q7OYtm9O1fw54tClnblARzb7lOzajRn4J609oxUZBn+g73+efbaWwvkl6uTNoqHXtUDfdYiNYTmbwtSBXzA5pc5zNOSUnfZUGiS2o0DP2I4h6AsMvuxIcYZOIjzhyyurkvg+nuF4PIrV8/my7lVECuTXc+2Ke8gmJwL6K4SRp/s1QgTCvMe3wd0TpXM5GFZQyiABXmT17p/gMxsa7mnSVZXsXEBl5/W3awmqNFwnEFGO7a40wRKrFku87nx8clFgfnPQaA6NWKSe79tBHScpgzHcVOQxAWSfUnvrwRoNsZ9dhbLiy6VCb2kQqO9+d2lBLx8/kQuRvpfi1XKxNLVdTyY7sYu/bvcEbNkKQh5D1o6gMqHafvFOMJEI+lMINx4wUuYv4ph07H1Uage9vLhaa5AKI2X+dRcxW47Fc51TPGGb8FpAof6k7SmY="
     file_glob: true
     file: "_site/"
     skip_cleanup: true
