@@ -1,5 +1,7 @@
 # BIG Website
 
+[![Build Status](https://travis-ci.com/big-unibo/big-website.svg?token=eCxgQzWEteuAmE58GzVG&branch=master)](https://travis-ci.com/big-unibo/big-website)
+
 This is the website of our academic research group at the University of Bologna.
 
 This website is powered by Jekyll and some Bootstrap, Bootwatch; it is inspired by the (Allan Lab's website)[https://www.allanlab.org/]. 
@@ -63,7 +65,7 @@ The *_includes* folder contains headers and footers.
 
 - If the page is not regenerated, verify that it contains ```regenerate: true``` in the header.
 
-#Copyright
+# Copyright
 
 Copyright BIG. Code released under the MIT License.
 
