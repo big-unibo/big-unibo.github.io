@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://www.malot.fr/bootstrap-datetimepicker/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>DateTime Picker · Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap DateTime Picker is a bootstrap twitter component. However it can be implemented on every html form to help datetime typing">
+    <meta name="author" content="Sebastien MALOT">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="DateTime Picker · Bootstrap Component">
+    <meta property="og:type" content="blog">
+    <meta property="og:site_name" content="DateTime Picker · Bootstrap">
+    <meta property="og:url" content="https://www.malot.fr/bootstrap-datetimepicker/">
+    <meta property="og:image" content="https://www.malot.fr/bootstrap-datetimepicker/bootstrap-datetimepicker/screenshot/standard_day.png">
+    <meta property="og:description" content="Bootstrap DateTime Picker is a bootstrap twitter component. However it can be implemented on every html form to help datetime typing">
+
+    <!-- Le styles -->
+    <link href="./DateTime Picker · Bootstrap_files/bootstrap.css" rel="stylesheet">
+    <link href="./DateTime Picker · Bootstrap_files/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./DateTime Picker · Bootstrap_files/docs.css" rel="stylesheet">
+    <link href="./DateTime Picker · Bootstrap_files/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="https://www.malot.fr/bootstrap-datetimepicker/ico/favicon.ico">
+
+    <script type="text/javascript" async="" src="./DateTime Picker · Bootstrap_files/ga.js.download"></script><script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-3147083-25']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  <style type="text/css">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;border-collapse:collapse;border:0;vertical-align:middle;margin:0}</style></head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="https://www.malot.fr/bootstrap-datetimepicker/index.php">DateTime Picker</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="">
+                <a href="https://www.malot.fr/bootstrap-datetimepicker/index.php">Home</a>
+              </li>
+              <li class="">
+                <a href="https://www.malot.fr/bootstrap-datetimepicker/demo.php">Demo</a>
+              </li>
+              <li class="">
+                <a href="https://github.com/smalot/bootstrap-datetimepicker/archive/master.zip">Download</a>
+              </li>
+              <li class="">
+                <a href="https://github.com/smalot/bootstrap-datetimepicker">GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead">
+  <div class="container">
+    <h1><a href="https://www.malot.fr/bootstrap-datetimepicker/index.php">DateTime Picker</a></h1>
+    <p class="lead"><a href="https://www.malot.fr/bootstrap-datetimepicker/index.php">Bootstrap form component to handle date and time data.</a></p>
+    <div class="row">
+      <div class="span9">
+      </div>
+      <div class="span3">
+        <a href="https://www.malot.fr/bootstrap-datetimepicker/demo.php?utm_source=siteweb&amp;utm_medium=demo&amp;utm_campaign=Site%2BWeb" class="btn btn-danger">Access to the Demo &gt;</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <a href="https://github.com/smalot/bootstrap-datetimepicker"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 2000" src="./DateTime Picker · Bootstrap_files/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+  <div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix">
+          <li class=""><a href="https://www.malot.fr/bootstrap-datetimepicker/#project"><i class="icon-chevron-right"></i> Project</a></li>
+          <li class=""><a href="https://www.malot.fr/bootstrap-datetimepicker/#screenshots"><i class="icon-chevron-right"></i> Screenshots</a></li>
+          <li class=""><a href="https://www.malot.fr/bootstrap-datetimepicker/#dependencies"><i class="icon-chevron-right"></i> Dependencies</a></li>
+          <li class="active"><a href="https://www.malot.fr/bootstrap-datetimepicker/#options"><i class="icon-chevron-right"></i> Options</a></li>
+          <li class=""><a href="https://www.malot.fr/bootstrap-datetimepicker/#markup"><i class="icon-chevron-right"></i> Markup</a></li>
+          <li class=""><a href="https://www.malot.fr/bootstrap-datetimepicker/#methods"><i class="icon-chevron-right"></i> Methods</a></li>
+          <li><a href="https://www.malot.fr/bootstrap-datetimepicker/#events"><i class="icon-chevron-right"></i> Events</a></li>
+          <li><a href="https://www.malot.fr/bootstrap-datetimepicker/#keyboard"><i class="icon-chevron-right"></i> Keyboard support</a></li>
+          <li><a href="https://www.malot.fr/bootstrap-datetimepicker/#i18n"><i class="icon-chevron-right"></i> I18N</a></li>
+          <li><a href="https://www.malot.fr/bootstrap-datetimepicker/#implementations"><i class="icon-chevron-right"></i> Implementations</a></li>
+          <li><a href="https://www.malot.fr/bootstrap-datetimepicker/demo.php"><i class="icon-chevron-right"></i> Demos</a></li>
+        </ul>
+      </div>
+
+      <div class="span9">
+        <!-- Overview
+        ================================================== -->
+        <section id="project">
+          <div class="page-header">
+            <h2>Project <a href="https://travis-ci.org/smalot/bootstrap-datetimepicker"><img src="./DateTime Picker · Bootstrap_files/error.png" alt="Build Status" style="margin-left: 100px"></a></h2>
+          </div>
+
+          <div>
+            This project is a fork of <a href="https://github.com/eternicode/bootstrap-datepicker">bootstrap-datetimepicker project</a> which doesn't include <code>Time</code> part.<br>
+            Some others parts has been improved as for example the <code>load</code> process which now accepts the ISO-8601 format.<br>
+            I've copy/pasted the forked project's documentation and added my specifications.<br>
+            &nbsp;
+          </div>
+
+          <div class="row">
+            <div class="span6">Don't hesitate to download and try it !</div>
+            <div class="span3"><a href="https://github.com/smalot/bootstrap-datetimepicker/archive/master.zip" class="btn btn-success" title="Download ZIP file from GitHub servers">Download ZIP</a></div>
+          </div>
+
+          <div>
+            Clone or fork this project as you wish
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">git clone git</span><span class="pun">:</span><span class="com">//github.com/smalot/bootstrap-datetimepicker.git</span></li></ol></pre>
+
+            <p>I hope this will help you !</p>
+
+            <p><br><strong>Tags:</strong> <code>twitter-bootstrap</code>, <code>datetime</code>, <code>picker</code>, <code>component</code>, <code>javascript</code>, <code>widget</code></p>
+          </div>
+
+        </section>
+
+        <!-- Screenshots
+        ================================================== -->
+        <section id="screenshots">
+          <div class="page-header">
+            <h2>Screenshots</h2>
+          </div>
+
+          <div class="row">
+            <div class="span3"><h3>Decade view</h3><img src="./DateTime Picker · Bootstrap_files/standard_decade.png" alt="Decade view"></div>
+            <div class="span3"><h3>Year view</h3><img src="./DateTime Picker · Bootstrap_files/standard_year.png" alt="Year view"></div>
+            <div class="span3"><h3>Month view</h3><img src="./DateTime Picker · Bootstrap_files/standard_month.png" alt="Month view"></div>
+          </div>
+
+          <div class="row">
+            <div class="span3"><h3>Day view <span style="color: red">*</span></h3><img src="./DateTime Picker · Bootstrap_files/standard_day.png" alt="Day view"></div>
+            <div class="span6"><h3>Hour view <span style="color: red">*</span></h3><img src="./DateTime Picker · Bootstrap_files/standard_hour.png" alt="Hour view"></div>
+          </div>
+
+          <div class="row">
+            <div class="span3"><h3>Day view w/ meridian <span style="color: red">*</span></h3><img src="./DateTime Picker · Bootstrap_files/standard_day_meridian.png" alt="Day view - meridian"></div>
+            <div class="span6"><h3>Hour view w/ meridian <span style="color: red">*</span></h3><img src="./DateTime Picker · Bootstrap_files/standard_hour_meridian.png" alt="Hour view - meridian"></div>
+          </div>
+
+          <div style="padding-top: 20px">
+            <span style="color: red">(*)</span> <em>Added views to select the time part</em>.
+          </div>
+
+        </section>
+
+        <!-- Dependencies
+        ================================================== -->
+        <section id="dependencies">
+          <div class="page-header">
+            <h2>Dependencies</h2>
+          </div>
+
+          <div>
+            <p>Requires bootstrap's dropdown component (<code>dropdowns.less</code>) for some styles, and bootstrap's sprites (<code>sprites.less</code> and associated images) for arrows.</p>
+
+            <p>A standalone .css file (including necessary dropdown styles and alternative, text-based arrows) can be generated by running <code>build/build_standalone.less</code> through the lessc compiler:</p>
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$ lessc build</span><span class="pun">/</span><span class="pln">build_standalone</span><span class="pun">.</span><span class="pln">less datetimepicker</span><span class="pun">.</span><span class="pln">css</span></li></ol></pre>
+          </div>
+        </section>
+
+        <!-- Options
+        ================================================== -->
+        <section id="options">
+          <div class="page-header">
+            <h2>Options</h2>
+          </div>
+
+          <div>
+            <p>All options that take a "Date" can handle a <code>Date</code> object; a String formatted according to the given <code>format</code>; or a timedelta relative to today, eg '-1d', '+6m +1y', etc, where valid units are 'd' (day), 'w' (week), 'm' (month), and 'y' (year).</p>
+
+            <p>You can also specify an ISO-8601 valid datetime, despite of the given format :<br>
+            </p><ul>
+                <li>yyyy-mm-dd</li>
+                <li>yyyy-mm-dd hh:ii</li>
+                <li>yyyy-mm-ddThh:ii</li>
+                <li>yyyy-mm-dd hh:ii:ss</li>
+                <li>yyyy-mm-ddThh:ii:ssZ</li>
+            </ul>
+            <p></p>
+
+            <h3>format</h3>
+            <p>String.  Default: 'mm/dd/yyyy'</p>
+            <p>The date format, combination of p, P, h, hh, i, ii, s, ss, d, dd, m, mm, M, MM, yy, yyyy.<br>
+                </p><ul>
+                    <li>p : meridian in lower case ('am' or 'pm') - according to locale file</li>
+                    <li>P : meridian in upper case ('AM' or 'PM') - according to locale file</li>
+                    <li>s : seconds without leading zeros</li>
+                    <li>ss : seconds, 2 digits with leading zeros</li>
+                    <li>i : minutes without leading zeros</li>
+                    <li>ii : minutes, 2 digits with leading zeros</li>
+                    <li>h : hour without leading zeros - 24-hour format</li>
+                    <li>hh : hour, 2 digits with leading zeros - 24-hour format</li>
+                    <li>H : hour without leading zeros - 12-hour format</li>
+                    <li>HH : hour, 2 digits with leading zeros - 12-hour format</li>
+                    <li>d : day of the month without leading zeros</li>
+                    <li>dd : day of the month, 2 digits with leading zeros</li>
+                    <li>m : numeric representation of month without leading zeros</li>
+                    <li>mm : numeric representation of the month, 2 digits with leading zeros</li>
+                    <li>M : short textual representation of a month, three letters</li>
+                    <li>MM : full textual representation of a month, such as January or March</li>
+                    <li>yy : two digit representation of a year</li>
+                    <li>yyyy : full numeric representation of a year, 4 digits</li>
+                </ul><p></p>
+
+            <h3>weekStart</h3>
+            <p>Integer.  Default: 0</p>
+            <p>Day of the week start. 0 (Sunday) to 6 (Saturday)</p>
+
+            <h3>startDate</h3>
+            <p>Date.  Default: Beginning of time</p>
+            <p>The earliest date that may be selected; all earlier dates will be disabled.</p>
+
+            <h3>endDate</h3>
+            <p>Date.  Default: End of time</p>
+            <p>The latest date that may be selected; all later dates will be disabled.</p>
+
+            <h3>daysOfWeekDisabled</h3>
+            <p>String, Array.  Default: '', []</p>
+            <p>Days of the week that should be disabled. Values are 0 (Sunday) to 6 (Saturday). Multiple values should be comma-separated. Example: disable weekends: <code>'0,6'</code> or <code>[0,6]</code>.</p>
+
+            <h3>autoclose</h3>
+            <p>Boolean.  Default: false</p>
+            <p>Whether or not to close the datetimepicker immediately when a date is selected.</p>
+
+            <h3>startView</h3>
+            <p>Number, String.  Default: 2, 'month'</p>
+            <p>The view that the datetimepicker should show when it is opened.
+            Accepts values of :</p>
+            <ul>
+                <li>0 or 'hour' for the hour view</li>
+                <li>1 or 'day' for the day view</li>
+                <li>2 or 'month' for month view (the default)</li>
+                <li>3 or 'year' for the 12-month overview</li>
+                <li>4 or 'decade' for the 10-year overview. Useful for date-of-birth datetimepickers.</li>
+            </ul>
+
+            <h3>minView</h3>
+            <p>Number, String. Default: 0, 'hour'</p>
+            <p>The lowest view that the datetimepicker should show.</p>
+
+            <h3>maxView</h3>
+            <p>Number, String. Default: 4, 'decade'</p>
+            <p>The highest view that the datetimepicker should show.</p>
+
+            <h3>todayBtn</h3>
+            <p>Boolean, "linked".  Default: false</p>
+            <p>If true or "linked", displays a "Today" button at the bottom of the datetimepicker to select the current date.  If true, the "Today" button will only move the current date into view; if "linked", the current date will also be selected.</p>
+
+            <h3>todayHighlight</h3>
+            <p>Boolean.  Default: false</p>
+            <p>If true, highlights the current date.</p>
+
+            <h3>keyboardNavigation</h3>
+            <p>Boolean.  Default: true</p>
+            <p>Whether or not to allow date navigation by arrow keys.</p>
+
+            <h3>language</h3>
+            <p>String.  Default: 'en'</p>
+            <p>The two-letter code of the language to use for month and day names.  These will also be used as the input's value (and subsequently sent to the server in the case of form submissions).  Currently ships with English ('en'), German ('de'), Brazilian ('br'), and Spanish ('es') translations, but others can be added (see I18N below).  If an unknown language code is given, English will be used.</p>
+
+            <h3>forceParse</h3>
+            <p>Boolean.  Default: true</p>
+            <p>Whether or not to force parsing of the input value when the picker is closed.  That is, when an invalid date is left in the input field by the user, the picker will forcibly parse that value, and set the input's value to the new, valid date, conforming to the given <code>format</code>.</p>
+
+            <h3>minuteStep</h3>
+            <p>Number.  Default: 5</p>
+            <p>The increment used to build the hour view. A preset is created for each <code>minuteStep</code> minutes.</p>
+
+            <h3>pickerReferer : deprecated</h3>
+            <p>String.  Default: 'default' <em>(other value available : 'input')</em></p>
+            <p>The referer element to place the picker for the component implementation. If you want to place the picker just under the input field, just specify <code>input</code>.</p>
+
+            <h3>pickerPosition</h3>
+            <p>String.  Default: 'bottom-right' <em>(other value supported : 'bottom-left')</em></p>
+            <p>This option is currently only available in the component implementation. With it you can place the picker just under the input field.</p>
+
+            <h3>viewSelect</h3>
+            <p>Number or String.  Default: <code>same as minView</code> <em>(supported values are: 'decade', 'year', 'month', 'day', 'hour')</em></p>
+            <p>With this option you can select the view from which the date will be selected. By default it's the last one, however you can choose the first one, so at each click the date will be updated.</p>
+
+            <h3>showMeridian</h3>
+            <p>Boolean.  Default: false</p>
+            <p>This option will enable meridian views for <code>day</code> and <code>hour</code> views.</p>
+
+            <h3>initialDate</h3>
+            <p>Date or String.  Default: new Date()</p>
+            <p>You can initialize the viewer with a date. By default it's now, so you can specify yesterday or today at midnight ...</p>
+          </div>
+
+        </section>
+
+        <!-- Markup
+        ================================================== -->
+        <section id="markup">
+          <div class="page-header">
+            <h2>Markup</h2>
+          </div>
+
+          <div>
+            <p>Format as component.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"input-append date"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"datetimepicker"</span><span class="pln"> </span><span class="atn">data-date</span><span class="pun">=</span><span class="atv">"12-02-2012"</span><span class="pln"> </span><span class="atn">data-date-format</span><span class="pun">=</span><span class="atv">"dd-mm-yyyy"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"span2"</span><span class="pln"> </span><span class="atn">size</span><span class="pun">=</span><span class="atv">"16"</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"12-02-2012"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"add-on"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-th"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span></li><li class="L3"><span class="tag">&lt;/div&gt;</span><span class="pln">            </span></li></ol></pre>
+
+            <p>Format as component with reset button to clear the input field.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"input-append date"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"datetimepicker"</span><span class="pln"> </span><span class="atn">data-date</span><span class="pun">=</span><span class="atv">"12-02-2012"</span><span class="pln"> </span><span class="atn">data-date-format</span><span class="pun">=</span><span class="atv">"dd-mm-yyyy"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"span2"</span><span class="pln"> </span><span class="atn">size</span><span class="pun">=</span><span class="atv">"16"</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"12-02-2012"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"add-on"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-remove"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"add-on"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-th"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span></li><li class="L4"><span class="tag">&lt;/div&gt;</span><span class="pln">            </span></li></ol></pre>
+          </div>
+        </section>
+
+        <!-- Methods
+        ================================================== -->
+        <section id="methods">
+          <div class="page-header">
+            <h2>Methods</h2>
+          </div>
+
+          <div>
+            <h3>.datetimepicker(options)</h3>
+
+            <p>Initializes an datetimepicker.</p>
+
+            <h3>remove</h3>
+
+            <p>Arguments: None</p>
+
+            <p>Remove the datetimepicker.  Removes attached events, internal attached objects, and added HTML elements.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'remove'</span><span class="pun">);</span></li></ol></pre>
+
+            <h3>show</h3>
+
+            <p>Arguments: None</p>
+
+            <p>Show the datetimepicker.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'show'</span><span class="pun">);</span></li></ol></pre>
+
+            <h3>hide</h3>
+
+            <p>Arguments: None</p>
+
+            <p>Hide the datetimepicker.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'hide'</span><span class="pun">);</span></li></ol></pre>
+
+            <h3>update</h3>
+
+            <p>Arguments: None</p>
+
+            <p>Update the datetimepicker with the current input value.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'update'</span><span class="pun">);</span></li></ol></pre>
+
+            <h3>setStartDate</h3>
+
+            <p>Arguments:</p>
+
+            <ul>
+            <li>startDate (String)</li>
+            </ul><p>Sets a new lower date limit on the datetimepicker.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'setStartDate'</span><span class="pun">,</span><span class="pln"> </span><span class="str">'2012-01-01'</span><span class="pun">);</span></li></ol></pre>
+
+            <p>Omit startDate (or provide an otherwise falsey value) to unset the limit.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'setStartDate'</span><span class="pun">);</span></li><li class="L1"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'setStartDate'</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">);</span></li></ol></pre>
+
+            <h3>setEndDate</h3>
+
+            <p>Arguments:</p>
+
+            <ul>
+            <li>endDate (String)</li>
+            </ul><p>Sets a new upper date limit on the datetimepicker.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'setEndDate'</span><span class="pun">,</span><span class="pln"> </span><span class="str">'2012-01-01'</span><span class="pun">);</span></li></ol></pre>
+
+            <p>Omit endDate (or provide an otherwise falsey value) to unset the limit.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'setEndDate'</span><span class="pun">);</span></li><li class="L1"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'setEndDate'</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">);</span></li></ol></pre>
+
+            <h3>setDaysOfWeekDisabled</h3>
+
+            <p>Arguments:</p>
+
+            <ul>
+            <li>daysOfWeekDisabled (String|Array)</li>
+            </ul><p>Sets the days of week that should be disabled.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'setDaysOfWeekDisabled'</span><span class="pun">,</span><span class="pln"> </span><span class="pun">[</span><span class="lit">0</span><span class="pun">,</span><span class="lit">6</span><span class="pun">]);</span></li></ol></pre>
+
+            <p>Omit daysOfWeekDisabled (or provide an otherwise falsey value) to unset the disabled days.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'setDaysOfWeekDisabled'</span><span class="pun">);</span></li><li class="L1"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">(</span><span class="str">'setDaysOfWeekDisabled'</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">null</span><span class="pun">);</span></li></ol></pre>
+          </div>
+
+        </section>
+
+        <!-- Events
+        ================================================== -->
+        <section id="events">
+          <div class="page-header">
+            <h2>Events</h2>
+          </div>
+
+          <div>
+            <p>Datetimepicker class exposes a few events for manipulating the dates.</p>
+
+            <h3>show</h3>
+
+            <p>Fired when the date picker is displayed.</p>
+
+            <h3>hide</h3>
+
+            <p>Fired when the date picker is hidden.</p>
+
+            <h3>changeDate</h3>
+
+            <p>Fired when the date is changed.</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#date-end'</span><span class="pun">)</span></li><li class="L1"><span class="pun">.</span><span class="pln">datetimepicker</span><span class="pun">()</span></li><li class="L2"><span class="pun">.</span><span class="pln">on</span><span class="pun">(</span><span class="str">'changeDate'</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">ev</span><span class="pun">){</span></li><li class="L3"><span class="pln">    </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">ev</span><span class="pun">.</span><span class="pln">date</span><span class="pun">.</span><span class="pln">valueOf</span><span class="pun">()</span><span class="pln"> </span><span class="pun">&lt;</span><span class="pln"> date</span><span class="pun">-</span><span class="pln">start</span><span class="pun">-</span><span class="pln">display</span><span class="pun">.</span><span class="pln">valueOf</span><span class="pun">()){</span></li><li class="L4"><span class="pln">        </span><span class="pun">....</span></li><li class="L5"><span class="pln">    </span><span class="pun">}</span></li><li class="L6"><span class="pun">});</span></li><li class="L7"><span class="pln">            </span></li></ol></pre>
+
+            <h3>changeYear</h3>
+
+            <p>Fired when the <code>view</code> year is changed from decade view.</p>
+
+            <h3>changeMonth</h3>
+
+            <p>Fired when the <code>view</code> month is changed from year view.</p>
+
+            <h3>outOfRange</h3>
+
+            <p>Fired when you pick a date before the <code>startDate</code> or after the <code>endDate</code> or when you specify a date via the method <code>setDate</code> or <code>setUTCDate</code>.</p>
+          </div>
+
+        </section>
+
+        <!-- Keyboard support
+        ================================================== -->
+        <section id="keyboard">
+          <div class="page-header">
+            <h2>Keyboard support</h2>
+          </div>
+
+          <div>
+            <p>The datetimepicker includes some keyboard navigation:</p>
+
+            <h3>up, down, left, right arrow keys</h3>
+
+            <p>By themselves, left/right will move backward/forward one day, up/down will move back/forward one week.</p>
+
+            <p>With the shift key, up/left will move backward one month, down/right will move forward one month.</p>
+
+            <p>With the ctrl key, up/left will move backward one year, down/right will move forward one year.</p>
+
+            <p>Shift+ctrl behaves the same as ctrl - that is, it does not change both month and year simultaneously, only the year.</p>
+
+            <h3>escape</h3>
+
+            <p>The escape key can be used to hide and re-show the datetimepicker; this is necessary if the user wants to manually edit the value.</p>
+
+            <h3>enter</h3>
+
+            <p>When the picker is visible, enter will simply hide it.  When the picker is not visible, enter will have normal effects - submitting the current form, etc.</p>
+          </div>
+        </section>
+
+        <!-- I18N
+        ================================================== -->
+        <section id="i18n">
+          <div class="page-header">
+            <h2>I18N</h2>
+          </div>
+
+          <div>
+            <p>The plugin supports i18n for the month and weekday names and the <code>weekStart</code> option. The default is English ('en'); other available translations are avilable in the <code>js/locales/</code> directory, simply include your desired locale after the plugin. To add more languages, simply add a key to <code>$.fn.datetimepicker.dates</code>, before calling <code>.datetimepicker()</code>. Example:</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">.</span><span class="pln">fn</span><span class="pun">.</span><span class="pln">datetimepicker</span><span class="pun">.</span><span class="pln">dates</span><span class="pun">[</span><span class="str">'en'</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="pun">{</span></li><li class="L1"><span class="pln">    days</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="str">"Sunday"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Monday"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Tuesday"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Wednesday"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Thursday"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Friday"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Saturday"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Sunday"</span><span class="pun">],</span></li><li class="L2"><span class="pln">    daysShort</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="str">"Sun"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Mon"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Tue"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Wed"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Thu"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Fri"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Sat"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Sun"</span><span class="pun">],</span></li><li class="L3"><span class="pln">    daysMin</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="str">"Su"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Mo"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Tu"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"We"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Th"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Fr"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Sa"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Su"</span><span class="pun">],</span></li><li class="L4"><span class="pln">    months</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="str">"January"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"February"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"March"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"April"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"May"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"June"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"July"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"August"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"September"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"October"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"November"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"December"</span><span class="pun">],</span></li><li class="L5"><span class="pln">    monthsShort</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="str">"Jan"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Feb"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Mar"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Apr"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"May"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Jun"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Jul"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Aug"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Sep"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Oct"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Nov"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Dec"</span><span class="pun">],</span></li><li class="L6"><span class="pln">    today</span><span class="pun">:</span><span class="pln"> </span><span class="str">"Today"</span></li><li class="L7"><span class="pun">};</span></li></ol></pre>
+
+            <p>Right-to-left languages may also include <code>rtl: true</code> to make the calendar display appropriately.</p>
+
+            <p>If your browser (or those of your users) is displaying characters wrong, chances are the browser is loading the javascript file with a non-unicode encoding. Simply add <code>charset="UTF-8"</code> to your <code>script</code> tag:</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text/javascript"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"bootstrap-datetimepicker.de.js"</span><span class="pln"> </span><span class="atn">charset</span><span class="pun">=</span><span class="atv">"UTF-8"</span><span class="tag">&gt;&lt;/script&gt;</span></li></ol></pre>
+          </div>
+
+        </section>
+
+        <!-- Examples
+        ================================================== -->
+        <section id="implementations">
+          <div class="page-header">
+            <h2>Implementations</h2>
+          </div>
+
+          <div>
+            <p>Attached to a field with the format specified via options:</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"2012-05-15 21:05"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"datetimepicker"</span><span class="tag">&gt;</span></li></ol></pre>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">({</span></li><li class="L1"><span class="pln">    format</span><span class="pun">:</span><span class="pln"> </span><span class="str">'yyyy-mm-dd hh:ii'</span></li><li class="L2"><span class="pun">});</span></li></ol></pre>
+
+            <p>Attached to a field with the format specified via markup:</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"2012-05-15 21:05"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"datetimepicker"</span><span class="pln"> </span><span class="atn">data-date-format</span><span class="pun">=</span><span class="atv">"yyyy-mm-dd hh:ii"</span><span class="tag">&gt;</span></li></ol></pre>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">();</span></li></ol></pre>
+
+            <p>As component:</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"input-append date"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"datetimepicker"</span><span class="pln"> </span><span class="atn">data-date</span><span class="pun">=</span><span class="atv">"12-02-2012"</span><span class="pln"> </span><span class="atn">data-date-format</span><span class="pun">=</span><span class="atv">"dd-mm-yyyy"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">size</span><span class="pun">=</span><span class="atv">"16"</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text"</span><span class="pln"> </span><span class="atn">value</span><span class="pun">=</span><span class="atv">"12-02-2012"</span><span class="pln"> </span><span class="atn">readonly</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"add-on"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon-th"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span></li><li class="L3"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">();</span></li></ol></pre>
+
+            <p>As inline datetimepicker:</p>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"datetimepicker"</span><span class="tag">&gt;&lt;/div&gt;</span></li></ol></pre>
+
+            <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="pln">$</span><span class="pun">(</span><span class="str">'#datetimepicker'</span><span class="pun">).</span><span class="pln">datetimepicker</span><span class="pun">();</span></li></ol></pre>
+
+          </div>
+
+        </section>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p>You can contact and follow me on Twitter <a href="https://twitter.com/sebastienmalot" target="_blank">@sebastienmalot</a>.</p>
+        <ul class="footer-links">
+          <li><a href="https://www.malot.fr/bootstrap-datetimepicker/">Project</a></li>
+          <li class="muted">·</li>
+          <li><a href="https://www.malot.fr/bootstrap-datetimepicker/demo.php">Demo</a></li>
+          <li class="muted">·</li>
+          <li><a href="https://github.com/smalot/bootstrap-datetimepicker/archive/master.zip">Download</a></li>
+          <li class="muted">·</li>
+          <li><a href="https://github.com/smalot/bootstrap-datetimepicker">GitHub</a></li>
+        </ul>
+      </div>
+    </footer>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="./DateTime Picker · Bootstrap_files/widgets.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/jquery.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-transition.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-alert.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-modal.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-dropdown.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-scrollspy.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-tab.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-tooltip.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-popover.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-button.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-collapse.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-carousel.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-typeahead.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/bootstrap-affix.js.download"></script>
+
+    <script src="./DateTime Picker · Bootstrap_files/holder.js.download"></script>
+    <script src="./DateTime Picker · Bootstrap_files/prettify.js.download"></script>
+
+    <script src="./DateTime Picker · Bootstrap_files/application.js.download"></script>
+
+
+    <!-- Analytics
+    ================================================== -->
+    <script type="text/javascript">
+        $('a[href^="#"]').click(function(){  
+            var the_id = $(this).attr("href");  
+            $('html, body').animate({  
+                scrollTop:$(the_id).offset().top  
+            }, 'slow');  
+            return false;  
+        });
+    </script>
+
+  
+
+
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="./DateTime Picker · Bootstrap_files/widget_iframe.31849fd556d065e6364d2ceb2dcd1e60.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./DateTime Picker · Bootstrap_files/saved_resource.html"></iframe></body></html>
