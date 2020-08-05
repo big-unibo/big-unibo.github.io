@@ -15,6 +15,7 @@ In this context, the Business Intelligence Group has been carrying out its resea
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
     </ol>
 
     <!-- Items -->
@@ -22,6 +23,9 @@ In this context, the Business Intelligence Group has been carrying out its resea
 
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/logo_big.png" alt="Slide 1" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/foto_campus_ctf.jpg" alt="Slide 2" />
         </div>
         
     </div>

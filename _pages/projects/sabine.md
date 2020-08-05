@@ -30,31 +30,31 @@ permalink: /sabine/
 
 <div style="margin-bottom: 15px;">
 <ul>
-<li><strong>Clips (6.06 GB; unzipped 36.5 GB) - <a href="downloads/sabine/Clips.zip">Download</a></strong></li>
+<li><strong>Clips (6.06 GB; unzipped 36.5 GB) - <a href="/downloads/sabine/Clips.zip">Download</a></strong></li>
   <ul>
-  <li>Italian Clips (2.05 GB; unzipped 12.4 GB) - <a href="downloads/sabine/Clips%20Ita.zip">Download</a></li>
+  <li>Italian Clips (2.05 GB; unzipped 12.4 GB) - <a href="/downloads/sabine/Clips%20Ita.zip">Download</a></li>
     <ul>
-    <li>Italian Clips with validated sentiment (166 KB; unzipped 1 MB) - <a href="downloads/sabine/ClipsItaWithValidatedSentiment.zip">Download</a></li>
+    <li>Italian Clips with validated sentiment (166 KB; unzipped 1 MB) - <a href="/downloads/sabine/ClipsItaWithValidatedSentiment.zip">Download</a></li>
     </ul>
-  <li>English Clips (4.01 GB; unzipped 24.1 GB) - <a href="downloads/sabine/Clips%20Eng.zip">Download</a></li>
+  <li>English Clips (4.01 GB; unzipped 24.1 GB) - <a href="/downloads/sabine/Clips%20Eng.zip">Download</a></li>
     <ul>
-    <li>English Clips with validated sentiment (168 KB; unzipped 1 MB) - <a href="downloads/sabine/ClipsEngWithValidatedSentiment.zip">Download</a></li>
+    <li>English Clips with validated sentiment (168 KB; unzipped 1 MB) - <a href="/downloads/sabine/ClipsEngWithValidatedSentiment.zip">Download</a></li>
     </ul>
   </ul>
-<li><strong>Crawler Annotations (189 MB; unzipped 2.52 GB) - <a href="downloads/sabine/Crawler%20annotations.zip">Download</a></strong> <br><span class="note">(Note: package <i>Clips</i> is also required to use this package)</span></li>
-<li><strong>Sentiment (15 MB; unzipped 83 MB) - <a href="downloads/sabine/Sentiment.zip">Download</a></strong> <br><span class="note">(Note: package <i>Clips</i> is also required to use this package)</span></li>
-<li><strong>Topic occurrences (102 MB; unzipped 331 MB) - <a href="downloads/sabine/Topic%20occurrences.zip">Download</a></strong> <br><span class="note">(Note: packages <i>Clips</i> and <i>Topic Ontology</i> are also required to use this package)</span></li>
-<li><strong>Topics &amp; mappings (608 KB) - <a href="downloads/sabine/Topics%20and%20mappings.zip">Download</a></strong></li>
+<li><strong>Crawler Annotations (189 MB; unzipped 2.52 GB) - <a href="/downloads/sabine/Crawler%20annotations.zip">Download</a></strong> <br><span class="note">(Note: package <i>Clips</i> is also required to use this package)</span></li>
+<li><strong>Sentiment (15 MB; unzipped 83 MB) - <a href="/downloads/sabine/Sentiment.zip">Download</a></strong> <br><span class="note">(Note: package <i>Clips</i> is also required to use this package)</span></li>
+<li><strong>Topic occurrences (102 MB; unzipped 331 MB) - <a href="/downloads/sabine/Topic%20occurrences.zip">Download</a></strong> <br><span class="note">(Note: packages <i>Clips</i> and <i>Topic Ontology</i> are also required to use this package)</span></li>
+<li><strong>Topics &amp; mappings (608 KB) - <a href="/downloads/sabine/Topics%20and%20mappings.zip">Download</a></strong></li>
   <ul>
-  <li>Topic Ontology (56 KB) - <a href="downloads/sabine/Topic%20ontology.zip">Download</a></li>
-  <li>Linked DBpedia Resources (546 KB) - <a href="downloads/sabine/Linked%20DBpedia%20Resources.zip">Download</a> <br><span class="note">(Note: package <i>Topic Ontology</i> is also required to use this package)</span></li>
-  <li>Inter Language Mappings (6 KB) - <a href="downloads/sabine/Inter%20Language%20mappings.zip">Download</a> <br><span class="note">(Note: package <i>Topic Ontology</i> is also required to use this package)</span></li>
+  <li>Topic Ontology (56 KB) - <a href="/downloads/sabine/Topic%20ontology.zip">Download</a></li>
+  <li>Linked DBpedia Resources (546 KB) - <a href="/downloads/sabine/Linked%20DBpedia%20Resources.zip">Download</a> <br><span class="note">(Note: package <i>Topic Ontology</i> is also required to use this package)</span></li>
+  <li>Inter Language Mappings (6 KB) - <a href="/downloads/sabine/Inter%20Language%20mappings.zip">Download</a> <br><span class="note">(Note: package <i>Topic Ontology</i> is also required to use this package)</span></li>
   </ul>
-<li><strong>MD cubes (1.18 GB; unzipped 8.14 GB) - <a href="downloads/sabine/MD%20cubes.zip">Download</a></strong></li>
+<li><strong>MD cubes (1.18 GB; unzipped 8.14 GB) - <a href="/downloads/sabine/MD%20cubes.zip">Download</a></strong></li>
   <ul>
-  <li>Sentiment Cube (315 MB; unzipped 3.25 GB) - <a href="downloads/sabine/Sentiment%20cube.zip">Download</a></li>
-  <li>Semantic Occurrence Cube (896 MB; unzipped 4.89 GB) - <a href="downloads/sabine/Semantic%20occurrence%20cube.zip">Download</a></li>
-  <li>Inquiries (372 KB) - <a href="downloads/sabine/Inquiries.zip">Download</a> <br><span class="note">(Note: packages <i>Sentiment Cube</i> and <i>Semantic OccurrenceCube</i> are also required to use this package)</span></li>
+  <li>Sentiment Cube (315 MB; unzipped 3.25 GB) - <a href="/downloads/sabine/Sentiment%20cube.zip">Download</a></li>
+  <li>Semantic Occurrence Cube (896 MB; unzipped 4.89 GB) - <a href="/downloads/sabine/Semantic%20occurrence%20cube.zip">Download</a></li>
+  <li>Inquiries (372 KB) - <a href="/downloads/sabine/Inquiries.zip">Download</a> <br><span class="note">(Note: packages <i>Sentiment Cube</i> and <i>Semantic OccurrenceCube</i> are also required to use this package)</span></li>
   </ul>
 </ul>
 </div>

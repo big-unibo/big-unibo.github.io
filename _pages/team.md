@@ -29,7 +29,9 @@ Jump to [staff](#staff), [alumni](#alumni), [lab visitors](#lab-visitors).
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>Email: <{{ member.email }}>
+  <i>{{ member.info }}</i><br>
+  <i>Email: <{{ member.email }}></i><br>
+  <span style="font-size:0.9em;">{{ member.bio }}</span>
   
   <ul style="overflow: hidden">
 

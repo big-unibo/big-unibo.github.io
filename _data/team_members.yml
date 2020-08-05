@@ -14,26 +14,31 @@
   photo: GolfarelliM.gif
   info: Associate professor #, started Oct 2019
   email: matteo.golfarelli@unibo.it
+  bio: Matteo is associate professor at the Department of Informatics - Science and Engineering of the University of Bologna and he teaches Information systems, Advanced Databases and Data Mining. He is the author of over 100 publications in international journals and conferences in the areas of pattern recognition, robotics, multi-agent systems and business intelligence, which is today his main research sector. His current research interests include distributed and semantic data warehouses, machine learning, social data analysis, trajectory mining and big data. He coordinated multiple research projects, national and international, in the aforementioned research areas. He is actively engaged in technology transfer in the information systems and business intelligence sectors, collaborates with public and private Italian companies and has been the scientific manager of numerous corporate agreements.
 
 - name: Enrico Gallinucci
   photo: GallinucciE.jpg
   info: Postdoc research fellow #, started Oct 2019
   email: enrico.gallinucci@unibo.it
+  bio: Enrico Gallinucci graduated cum laude in Computer Science and Information Technology in March 2013 at the University of Bologna. His Master's Degree thesis was a major contribution in the development of the DyNamiTE project (Digital fightiNg Tax Evasion). He received his PhD in Computer Science and Engineering in May 2017 with the thesis "Business Intelligence on non-conventional data" (i.e., extending traditional BI techniques to properly handle social data, linked data, and schemaless data). Currently, he is a post-doctoral research fellow of the B.I.G. research group, which he joined in January 2014. He is also adjunct professor at the University of Bologna, where he teaches the Big Data course of the Master's Degree. His research interests mainly focus in the areas of Business Intelligence 2.0 and Big Data.
 
 - name: Matteo Francia
   photo: FranciaM_2.jpg
   info: PhD student #, started Oct 2019
   email: m.francia@unibo.it
+  bio: Matteo Francia graduated cum laude in Computer Science and Engineering in March 2017 at the University of Bologna. He is a member of the B.I.G. research group since May 2017 his main research interests include trajectory mining and profiling.
 
 - name: Anna Giulia Leoni
   photo: LeoniAG.jpg
   info: Research fellow #, started Oct 2019
   email: annagiulia.leoni2@unibo.it
+  bio: Anna Giulia Leoni graduated cum laude in Computer Science and Engineering in March 2019 at the University of Bologna. Her Master's Degree thesis focused on the management of a structured Data Lake through the semantic recognition of acquired data. Currently, she is a research fellow of the B.I.G. research group, where she is contributing to the design and development of a platform for precision agriculture in the context of the Agro.Big.Data.Science project sponsored by the Emilia-Romagna region.
 
 - name: Nicola Santolini
   photo: SantoliniN.jpg
   info: Research fellow #, started Oct 2019
   email: nicola.santolini2@unibo.it
+  bio: Nicola Santolini graduated in Computer Science and Engineering in March 2019 at the University of Bologna. His Master's Degree thesis consisted of a study and analysis of de-anonymization techniques, focusing on trajectory data and re-identification of anonymous users. Currently, he is a research fellow of the B.I.G. research group, where he is contributing to the design and development of a platform for precision agriculture in the context of the Agro.Big.Data.Science project sponsored by the Emilia-Romagna region.
 
 #- name: "This could be you !"
 #  photo: rock.jpg
