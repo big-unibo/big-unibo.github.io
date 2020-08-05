@@ -3,7 +3,7 @@ title: "BIG - CubeLoad"
 layout: textlay
 excerpt: "BIG -- CubeLoad"
 sitemap: false
-permalink: /cubeload
+permalink: /cubeload/
 ---
 
 # CubeLoad

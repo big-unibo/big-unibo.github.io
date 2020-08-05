@@ -3,7 +3,7 @@ title: "BIG - ABDS"
 layout: textlay
 excerpt: "BIG -- Agro.Big.Data.Science"
 sitemap: false
-permalink: /abds
+permalink: /abds/
 ---
 
 # Agro.Big.Data.Science

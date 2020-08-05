@@ -3,7 +3,7 @@ title: "BIG - Mo.Re.Farming"
 layout: textlay
 excerpt: "BIG -- Mo.Re.Farming"
 sitemap: false
-permalink: /morefarming
+permalink: /morefarming/
 ---
 
 # Mo.Re.Farming

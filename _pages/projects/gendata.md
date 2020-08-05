@@ -3,7 +3,7 @@ title: "BIG - GenData 2020"
 layout: textlay
 excerpt: "BIG -- GenData 2020"
 sitemap: false
-permalink: /gendata
+permalink: /gendata/
 ---
 
 # GenData 2020: Data-Centric Genomic Computing 

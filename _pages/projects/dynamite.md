@@ -3,7 +3,7 @@ title: "BIG - DyNamiTE"
 layout: textlay
 excerpt: "BIG -- Digital fightiNg Tax Evasion"
 sitemap: false
-permalink: /dynamite
+permalink: /dynamite/
 ---
 
 # DyNamiTE - Digital fightiNg Tax Evasion

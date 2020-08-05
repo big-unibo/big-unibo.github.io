@@ -3,7 +3,7 @@ title: "BIG - Social BI"
 layout: textlay
 excerpt: "BIG -- Social Business Intelligence"
 sitemap: false
-permalink: /sbi
+permalink: /sbi/
 ---
 
 # Social Business Intelligence

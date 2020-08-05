@@ -3,7 +3,7 @@ title: "BIG - SABINE"
 layout: textlay
 excerpt: "BIG -- SABINE"
 sitemap: false
-permalink: /sabine
+permalink: /sabine/
 ---
 
 # SABINE
@@ -27,8 +27,6 @@ permalink: /sabine
 <p>SABINE is designed and properly packaged for modular download, to enable the evaluation of a wide variety of social business intelligence research tasks, either separately or in combination, ranging from those more focused on content analysis, to those related to semantic analysis up to more comprehensive social business analytics. Download links are provided after picture.</p>
 
 <img src="/images/projects/Packages.png" width="100%">
-
-WARNING: download links are under maintenance!
 
 <div style="margin-bottom: 15px;">
 <ul>
