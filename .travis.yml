@@ -1,3 +1,20 @@
+env:
+  global:
+    - TERM=dumb
+    - GRAVIS_REPO="https://github.com/DanySK/Gravis-CI.git"
+    - GRAVIS="$HOME/gravis"
+    - JDK="adopt@1.11"
+    - secure: "Kcqxi5Sdqo+lBMUuZGXUDvDlJmgkL8HQ/lrliFeo1PTvSNCBRh6us/lOcEXBMRKvOcn+bfMMk0UZyrA5VqHOdFeUMiCgPLiQ53v5wMVPtpol550suclc+Mb5CkBAwnQzgXlPoTN5pjlf1n1SJaqH+ebnTaJeMEMCdF8XtzMZnyGrrksEtnudBp6TSITBQ2aFOoJcJcOxB39kebJ7drbDcFLbpYdESFsTnfsO7sTjPwqehBZJjgtZLelSWjti2cAhp65Hj0dnfhauykNHzoTGc3vDswDvnLK9I9L/pDmkJyUSyWjC0e/JfAeRV+Gtjuy0l8kjHb0V2ien4DEAp1VLsTmKx70jriWQfk/TcMTJzE+xbEIkoKTavScqosCe99xgJvROMNNE2llwewnWnHqMynGsxxAp1QW9nLBLUacwV/W9Q3F9ysoaRfJL9ndSH04UA27w76Wie9YuQztbcTPN3CQQqmFKy7FL/YxoFZfMC5zBrt13wHP+URyAcVoxFhkDREXXvNmTmQDPUuju+ZSbyv/Tk2VryUPy8J9hecgU7w+gSaQGLkjO2nMA07PXFMQSrRvXkl49gWv9uYb+of6GGBUsyF5vdg4f6Ey739/NvBWU7gBVN4XvZ/hrld0cxcqlnN8lB3XJ/iimnTkc9zvx5FbXl7h7jxFPmCOshs6WRbs="
+
+before_install:
+  - travis_retry git clone --depth 1 $GRAVIS_REPO $GRAVIS
+  - source $GRAVIS/install-jdk
+
+before_deploy:
+  - git config --local user.name "w4bo"
+  - git config --local user.email "m.francia@unibo.it"
+  - $GRAVIS/autotag
+
 language: ruby
 
 rvm:
