@@ -1,7 +1,7 @@
 ---
 title: "BIG - Home"
 layout: homelay
-excerpt: "BIG -- Home"
+excerpt: "The official Business Intelligence Group website"
 sitemap: false
 permalink: /
 regenerate: true

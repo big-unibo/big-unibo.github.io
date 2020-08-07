@@ -9,7 +9,7 @@ regenerate: true
 
 # Group Members
 
- **Want to join the team?** [See openings]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+ **Want to join the team?** Check out our open [thesis proposals]({{ site.url }}{{ site.baseurl }}/teaching/#thesis), see the [available openings]({{ site.url }}{{ site.baseurl }}/openings), or contact any staff member for information **!**
 
 
 Jump to [staff](#staff), [alumni](#alumni), [lab visitors](#lab-visitors).
