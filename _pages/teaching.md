@@ -44,7 +44,18 @@ check our [open thesis proposals](#thesis).
 <div id="thesis">
 
 {% for thesis in site.data.thesis %}
-{% if thesis.status == "Open" or thesis.status == "Taken" %}
+{% if thesis.status == "Open" %}
+
+<strong>{{ thesis.title }}</strong><br>
+{{ thesis.level }} - {{ thesis.type }}<br>
+Field: {{ thesis.field }}<br>
+Status: <span class="thesis-status-{{ thesis.status }}">{{ thesis.status }}</span><br>
+Abstract: {{ thesis.abstract }}<br>
+Contact: {{ thesis.contact }}
+
+{% endif %}
+
+{% if thesis.status == "Taken" %}
 
 <strong>{{ thesis.title }}</strong><br>
 {{ thesis.level }} - {{ thesis.type }}<br>
