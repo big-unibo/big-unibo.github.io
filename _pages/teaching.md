@@ -54,7 +54,9 @@ Abstract: {{ thesis.abstract }}<br>
 Contact: {{ thesis.contact }}
 
 {% endif %}
+{% endfor %}
 
+{% for thesis in site.data.thesis %}
 {% if thesis.status == "Taken" %}
 
 <strong>{{ thesis.title }}</strong><br>
