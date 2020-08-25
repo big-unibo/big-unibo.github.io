@@ -7,9 +7,11 @@ permalink: /
 regenerate: true
 ---
 
-Business intelligence is a set of tools and techniques that enable enterprises to transform their business data into information useful for the decisional process, to be made available to the right person in the right format. Information is then used by decision makers to define and support business strategies, in order to make the best decisions aimed at obtaining competitive advantages, improve operative performance and profitability and, in general, create added value for the enterprise.
+The Business Intelligence Group studies the architectures, techniques, and methodologies aimed at extracting value from data in the most diverse business contexts.
 
-In this context, the Business Intelligence Group has been carrying out its research activity since 1997, mainly aiming at developing a structured methodology for design.
+The innovation brought by data ranges from the digital transformation of business operational processes to the adoption of artificial intelligence techniques for the extraction of knowledge and the automation of the most advanced processes, passing through the study of optimized algorithms for data extraction and analysis.
+
+We carry out both theoretical research and practical studies, with the awareness that without the former there is no real innovation and that without the latter there is no real technology transfer. We are driven by curiosity and often deviate from our core research area to work on problems that emerge from the projects and business contexts we face.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
