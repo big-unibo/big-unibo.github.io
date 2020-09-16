@@ -115,3 +115,185 @@
   abstract:
   link:
   slides:
+
+- title: GEAR: una piattaforma Big Data per l'elaborazione di stream di dati attraverso Machine Learning e Business Rules
+  level: Master
+  type: Project thesis
+  field: Big Data
+  status: Closed
+  year: 2020
+  contact:
+  supervisor: Dott. Enrico Gallinucci
+  co-supervisor: Alessandro Proscia
+  student: Eugenio Cavina
+  abstract:
+  link:
+  slides:
+
+- title: Progettazione e prototipazione di un sistema di Conversational BI
+  level: Master
+  type: Project thesis
+  field: Sistemi Informativi
+  status: Closed
+  year: 2020
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: Dott. Matteo Francia, Dott. Enrico Gallinucci
+  student: Rrok Gjinaj
+  abstract:
+  link:
+  slides:
+
+- title: Progettazione e implementazione di un sistema di recommendation per video digitali
+  level: Master
+  type: Project thesis
+  field: Data Mining
+  status: Closed
+  year: 2020
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: 
+  student: Davide Borficchia
+  abstract:
+  link:
+  slides:
+
+- title: AutoML: A new methodology to automate data pre-processing pipelines
+  level: Master
+  type: Research thesis
+  field: Data Mining
+  status: Closed
+  year: 2020
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: 
+  student: Joseph Giovanelli
+  abstract:
+  link:
+  slides:
+
+- title: Manutenzione predittiva di attrezzature sportive: dall’analisi delle potenzialità alla prototipazione
+  level: Master
+  type: Project thesis
+  field: Data Mining
+  status: Closed
+  year: 2020
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: 
+  student: Giulia Lucchi
+  abstract:
+  link:
+  slides:
+
+- title: Clustering di traiettorie in ambito big data
+  level: Master
+  type: Research thesis
+  field: Data Mining
+  status: Closed
+  year: 2020
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: Dott. Matteo Francia
+  student: Federico Naldini
+  abstract:
+  link:
+  slides:
+
+- title: Progettazione e prototipazione di un data mart per l’analisi della fluttuazione di performance
+  level: Master
+  type: Project thesis
+  field: Sistemi Informativi
+  status: Closed
+  year: 2020
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: 
+  student: Sofia Rossi
+  abstract:
+  link:
+  slides:
+
+- title: Clustering di traiettorie su piattaforma big data
+  level: Master
+  type: Research thesis
+  field: Data Mining
+  status: Closed
+  year: 2019
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: Dott. Matteo Francia
+  student: Mattia Oriani
+  abstract:
+  link:
+  slides:
+
+- title: Progettazione e prototipazione di un framework per Conversational OLAP
+  level: Master
+  type: Research thesis
+  field: Data Mining
+  status: Closed
+  year: 2019
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: Dott. Matteo Francia
+  student: Sara Sintoni
+  abstract:
+  link:
+  slides:
+
+- title: Map-Matching su Piattaforma Big Data
+  level: Master
+  type: Research thesis
+  field: Data Mining
+  status: Closed
+  year: 2019
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: Dott. Matteo Francia
+  student: Federico Vitali
+  abstract:
+  link:
+  slides:
+
+- title: Gestione di un data lake strutturato attraverso il riconoscimento semantico dei dati acquisiti
+  level: Master
+  type: Research thesis
+  field: Big Data
+  status: Closed
+  year: 2019
+  contact:
+  supervisor: Dott. Enrico Gallinucci
+  co-supervisor: 
+  student: Anna Giulia Leoni
+  abstract:
+  link:
+  slides:
+
+- title: Utilizzo di dati social per la deanonimizzazione di tracce GPS
+  level: Master
+  type: Project thesis
+  field: Big Data
+  status: Closed
+  year: 2019
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: Dott. Matteo Francia, Dott. Enrico Gallinucci
+  student: Nicola Santolini
+  abstract:
+  link:
+  slides:
+
+- title: Utilizzo di dati social per la deanonimizzazione di tracce GPS
+  level: Master
+  type: Research thesis
+  field: Data Mining
+  status: Closed
+  year: 2019
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: Dott. Matteo Francia, Dott. Enrico Gallinucci
+  student: Nicola Santolini
+  abstract:
+  link:
+  slides:
