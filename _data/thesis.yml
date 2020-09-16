@@ -116,7 +116,7 @@
   link:
   slides:
 
-- title: GEAR: una piattaforma Big Data per l'elaborazione di stream di dati attraverso Machine Learning e Business Rules
+- title: "GEAR: una piattaforma Big Data per l'elaborazione di stream di dati attraverso Machine Learning e Business Rules"
   level: Master
   type: Project thesis
   field: Big Data
@@ -172,7 +172,7 @@
   link:
   slides:
 
-- title: Manutenzione predittiva di attrezzature sportive: dall'analisi delle potenzialità alla prototipazione
+- title: "Manutenzione predittiva di attrezzature sportive: dall'analisi delle potenzialità alla prototipazione"
   level: Master
   type: Project thesis
   field: Data Mining
@@ -200,7 +200,7 @@
   link:
   slides:
 
-- title: Progettazione e prototipazione di un data mart per l'analisi della fluttuazione di performance
+- title: "Progettazione e prototipazione di un data mart per l'analisi della fluttuazione di performance"
   level: Master
   type: Project thesis
   field: Sistemi Informativi
@@ -274,20 +274,6 @@
   level: Master
   type: Project thesis
   field: Big Data
-  status: Closed
-  year: 2019
-  contact:
-  supervisor: Prof. Matteo Golfarelli
-  co-supervisor: Dott. Matteo Francia, Dott. Enrico Gallinucci
-  student: Nicola Santolini
-  abstract:
-  link:
-  slides:
-
-- title: Utilizzo di dati social per la deanonimizzazione di tracce GPS
-  level: Master
-  type: Research thesis
-  field: Data Mining
   status: Closed
   year: 2019
   contact:
