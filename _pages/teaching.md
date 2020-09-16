@@ -79,13 +79,14 @@ Contact: {{ thesis.contact }}
 {% if thesis.status == "Closed" %}
 
 <strong>{{ thesis.title }}</strong>, {{ thesis.student }}, {{ thesis.year }}<br>
-Supervisor: {{ thesis.supervisor }}<br>
+Supervisor: {{ thesis.supervisor }}
 {% if thesis.co-supervisor %}
-Co-supervisors: {{ thesis.co-supervisor }}<br>
+<br>Co-supervisors: {{ thesis.co-supervisor }}
 {% endif %}
 {% if thesis.slides %}
-Slides: {{ thesis.slides }}<br>
+<br>Slides: {{ thesis.slides }}
 {% endif %}
+<br>
 
 {% endif %}
 {% endfor %}
