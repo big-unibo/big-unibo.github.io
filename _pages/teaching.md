@@ -81,10 +81,10 @@ Contact: {{ thesis.contact }}
 <strong>{{ thesis.title }}</strong>, {{ thesis.student }}, {{ thesis.year }}<br>
 Supervisor: {{ thesis.supervisor }}
 {% if thesis.co-supervisor %}
-<br>Co-supervisors: {{ thesis.co-supervisor }}
+Co-supervisors: {{ thesis.co-supervisor }}
 {% endif %}
 {% if thesis.slides %}
-<br>Slides: {{ thesis.slides }}
+Slides: {{ thesis.slides }}
 {% endif %}
 <br>
 
