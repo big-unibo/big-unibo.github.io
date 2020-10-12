@@ -102,6 +102,20 @@
 
 ###
 
+- title: "Un framework per l'analisi di Big Data con elevata eterogeneità all'interno di Multistore"
+  level: Master
+  type: Research thesis
+  field: Big Data
+  status: Closed
+  year: 2020
+  contact:
+  supervisor: Prof. Matteo Golfarelli
+  co-supervisor: Dott. Enrico Gallinucci
+  student: Chiara Forresi
+  abstract:
+  link:
+  slides:
+  
 - title: Anonimizzazione incrementale di dati di traiettoria
   level: Master
   type: Project thesis
