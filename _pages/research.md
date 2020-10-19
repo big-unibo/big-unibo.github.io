@@ -10,6 +10,7 @@ permalink: /research/
 
 This page summarizes some of the main research projects that the BIG has been involved in.
 
+- [WeLASER](/welaser)
 - [Agro.Big.Data.Science](/abds) 
 - [CubeLoad](/cubeload) 
 - [DyNamiTE](/dynamite) 
