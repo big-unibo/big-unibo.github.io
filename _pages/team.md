@@ -1,5 +1,5 @@
 ---
-title: "BIG - Team memabers"
+title: "BIG - Team members"
 layout: gridlay
 excerpt: "BIG -- Team members"
 sitemap: false
