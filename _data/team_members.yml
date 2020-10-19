@@ -40,6 +40,18 @@
   email: nicola.santolini2@unibo.it
   bio: Nicola Santolini graduated in Computer Science and Engineering in March 2019 at the University of Bologna. His Master's Degree thesis consisted of a study and analysis of de-anonymization techniques, focusing on trajectory data and re-identification of anonymous users. Currently, he is a research fellow of the B.I.G. research group, where he is contributing to the design and development of a platform for precision agriculture in the context of the Agro.Big.Data.Science project sponsored by the Emilia-Romagna region.
 
+- name: Chiara Forresi
+  photo: ForresiC.jpg
+  info: PhD student #, started Oct 2019
+  email: chiara.forresi2@unibo.it
+  bio: "Chiara Forresi graduated cum laude in Computer Science and Engineering in October 2020 at the University of Bologna. She is currently a PhD student in Data Science and Computation. Her main research interests are about techniques and methodologies to support data management and analysis in big data ecosystems."
+
+- name: Joseph Giovanelli
+  photo: GiovanelliJ.jpg
+  info: PhD student #, started Oct 2019
+  email: joseph.giovanelli2@unibo.it
+  bio: "Joseph Giovanelli graduated cum laude in Computer Science and Engineering in March 2020 at the University of Bologna. His Master's Degree thesis focused on AutoML, in particular he has devised a methodology that takes into account the impact of data-preprocessing techniques and proposes more effective pipeline prototypes. Currently, he is a member of the B.I.G. research group, his main research interests concern the field of analytics on trajectory data, through artificial intelligence algorithms and big data technologies."
+
 #- name: "This could be you !"
 #  photo: rock.jpg
 #  info: See <a href="http://www.allanlab.org/vacancies">openings</a> for more info
