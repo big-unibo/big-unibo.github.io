@@ -86,8 +86,8 @@
   link:
   slides:
 
-- title: Progettazione di un tool per la creazione di questionari su piattaforma Android
-  level: Master/Bachelor
+- title: Progettazione di un linguaggio visuale per la creazione di questionari
+  level: Master
   type: Project thesis
   field: Information Systems
   status: Open
@@ -96,7 +96,7 @@
   supervisor:
   co-supervisor:
   student:
-  abstract: "Obiettivo della tesi è quello di progettare e realizzare un case tool per la generazione di questionari dinamici su piattaforma Android. Nell'ambito di vari progetti di ricerca raccogliamo informazioni da utenti tramite questionari sottoposti mediante dispositivi mobili. Per semplificare la realizzazione dei questionari si vuole creare un CASE tool che permetta di realizzarli senza competenze di programmazione un po' come avviene con i questionari Google."
+  abstract: "Obiettivo della tesi è quello di progettare e realizzare un linguaggio visuale per la generazione di questionari dinamici, in maniera più evoluta rispetto alla gestione fornita dagli strumenti gratuiti disponibili (ad esempio, Google Form). Nell'ambito di vari progetti di ricerca raccogliamo informazioni da utenti tramite questionari sottoposti mediante dispositivi mobili. Per semplificare la realizzazione dei questionari si vuole creare uno strumento che permetta di realizzarli senza competenze di programmazione e con elevata espressività, similmente ad un flow chart (ad esempio, gestione if-then-else e cicli)."
   link:
   slides:
 
