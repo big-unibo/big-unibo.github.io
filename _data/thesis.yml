@@ -1,6 +1,19 @@
 ## Status: Open, Taken, Closed
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
+- title: Online integration and analysis of IoT data
+  level: Master
+  field: Data Mining, Big Data
+  type: Research thesis
+  status: Open
+  year:   
+  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "IoT applications are ubiquitous and their design requires solutions for the integration of heterogeneous data and the online analysis of such data. In this context, the goal of this thesis is twofold: (1) Studying platforms supporting the exchange and integration of data in IoT applications. In particular, FIWARE is an Open Source platform that provides interfaces to accelerate the development of IoT applications; and (2) applying tools for the real-time analysis of such data (e.g., Spark Streaming)
+  link:
+  slides:
 
 - title: Compressione di risultati multidimensionali
   level: Master
