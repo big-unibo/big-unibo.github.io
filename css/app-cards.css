@@ -9,6 +9,6 @@
   display: flex;
   flex-direction: column;
 }
-.well.app-card {
+.row.app-card .well {
     height: 100%;
 }
