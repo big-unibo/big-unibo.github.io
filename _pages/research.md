@@ -10,8 +10,14 @@ permalink: /research/
 
 This page summarizes some of the main research projects that the BIG has been involved in.
 
-- [WeLASER](/welaser)
+## Open projects
+
 - [Agro.Big.Data.Science](/abds) 
+- [Cimice.Net](/cimice)
+- [WeLASER](/welaser)
+
+## Closed projects
+
 - [CubeLoad](/cubeload) 
 - [DyNamiTE](/dynamite) 
 - [GenData 2020](/gendata) 
