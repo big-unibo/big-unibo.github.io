@@ -22,7 +22,7 @@ Di seguito i link per accedere alle applicazioni realizzate dal BIG per il proge
   <div class="well">
    <pubtit>CASE<br/>(accesso protetto)</pubtit>
    <p>Applicazione "Collaborative Agro SEnsing" per la raccolta dei dati.</p>
-   <p><strong><a href="/projects/case/">Accedi (sito web)</a></strong></p>
+   <p><strong><a href="/projects/case/">Accedi</a></strong></p>
    <!--<p><strong><a href="/downloads/case/case-app-0_0_2-PRODUCTION.apk">Download (app Android)</a></strong></p>-->
   </div>
  </div>
