@@ -1,6 +1,20 @@
 ## Status: Open, Taken, Closed
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
+- title: "Visualizzazione e ottimizzazione di profili di umidità per l'agricoltura di precisione"
+  level: Master
+  field: Data Mining
+  type: Research thesis
+  status: Open
+  year:   
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "Nell'ambito di un progetto di ricerca stiamo studiando tecniche di previsione dell'umidità del suolo basate su griglie di sensori e reti Deep. La tesi ha come obiettivo quello di sviluppare un sistema di ottimizzazione dell'irrigazione basato sul modello di previsione."
+  link:
+  slides:
+
 - title: Online integration and analysis of IoT data
   level: Master
   field: Data Mining, Big Data
