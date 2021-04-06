@@ -24,10 +24,13 @@ We carry out both theoretical research and practical studies, with the awareness
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/logo_big.png" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/logo_big.png" alt="The Business Intelligence Group logo" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/foto_campus_ctf.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/BDAI_electronics_horizontal_light.png" alt="Call-for-paper for MDPI Electronics's Special Issue on Big Data and Artificial Intelligence for Industry 4.0" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/foto_campus_ctf.jpg" alt="The University's campus in Cesena (FC), Italy" />
         </div>
         
     </div>
