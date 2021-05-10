@@ -41,7 +41,7 @@ Di seguito i link per accedere alle applicazioni realizzate dal BIG per il proge
   <div class="well">
    <pubtit>Watering</pubtit>
    <p>Dashboard di analisi relativa al monitoraggio idrico.</p>
-   <p><strong><a href="https://semantic.csr.unibo.it/abds-watering/">Accedi</a></strong></p>
+   <p><strong><a href="https://big.csr.unibo.it/projects/watering/">Accedi</a></strong></p>
   </div>
  </div>
  <div class="col-sm-3 d-flex align-items-stretch">
