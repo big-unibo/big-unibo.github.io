@@ -78,7 +78,7 @@ Contact: {{ thesis.contact }}
 {% for thesis in site.data.thesis %}
 {% if thesis.status == "Closed" %}
 
-<strong>{{ thesis.title }}</strong>, {{ thesis.student }}, {{ thesis.year }}<br>
+<strong>{% if thesis.link %}<a href="{{ thesis.link }}">{% endif %}{{ thesis.title }}{% if thesis.link %}</a>{% endif %}</strong>, {{ thesis.student }}, {{ thesis.year }}<br>
 Supervisor: {{ thesis.supervisor }}<br>
 {% if thesis.co-supervisor %} Co-supervisors: {{ thesis.co-supervisor }}<br>{% endif %}
 {% if thesis.slides %} Slides: {{ thesis.slides }} {% endif %}

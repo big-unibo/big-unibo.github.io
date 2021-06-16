@@ -55,8 +55,20 @@ scholar:
   bibliography: BIG.bib
   sort_by: year
   order: descending
+  bibliography_template: bibliography
 ```
 - Update Jekyll via ```bundle update```
+
+To customize the visualization of the biblio:
+- Download from [here](https://github.com/citation-style-language/styles) the style of your choice (e.g., apa.csl, renamed as my-apa.csl)
+- Put it in the main folder
+- Reference it in the *scholar* options plugin *_config.yml*
+```
+plugins: ['jekyll/scholar']
+scholar:
+  style: my-apa
+```
+- Change the style (see edits marked as ```<!-- ENR -->``` in my-apa.csl)
 
 # Maintenance
 

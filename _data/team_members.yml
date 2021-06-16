@@ -18,9 +18,9 @@
 
 - name: Enrico Gallinucci
   photo: GallinucciE.jpg
-  info: Adjunct professor, Postdoc research fellow #, started Oct 2019
+  info: Junior Assistant Professor #, started Jun 2021
   email: enrico.gallinucci@unibo.it
-  bio: "Adjunct professor and postdoc research fellow at the University of Bologna since 2017, he teaches Big Data and carries out his research activities in the fields of Business Intelligence and Big Data. His research interests are aimed in particular at the aspects of modeling, integration and data analysis, both from the methodological and algorithmic perspectives. The current research topics include: the design of a multistore system to manage data integration and to optimize queries on distributed databases, including relational and NoSQL technologies; the development of smart approaches to support the data scientist in searching, organizing and analizing data in a big data environment; the design of innovative and scalable techniques to analyze large-scale trajectory data. He is currently involved in several projects to deploy the research topics in practical applications, particularly in the precision agriculture sector."
+  bio: "Gallinucci is a computer science researcher at the University of Bologna since 2013, where he teaches the Master's Degree Big Data course and carries out his research activities in the fields of Business Intelligence and Big Data. His research interests are aimed in particular at the aspects of modeling, integration and data analysis, both from the methodological and algorithmic perspectives. The current research topics include: the design of a multistore system to manage data integration and to optimize queries on distributed databases, including relational and NoSQL technologies; the development of smart approaches to support the data scientist in searching, organizing and analizing data in a big data environment; the design of innovative and scalable techniques to analyze large-scale trajectory data. He is currently involved in several projects to deploy the research topics in practical applications, particularly in the precision agriculture sector."
 
 - name: Matteo Francia
   photo: FranciaM_2.jpg

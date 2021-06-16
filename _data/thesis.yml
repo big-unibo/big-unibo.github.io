@@ -19,55 +19,13 @@
   level: Master
   field: Data Mining, Big Data
   type: Research thesis
-  status: Open
+  status: Taken
   year:   
   contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
   supervisor:
   co-supervisor:
   student:
   abstract: "IoT applications are ubiquitous and their design requires solutions for the integration of heterogeneous data and the online analysis of such data. In this context, the goal of this thesis is twofold: (1) Studying platforms supporting the exchange and integration of data in IoT applications. In particular, FIWARE is an Open Source platform that provides interfaces to accelerate the development of IoT applications; and (2) applying tools for the real-time analysis of such data (e.g., Spark Streaming)"
-  link:
-  slides:
-
-- title: Compressione di risultati multidimensionali
-  level: Master
-  type: Research thesis
-  field: Data Mining
-  status: Taken
-  year:
-  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "L'avvento di assistenti smart ha portato allo sviluppo di framework per l'analisi di dati in scenari hand-free in cui un data scientist può esprimere query OLAP (i.e., query su dati multidimensionali) in linguaggio naturale (e non in linguaggi formali come SQL) e l'assistente smart traduce in linguaggio naturale il risultato della query. A tal proposito, lo scopo della tesi è quello di riassumere i dati in base alla loro natura multidimensionale (ad esempio, Fanta e Cola possono essere riassunte come Bevande) e a misure di interesse che individuano quali sono i record più interessanti, cosicché la vocalizzazione del risultato sia il più concisa possibile."
-  link:
-  slides:
-
-- title: Anonimizzazione di dati di traiettoria
-  level: Master
-  type: Research thesis
-  field: Big Data
-  status: Taken
-  year:
-  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "Le tecniche di anonimizzazione dei dati di mobilità (e.g., sequenze di posizioni GPS) mirano a garantire la privacy delle persone senza compromettere la possibilità di effettuare analisi significative. L'obiettivo della tesi è quello di studiare ed implementare una tecnica per anonimizzare dati di traiettoria (GPS) in maniera incrementale, che riesca a conciliare l'efficacia dell'anonimzzazione con la necessità di un'elevata efficienza in presenza di Big Data. La tesi verrà svolta prevalentemente su Apache Spark e Hive."
-  link:
-  slides:
-
-- title: Text mining analytics for Materiality assesment
-  level: Master
-  type: Project/Research thesis
-  field: Text Mining
-  status: Taken
-  year:
-  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "Materiality is the principle of defining the social and environmental topics that matter most to your business and your stakeholders. Materiality assesment is widely adopted by big companies and typically carried out by manually reading tons of documents. The goal of the thesis is to design and prototype a tool that relies on business intelligence and text mining techniques to automatize this business analysis technique."
   link:
   slides:
 
@@ -82,20 +40,6 @@
   co-supervisor:
   student:
   abstract: "L'obiettivo della tesi, proposta dall'azienda Titanex di San Marino, è quello di realizzare un sistema di forecasting delle vendite per fascia oraria da utilizzarsi in una catena di punti vendita in ambito fashion."
-  link:
-  slides:
-
-- title: DBMS NoSQL a confronto
-  level: Master/Bachelor
-  type: Project thesis
-  field: Information Systems, Big Data
-  status: Taken
-  year:
-  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "Obiettivo della tesi è quello di effettuare un'analisi e comparazione di 3 DBMS NoSQL al fine di comprendere al meglio come scalano le performance in funzione delle risorse disponibili e del volume dati e quali sistemi siano più adatti ai diversi tipi di applicazioni I modelli dati e i DBMS confrontati saranno: H-BASE per il modello Wide-column, MongoDB per il modello Document-based, Redis per il modello key-value."
   link:
   slides:
 
@@ -128,6 +72,76 @@
   slides:
 
 ###
+
+- title: A text mining approach to materiality assessment
+  level: Master
+  type: Research thesis
+  field: Text Mining
+  status: Closed
+  year: 2021
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor: Dott. Enrico Gallinucci
+  co-supervisor:
+  student: Marta Luffarelli
+  abstract: "Materiality is the principle of defining the social and environmental topics that matter most to your business and your stakeholders. Materiality assesment is widely adopted by big companies and typically carried out by manually reading tons of documents. The goal of the thesis is to design and prototype a tool that relies on business intelligence and text mining techniques to automatize this business analysis technique."
+  link: http://amslaurea.unibo.it/23127/
+  slides:
+
+- title: Analisi delle strategie di modellazione dei dati su database NoSQL
+  level: Master
+  type: Research thesis
+  field: Big Data
+  status: Closed
+  year: 2021
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor: Dott. Enrico Gallinucci
+  co-supervisor:
+  student: Riccardo Salvatori
+  abstract: "Obiettivo della tesi è quello di effettuare un'analisi e comparazione di 3 DBMS NoSQL al fine di comprendere al meglio come scalano le performance in funzione delle risorse disponibili e del volume dati e quali sistemi siano più adatti ai diversi tipi di applicazioni I modelli dati e i DBMS confrontati saranno: H-BASE per il modello Wide-column, MongoDB per il modello Document-based, Redis per il modello key-value."
+  link: http://amslaurea.unibo.it/23172/
+  slides:
+
+- title: Riconoscimento di frodi attraverso la modellazione del comportamento degli utenti
+  level: Master
+  type: Project thesis
+  field: Big Data
+  status: Closed
+  year: 2021
+  contact: 
+  supervisor: Dott. Enrico Gallinucci
+  co-supervisor:
+  student: Alex Ravaglia
+  abstract: 
+  link: http://amslaurea.unibo.it/23107/
+  slides:
+
+- title: Compressione e Vocalizzazione di Risultati Multidimensionali nel Paradigma OLAP
+  level: Master
+  type: Research thesis
+  field: Data Mining
+  status: Closed
+  year: 2021
+  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  supervisor: Dott. Enrico Gallinucci
+  co-supervisor: Dott. Matteo Francia
+  student: Tommaso Bombardi
+  abstract: "L'avvento di assistenti smart ha portato allo sviluppo di framework per l'analisi di dati in scenari hand-free in cui un data scientist può esprimere query OLAP (i.e., query su dati multidimensionali) in linguaggio naturale (e non in linguaggi formali come SQL) e l'assistente smart traduce in linguaggio naturale il risultato della query. A tal proposito, lo scopo della tesi è quello di riassumere i dati in base alla loro natura multidimensionale (ad esempio, Fanta e Cola possono essere riassunte come Bevande) e a misure di interesse che individuano quali sono i record più interessanti, cosicché la vocalizzazione del risultato sia il più concisa possibile."
+  link: http://amslaurea.unibo.it/23064/
+  slides:
+
+- title: Pubblicazione di dati di traiettoria preservando il principio di non informatività
+  level: Master
+  type: Research thesis
+  field: Big Data
+  status: Closed
+  year: 2021
+  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  supervisor: Dott. Enrico Gallinucci
+  co-supervisor: Dott. Matteo Francia
+  student: Maria Maddalena Mascellaro
+  abstract: "Le tecniche di anonimizzazione dei dati di mobilità (e.g., sequenze di posizioni GPS) mirano a garantire la privacy delle persone senza compromettere la possibilità di effettuare analisi significative. L'obiettivo della tesi è quello di studiare ed implementare una tecnica per anonimizzare dati di traiettoria (GPS) in maniera incrementale, che riesca a conciliare l'efficacia dell'anonimzzazione con la necessità di un'elevata efficienza in presenza di Big Data. La tesi verrà svolta prevalentemente su Apache Spark e Hive."
+  link: http://amslaurea.unibo.it/23135/
+  slides:
 
 - title: "Un framework per l'analisi di Big Data con elevata eterogeneità all'interno di Multistore"
   level: Master
