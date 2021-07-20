@@ -1,3 +1,17 @@
+- name: Anna Giulia Leoni
+  photo: LeoniAG.jpg
+  duration: 2019-2021, now working as software developer at Onit, Cesena
+  info: Research fellow #, started Oct 2019
+  email: annagiulia.leoni2@unibo.it
+  bio: Anna Giulia Leoni graduated cum laude in Computer Science and Engineering in March 2019 at the University of Bologna. Her Master's Degree thesis focused on the management of a structured Data Lake through the semantic recognition of acquired data. Currently, she is a research fellow of the B.I.G. research group, where she is contributing to the design and development of a platform for precision agriculture in the context of the Agro.Big.Data.Science project sponsored by the Emilia-Romagna region.
+
+- name: Nicola Santolini
+  photo: SantoliniN.jpg
+  duration: 2019-2021, now working as software developer at Onit, Cesena
+  info: Research fellow #, started Oct 2019
+  email: nicola.santolini2@unibo.it
+  bio: Nicola Santolini graduated in Computer Science and Engineering in March 2019 at the University of Bologna. His Master's Degree thesis consisted of a study and analysis of de-anonymization techniques, focusing on trajectory data and re-identification of anonymous users. Currently, he is a research fellow of the B.I.G. research group, where he is contributing to the design and development of a platform for precision agriculture in the context of the Agro.Big.Data.Science project sponsored by the Emilia-Romagna region.
+  
 - name: Lorenzo Baldacci
   photo: BaldacciL.jpg
   duration: 2013-2016, now working as Solution Architect at Databricks, London

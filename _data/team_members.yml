@@ -28,18 +28,6 @@
   email: m.francia@unibo.it
   bio: Matteo Francia received his Ph.D. in Computer Science and Engineering from The University of Bologna, Italy. He is an adjunct professor and a post-doc research fellow at The University of Bologna, where he is a member of the Business Intelligence Group and teaches "Big Data". He was a visiting scholar at The University of Queensland in 2019. He received the MSc and BSc with honors from the University of Bologna in 2017 and 2014, respectively. His research focuses on advanced analytics and unconventional data, with particular reference to trajectory, social, and sensory data.
   
-- name: Anna Giulia Leoni
-  photo: LeoniAG.jpg
-  info: Research fellow #, started Oct 2019
-  email: annagiulia.leoni2@unibo.it
-  bio: Anna Giulia Leoni graduated cum laude in Computer Science and Engineering in March 2019 at the University of Bologna. Her Master's Degree thesis focused on the management of a structured Data Lake through the semantic recognition of acquired data. Currently, she is a research fellow of the B.I.G. research group, where she is contributing to the design and development of a platform for precision agriculture in the context of the Agro.Big.Data.Science project sponsored by the Emilia-Romagna region.
-
-- name: Nicola Santolini
-  photo: SantoliniN.jpg
-  info: Research fellow #, started Oct 2019
-  email: nicola.santolini2@unibo.it
-  bio: Nicola Santolini graduated in Computer Science and Engineering in March 2019 at the University of Bologna. His Master's Degree thesis consisted of a study and analysis of de-anonymization techniques, focusing on trajectory data and re-identification of anonymous users. Currently, he is a research fellow of the B.I.G. research group, where he is contributing to the design and development of a platform for precision agriculture in the context of the Agro.Big.Data.Science project sponsored by the Emilia-Romagna region.
-
 - name: Chiara Forresi
   photo: ForresiC.jpg
   info: PhD student #, started Oct 2019
