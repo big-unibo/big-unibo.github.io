@@ -1,31 +1,31 @@
 ## Status: Open, Taken, Closed
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
-- title: "Visualizzazione e ottimizzazione di profili di umidità per l'agricoltura di precisione"
+- title: "Analisi di dati di elettrofisiologia"
   level: Master
-  field: Data Mining
+  field: Data Mining, Big Data
   type: Research thesis
-  status: Taken
+  status: Open
   year:   
   contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
   supervisor:
   co-supervisor:
   student:
-  abstract: "Nell'ambito di un progetto di ricerca stiamo studiando tecniche di previsione dell'umidità del suolo basate su griglie di sensori e reti Deep. La tesi ha come obiettivo quello di sviluppare un sistema di ottimizzazione dell'irrigazione basato sul modello di previsione."
+  abstract: "<A href='https://elements-ic.com/'>Elements</A> è un'azienda fortemente innovativa che progetta e produce strumentazione elettronica per le misure su pico e nanoscala nel campo dell'elettrochimica, che vanno dall'elettrofisiologia su cellule vive al rilevamento di nanopori a stato solido e bio. Elements cerca laureandi magistrali, con possibilita' di assunzione, per lo sviluppo di un modulo per l'analisi dei dati di misura sia in tempo reale (in streaming), sia in modalità batch. Il linguaggio utilizzato è Python, le tematiche affrontate vanno dalla BI al data streaming, allo sviluppo di interfacce."
   link:
   slides:
-
-- title: Online integration and analysis of IoT data
+  
+- title: "Business Intelligence presso l'Istituto Nazionale di Fisica Nucleare"
   level: Master
-  field: Data Mining, Big Data
-  type: Research thesis
-  status: Taken
+  field: Business Intelligence
+  type: Project thesis
+  status: Open
   year:   
-  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  contact: "<a href='mailto:alessandra.lumini@unibo.it'>Prof. Alessandra Lumini</a>"
   supervisor:
   co-supervisor:
   student:
-  abstract: "IoT applications are ubiquitous and their design requires solutions for the integration of heterogeneous data and the online analysis of such data. In this context, the goal of this thesis is twofold: (1) Studying platforms supporting the exchange and integration of data in IoT applications. In particular, FIWARE is an Open Source platform that provides interfaces to accelerate the development of IoT applications; and (2) applying tools for the real-time analysis of such data (e.g., Spark Streaming)"
+  abstract: "L'INFN cerca laureandi con possibilita' di borsa di studio per lo sviluppo/evoluzione della propria infrastruttura di Business Intelligence. Le tecnologie coinvolte sono molteplici: Jasper, Tibco. Le tematiche vanno dallo sviluppo di reportistica, alla reportistica in tempo reale, all'utilizzo di sistemi NoSQL."
   link:
   slides:
 
@@ -72,6 +72,50 @@
   slides:
 
 ###
+
+- title: "Visualizzazione e ottimizzazione di profili di umidità per l'agricoltura di precisione"
+  level: Master
+  field: Data Mining
+  type: Research thesis
+  status: Taken
+  year:   
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "Nell'ambito di un progetto di ricerca stiamo studiando tecniche di previsione dell'umidità del suolo basate su griglie di sensori e reti Deep. La tesi ha come obiettivo quello di sviluppare un sistema di ottimizzazione dell'irrigazione basato sul modello di previsione."
+  link:
+  slides:
+
+- title: Online integration and analysis of IoT data
+  level: Master
+  field: Data Mining, Big Data
+  type: Research thesis
+  status: Taken
+  year:   
+  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "IoT applications are ubiquitous and their design requires solutions for the integration of heterogeneous data and the online analysis of such data. In this context, the goal of this thesis is twofold: (1) Studying platforms supporting the exchange and integration of data in IoT applications. In particular, FIWARE is an Open Source platform that provides interfaces to accelerate the development of IoT applications; and (2) applying tools for the real-time analysis of such data (e.g., Spark Streaming)"
+  link:
+  slides:
+
+###╠
+
+- title: MLOps - Standardizing the Machine Learning Workflow
+  level: Master
+  type: Project thesis
+  field: Big Data
+  status: Closed
+  year: 2021
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor: Dott. Enrico Gallinucci
+  co-supervisor:
+  student: Enrico Salvucci
+  abstract: "MLOps is a very recent approach aimed at reducing the time to get a Machine Learning model in production; this methodology inherits its main features from DevOps and applies them to Machine Learning, by adding more features specific for Data Analysis. This thesis, which is the result of the internship at Data Reply, is aimed at studying this new approach and exploring different tools to build an MLOps architecture; another goal is to use these tools to implement an MLOps architecture (by using preferably Open Source software). This study provides a deep analysis of MLOps features, also compared to DevOps; furthermore, an in-depth survey on the tools, available in the market to build an MLOps architecture, is offered by focusing on Open Source tools. The reference architecture, designed adopting an exploratory approach, is implemented through MLFlow, Kubeflow, BentoML and deployed by using Google Cloud Platform; furthermore, the architecture is compared to different use cases of companies that have recently started adopting MLOps. MLOps is rapidly evolving and maturing, for these reasons many companies are starting to adopt this methodology. Based on the study conducted with this thesis, companies dealing with Machine Learning should consider adopting MLOps. This thesis can be a starting point to explore MLOps both theoretically and practically (also by relying on the implemented reference architecture and its code)."
+  link: http://amslaurea.unibo.it/23645/
+  slides:
 
 - title: A text mining approach to materiality assessment
   level: Master

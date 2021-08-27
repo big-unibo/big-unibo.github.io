@@ -1,3 +1,6 @@
+script/venv
+
+
 .idea
 _site
 .sass-cache
