@@ -11,7 +11,7 @@ arr_authors = [
 MY_API_KEY = 'afd5bb57359cd0e85670e92a9a282d48'
 
 
-cj = browser_cookie3.chrome()
+cj = browser_cookie3.firefox()
 r = requests.get('https://www.scopus.com/search/form.uri?display=advanced', cookies=cj)
 
 bib = set()
@@ -32,6 +32,7 @@ for author in arr_authors:
     resp = requests.get("https://www.scopus.com/onclick/export.uri?oneClickExport=%7b%22Format%22%3a%22BIB%22%2c%22View%22%3a%22CiteOnly%22%7d&origin=AuthorProfile&zone=resultsListHeader&dataCheckoutTest=false&sort=plf-f&tabSelected=docLi&authorId=" + author,
                         cookies=cj,
                         headers={'authority': 'www.scopus.com',
+                                'X-ELS-APIKey': MY_API_KEY,
                                 'method': 'GET',
                                 'path': '/onclick/export.uri?oneClickExport=%7b%22Format%22%3a%22BIB%22%2c%22View%22%3a%22CiteOnly%22%7d&origin=AuthorProfile&zone=resultsListHeader&dataCheckoutTest=false&sort=plf-f&tabSelected=docLi&authorId=56344636600&txGid=17441bcd80bf1c2eb8245e534261d27b',
                                 'scheme': 'https',
