@@ -1,10 +1,24 @@
 ## Status: Open, Taken, Closed
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
+- title: "Marketing Advice Time Optimization"
+  level: Master
+  field: Data Mining
+  type: Project thesis
+  status: Open
+  year:   
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "<A href='https://aivolutionsrl.com/'>AIvolution</A> è un'azienda fortemente innovativa che che opera nell'ambito dell'Intelligenza artificiale. L’efficacia di una comunicazione non dipende soltanto dall’interesse dell’utente nei confronti del contenuto, ma anche dal tempo di cui l’utente dispone per leggerla e agire di conseguenza. Inviare la comunicazione nel momento migliore per l’utente consente di incrementare il tasso di conversione e produce migliori risultati di marketing. Obiettivo della tesi è realizzare una soluzione AI-based che suggerisce l’orario migliore per l’invio delle comunicazioni a ciascun utente."
+  link:
+  slides:
+  
 - title: "Analisi di dati di elettrofisiologia"
   level: Master
   field: Data Mining, Big Data
-  type: Research thesis
+  type: Project thesis
   status: Open
   year:   
   contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
