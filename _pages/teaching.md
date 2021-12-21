@@ -19,10 +19,22 @@ check our [open thesis proposals](#thesis).
 
 <div id="university">
 
-{% for course in site.data.courses-university %}
-<strong>[{{ course.title }}]({{ course.link }})</strong> ({{ course.language }})<br>
-<i>{{ course.venue }}; {{ course.course }}</i><br>
-{% if course.teachers %}Teachers: {{ course.teachers }}{% endif %}
+{% for c in site.data.courses-university %}
+<strong>[{{ c.title }}]({{ c.link }})</strong><br>
+<i>{{ c.venue }}</i><br>
+<ul>
+{% for course in c.courses %}
+<li>
+{% if course.homelink %}
+<a href="{{ site.url }}{{ site.baseurl }}/{{ course.homelink }}">{{ course.title }}</a> ({{ course.language }})<br> 
+{% else %}
+<a href="{{ course.link }}">{{ course.title }}</a> ({{ course.language }})<br> 
+{% endif %}
+<!--[{{ course.title }}]({{ course.link }}) ({{ course.language }})<br>-->
+{% if course.teachers %}Teacher: {{ course.teachers }}{% endif %}
+</li>
+{% endfor %}
+</ul>
 {% endfor %}
 
 </div>

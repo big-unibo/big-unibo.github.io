@@ -1,6 +1,34 @@
 ## Status: Open, Taken, Closed
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
+- title: "Visualizzazione e ottimizzazione di profili di umidità per l'agricoltura di precisione"
+  level: Master
+  field: Data Mining
+  type: Research thesis
+  status: Open
+  year:   
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "Nell'ambito di un progetto di ricerca stiamo studiando tecniche di previsione dell'umidità del suolo basate su griglie di sensori e reti Deep. La tesi ha come obiettivo quello di sviluppare un sistema di ottimizzazione dell'irrigazione basato sul modello di previsione."
+  link:
+  slides:
+
+- title: Online integration and analysis of IoT data
+  level: Master
+  field: Data Mining, Big Data
+  type: Research thesis
+  status: Open
+  year:   
+  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "IoT applications are ubiquitous and their design requires solutions for the integration of heterogeneous data and the online analysis of such data. In this context, the goal of this thesis is twofold: (1) Studying platforms supporting the exchange and integration of data in IoT applications. In particular, FIWARE is an Open Source platform that provides interfaces to accelerate the development of IoT applications; and (2) applying tools for the real-time analysis of such data (e.g., Spark Streaming)"
+  link:
+  slides:
+
 - title: "Marketing Advice Time Optimization"
   level: Master
   field: Data Mining
@@ -87,35 +115,21 @@
 
 ###
 
-- title: "Visualizzazione e ottimizzazione di profili di umidità per l'agricoltura di precisione"
-  level: Master
-  field: Data Mining
-  type: Research thesis
-  status: Taken
-  year:   
-  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "Nell'ambito di un progetto di ricerca stiamo studiando tecniche di previsione dell'umidità del suolo basate su griglie di sensori e reti Deep. La tesi ha come obiettivo quello di sviluppare un sistema di ottimizzazione dell'irrigazione basato sul modello di previsione."
-  link:
-  slides:
-
-- title: Online integration and analysis of IoT data
-  level: Master
-  field: Data Mining, Big Data
-  type: Research thesis
-  status: Taken
-  year:   
-  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "IoT applications are ubiquitous and their design requires solutions for the integration of heterogeneous data and the online analysis of such data. In this context, the goal of this thesis is twofold: (1) Studying platforms supporting the exchange and integration of data in IoT applications. In particular, FIWARE is an Open Source platform that provides interfaces to accelerate the development of IoT applications; and (2) applying tools for the real-time analysis of such data (e.g., Spark Streaming)"
-  link:
-  slides:
-
 ###╠
+
+- title: Pairs Trading - Progettazione, sviluppo e ottimizzazione di un modello di investimento basato sul Machine Learning
+  level: Master
+  type: Project thesis
+  field: Big Data
+  status: Closed
+  year: 2021
+  contact: 
+  supervisor: Dott. Enrico Gallinucci
+  co-supervisor:
+  student: Riccardo Maldini
+  abstract: "Il Pairs Trading è una popolare strategia di investimento quantitativa, che rientra nella famiglia dell'arbitraggio statistico. La strategia è ampiamente utilizzata dai fondi d'investimento, essendo in grado di estrarre del profitto indipendentemente dalle condizioni di mercato: sia in caso di trend positivi, che negativi. Negli ultimi anni, a causa della crescente disponibilità di dati e dell'aumento dell'efficienza dei mercati, sta diventando sempre più difficile estrarre coppie di titoli profittevoli, utilizzando strategie di investimento basate su regole di Pairs Trading tradizionali. In questo elaborato, si è costruito ed analizzato un modello di investimento flessibile e modulare, basato sulla strategia del Pairs Trading. Sono state implementate differenti tecniche in grado di individuare coppie di titoli profittevoli, a partire dalle alternative presenti allo stato dell'arte. Se ne sono quindi analizzati i risultati in termini di solidità e prestazioni, tramite un framework in grado di associare una valutazione ad ogni tecnica, sia in-sample che out-of-sample."
+  link: http://amslaurea.unibo.it/24954/
+  slides:
 
 - title: MLOps - Standardizing the Machine Learning Workflow
   level: Master
