@@ -1,11 +1,10 @@
 # BIG Website
 
-[![Build Status](https://travis-ci.org/big-unibo/big-website.svg?branch=master)](https://travis-ci.org/big-unibo/big-website)
+[![build](https://github.com/big-unibo/big-website/actions/workflows/build.yml/badge.svg)](https://github.com/big-unibo/big-website/actions/workflows/build.yml)
 
 This is the website of our academic research group at the University of Bologna.
 
-This website is powered by Jekyll and some Bootstrap, Bootwatch; it is inspired 
-by the [Allan Lab's website](https://www.allanlab.org/). 
+This website is powered by Jekyll and some Bootstrap, Bootwatch; it is inspired  by the [Allan Lab's website](https://www.allanlab.org/). 
 
 # Installation
 
@@ -13,8 +12,7 @@ Main instructions are [here](https://jekyllrb.com/docs/installation/).
 
 - Install Ruby
 - Install Jekyll via ```gem install jekyll bundler```
-- Either create a new website via ```jekyll new mywebsite``` or clone/fork it from someone else, 
-e.g., ```git clone https://github.com/mpa139/allanlab.git```.
+- Either create a new website via ```jekyll new mywebsite``` or clone/fork it from someone else, e.g., ```git clone https://github.com/mpa139/allanlab.git```.
 - ```cd``` to the new folder
 - Run Jekyll via ```bundle exec jekyll serve --incremental```
   - ```bundle exec``` is needed only the first time
@@ -70,7 +68,7 @@ scholar:
 ```
 - Change the style (see edits marked as ```<!-- ENR -->``` in my-apa.csl)
 
-# Maintenance
+## Maintenance
 
 The *_layout* folder contains pages' templates.
 
@@ -81,7 +79,7 @@ are access by the pages.
 
 The *_includes* folder contains headers and footers.
 
-# Troubleshooting
+## Troubleshooting
 
 - If the page is not regenerated, verify that it contains ```regenerate: true``` in the header.
 
