@@ -12,6 +12,7 @@ jobs:
           ruby-version: '2.6' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
       - name: Build
         run: |
+          gem install jekyll bundler
           chmod +x *.sh
           ./build.sh
           cd _site
