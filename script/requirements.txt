@@ -1,2 +1,2 @@
 requests==2.26.0
-browser-cookie3==0.12.1
+browser-cookie3==0.13.0
