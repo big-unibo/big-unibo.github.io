@@ -13,7 +13,8 @@ jobs:
       - name: Install gems
         continue-on-error: true
         run: |
-          gem install jekyll bundler rdoc
+          gem install bundler
+          bundler install
       - name: Build
         run: |
           chmod +x *.sh
