@@ -17,11 +17,15 @@ url: ""
 
 plugins: ['jekyll/scholar']
 scholar:
-  style: apa
+  style: my-apa
   source: _biblio
   bibliography: BIG.bib
+  bibliography_template: bibliography
   sort_by: year
   order: descending
+  reference_tagname: span
+  bibtex_filters:
+    - latex
 
 include:
   - .htaccess

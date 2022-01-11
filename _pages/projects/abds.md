@@ -34,21 +34,21 @@ Di seguito i link per accedere alle applicazioni realizzate dal BIG per il proge
   <div class="well">
    <pubtit>Spinacio</pubtit>
    <p>Dashboard di analisi relativa ai campi di spiancio.</p>
-   <p><strong><a href="https://semantic.csr.unibo.it/abds/">Accedi</a></strong></p>
+   <p><strong><a href="https://semantic.csr.unibo.it/abds/login.php">Accedi</a></strong></p>
   </div>
  </div>
  <div class="col-sm-3 d-flex align-items-stretch">
   <div class="well">
    <pubtit>Watering</pubtit>
    <p>Dashboard di analisi relativa al monitoraggio idrico.</p>
-   <p><strong><a href="https://semantic.csr.unibo.it/abds-watering/">Accedi</a></strong></p>
+   <p><strong><a href="https://big.csr.unibo.it/projects/watering/">Accedi</a></strong></p>
   </div>
  </div>
  <div class="col-sm-3 d-flex align-items-stretch">
   <div class="well">
    <pubtit>CASE</pubtit>
    <p>Applicazione "Collaborative Agro SEnsing".</p>
-   <p><strong><a href="https://semantic.csr.unibo.it/case">Accedi (web)</a></strong></p>
+   <p><strong><a href="https://big.csr.unibo.it/projects/case/login.php">Accedi (web)</a></strong></p>
    <p><strong><a href="http://semantic.csr.unibo.it/CASE/downloads/case-app_0_0_2.apk">Download (Android)</a></strong></p>
   </div>
  </div>

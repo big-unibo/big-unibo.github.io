@@ -19,10 +19,22 @@ check our [open thesis proposals](#thesis).
 
 <div id="university">
 
-{% for course in site.data.courses-university %}
-<strong>[{{ course.title }}]({{ course.link }})</strong> ({{ course.language }})<br>
-<i>{{ course.venue }}; {{ course.course }}</i><br>
-{% if course.teachers %}Teachers: {{ course.teachers }}{% endif %}
+{% for c in site.data.courses-university %}
+<strong>[{{ c.title }}]({{ c.link }})</strong><br>
+<i>{{ c.venue }}</i><br>
+<ul>
+{% for course in c.courses %}
+<li>
+{% if course.homelink %}
+<a href="{{ site.url }}{{ site.baseurl }}/{{ course.homelink }}">{{ course.title }}</a> ({{ course.language }})<br> 
+{% else %}
+<a href="{{ course.link }}">{{ course.title }}</a> ({{ course.language }})<br> 
+{% endif %}
+<!--[{{ course.title }}]({{ course.link }}) ({{ course.language }})<br>-->
+{% if course.teachers %}Teacher: {{ course.teachers }}{% endif %}
+</li>
+{% endfor %}
+</ul>
 {% endfor %}
 
 </div>
@@ -78,7 +90,7 @@ Contact: {{ thesis.contact }}
 {% for thesis in site.data.thesis %}
 {% if thesis.status == "Closed" %}
 
-<strong>{{ thesis.title }}</strong>, {{ thesis.student }}, {{ thesis.year }}<br>
+<strong>{% if thesis.link %}<a href="{{ thesis.link }}">{% endif %}{{ thesis.title }}{% if thesis.link %}</a>{% endif %}</strong>, {{ thesis.student }}, {{ thesis.year }}<br>
 Supervisor: {{ thesis.supervisor }}<br>
 {% if thesis.co-supervisor %} Co-supervisors: {{ thesis.co-supervisor }}<br>{% endif %}
 {% if thesis.slides %} Slides: {{ thesis.slides }} {% endif %}

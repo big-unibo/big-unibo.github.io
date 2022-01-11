@@ -1,20 +1,81 @@
-- title: Sistemi Informativi e Business Intelligence
-  language: Italian
-  teachers: Stefano Rizzi, Matteo Golfarelli
+- title: Laurea in Ingegneria e scienze informatiche
   venue: University of Bologna, Cesena
-  course: Corso di Laurea in Ingegneria e Scienze Informatiche
-  link: http://corsi.unibo.it/Magistrale/IngegneriaScienzeInformatiche/Pagine/default.aspx
+  link: https://corsi.unibo.it/laurea/IngegneriaScienzeInformatiche
+  courses:
 
-- title: Data Mining
-  language: Italian
-  teachers: Matteo Golfarelli
-  venue: University of Bologna, Cesena
-  course: Corso di Laurea in Ingegneria e Scienze Informatiche
-  link: http://corsi.unibo.it/Magistrale/IngegneriaScienzeInformatiche/Pagine/default.aspx
+  - title: "84339 - BASI DI DATI AVANZATE"
+    language: Italian
+    teachers: Matteo Golfarelli
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/421625
 
-- title: Big Data
-  language: Italian
-  teachers: Enrico Gallinucci
+  - title: "09032 - INGEGNERIA DEL SOFTWARE"
+    language: Italian
+    teachers: Stefano Rizzi
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/378224
+
+- title: Laurea Magistrale in Ingegneria e scienze informatiche
   venue: University of Bologna, Cesena
-  course: Corso di Laurea in Ingegneria e Scienze Informatiche
-  link: http://www.ingegneriarchitettura.unibo.it/it/corsi/insegnamenti/insegnamento/2017/412684
+  link: https://corsi.unibo.it/magistrale/IngegneriaScienzeInformatiche
+  courses:
+
+  - title: "40720 - DATA MINING"
+    language: Italian
+    teachers: Matteo Golfarelli
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/412644
+
+  - title: "09679 - SISTEMI INFORMATIVI"
+    language: Italian
+    teachers: Matteo Golfarelli
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/412592
+
+  - title: "30376 - BUSINESS INTELLIGENCE"
+    language: Italian
+    teachers: Stefano Rizzi
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/412632
+
+  - title: "30376 - BUSINESS INTELLIGENCE (Modulo 2)"
+    language: Italian
+    teachers: Enrico Gallinucci
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/412632
+
+  - title: "81932 - BIG DATA"
+    language: Italian
+    teachers: Enrico Gallinucci
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/412684
+
+- title: Laurea Magistrale in Ingegneria gestionale
+  venue: University of Bologna, Bologna
+  link: https://corsi.unibo.it/magistrale/IngegneriaGestionale
+  courses:
+
+  - title: "96142 - BUSINESS INTELLIGENCE E BIG DATA M"
+    language: Italian
+    teachers: Stefano Rizzi
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/467876
+
+  - title: "69499 - BUSINESS INTELLIGENCE M (Modulo 1)"
+    language: Italian
+    teachers: Stefano Rizzi
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/376559
+
+- title: Laurea Magistrale in Digital transformation management
+  venue: University of Bologna, Cesena
+  link: https://corsi.unibo.it/magistrale/DigitalTransformationManagement
+  courses:
+
+  - title: "95629 - BUSINESS PERFORMANCE ANALYTICS AND BUSINESS INTELLIGENCE (Modulo 2)"
+    language: English
+    teachers: Matteo Golfarelli
+    venue: University of Bologna, Cesena
+    course: Laurea Magistrale in Digital transformation management
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/466767
+
+- title: PhD in Computer Science and Engineering
+  venue: University of Bologna
+  link: https://disi.unibo.it/it/didattica/dottorati-di-ricerca/computer-science-and-engineering/
+  courses:
+
+  - title: "From Big Data to Data Platform - Research and Challenges"
+    language: English
+    teachers: Enrico Gallinucci
+    homelink: phd-course-from-big-data-to-data-platform
