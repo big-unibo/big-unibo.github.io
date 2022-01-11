@@ -1,0 +1,17 @@
+name: "build"
+on: [push, pull_request]
+jobs:
+  launch-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: Build
+        run: |
+          chmod +x *.sh
+          ./build.sh
+          cd _site
+          zip -r ../big-website.zip *
+          cd ..
+          ls
