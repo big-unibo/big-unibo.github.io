@@ -11,6 +11,7 @@ jobs:
         with:
           ruby-version: '2.6' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
       - name: Install gems
+        continue-on-error: true
         run: |
           gem install jekyll bundler rdoc
       - name: Build
