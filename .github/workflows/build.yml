@@ -8,6 +8,7 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Install gems
         continue-on-error: true
         run: |
@@ -25,4 +26,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
+          folder: _site # The folder the action should deploy.
