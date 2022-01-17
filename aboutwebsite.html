@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About the website</title>
+  <meta name="description" content="About the website.">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/app-cards.css">
+  <link rel="canonical" href="/aboutwebsite.html">
+  <link rel="shortcut icon" type ="image/x-icon" href="/images/favicon.ico?v=2">
+
+
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	
+    <a class="navbar-brand" href="/">BIG @ UniBO</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="/">Home</a></li>
+		<li><a href="/team">Team</a></li>
+		<li><a href="/teaching">Teaching</a></li>
+		<li><a href="/publications">Publications</a></li>
+		<li><a href="/research">Research</a></li>
+		<li><a href="/pictures">(Pics)</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="textid" class="col-sm-12">
+  # Use this website as a template for your academic research group
+
+This website is powered by [Jekyll](https://jekyllrb.com) and uses some [Bootstrap](http://www.getbootstrap.com) and  [Bootswatch](http://www.bootswatch.com). We tried to make it simple yet adaptable, so that it is easy for you to re-use it for your purpose. 
+
+### Getting started
+All pages are written in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for easy editing, and [Jekyll](https://jekyllrb.com) uses Liquid for the data-driven pages. The publicaion list, news items, and group members are stored as `.yml` data sheets (plain text) in the `_data folder`, so that one can update the website easily. The pages are in the `_pages` folder. Updating and maintaining is easy using [Github](http://www.github.com) (not worldpress-easy, but there are other advantages (see e.g. [this](https://www.taniarascia.com/make-a-static-website-with-jekyll/), or [this](http://www.webdesignerdepot.com/2015/11/jekyll-against-the-rest-of-the-world/)). [Jekyll](https://jekyllrb.com) takes all the markdown and data files, and creates beautiful `html` files in the `_site` folder.
+
+If you never used [Jekyll](https://jekyllrb.com), read the [wikipedia article](https://en.wikipedia.org/wiki/Jekyll_(software)) article and check out [their website](https://jekyllrb.com). Same for [Github](http://www.github.com), which will host your first website draft. 
+
+Create and open a github account, go to [our repository](https://github.com/allanlab/allanlab), and click 'fork'. This is now your copy of the website, and you can change and adapt it as you want. You don't have to link to us or mention us (but of course we appreciate it). Then change the name of the repository to "your_username" and the name of the branch to "gh-pages".  Your website is now automatically published under *your_username.github.io/your_username/*. Except that it probably still looks like our website. 
+
+To modify the webpage, you can either do everything on on github.com (go to a file, click "edit", then "commit", "push"), or install  [Jekyll](https://jekyllrb.com) on your computer and play with your local copy that you sync with the branch on github.com.  The former is much easier in the beginning, but a bit less convenient once you start rewriting everythint. To get it to work on your computer (and to learn a bit more about [Jekyll](https://jekyllrb.com)), [here](https://www.taniarascia.com/make-a-static-website-with-jekyll/) and [here](https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme) are tutorials on how to use it and how set it up locally. Also, consider using the [Github desktop app](http://www.desktop.github.com), I found it helpful.  
+
+### Customization
+Now let's make this *your* website. 
+
+First, go to the `news.ylm`, `publist.ylm`, and `team.ylm` files in the `_data` folder and insert your own data into the data fields. Watch out:  [Jekyll](https://jekyllrb.com) is quite strict about extra or missing spaces etc. Adhere to the format. In the beginning, test each change: commit, push, and check the published website.
+
+For publications, you can add a "1" in the highlight field, then it will be featured prominently. You can add important  news items (red, "news1"), and less important  news items (blue, "news2").
+
+For the news items, just keep adding them. The first 10 will be displayed on the 'home' page.
+
+For the `team.ylm` file
+
+Next, change the content of all files in the `_pages` folder.  To change the title in the homepage, go to `homelay.html` in the `_layout` folder.
+
+Lastly, change the footer and perhaps header appropriately (in `_include`).
+
+You might also want to change the style or theme. I imported style files (in sass) from Bootstrap/Bootwatch, you can replace them with your own (in the `_sass directory`). For small changes, just work on the override stuff in the `main.sass` file in the `CSS` folder. Or change some variables in the `_variables.sass` file, like the background color etc. 
+
+As said, [Jekyll](https://jekyllrb.com) takes all the markdown and data files, and creates beautiful `html` files in the `_site` folder.In the end, either upload these files  to your server, or buy yourself a domain and check the instructions on github on how to host it there.
+
+### Copyright / credit
+
+You can use this template as you please. You don't have to link to us or mention us (but of course we appreciate it). We also welcome it if you send us an email with a link to your website, perhaps we'll publish a list here at some point. 
+
+Comments welcome.
+
+Code released under the MIT License. 
+
+
+
+
+</div>
+
+      </div>
+    </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-6">
+			
+		  <p>&copy 2020 Business Intelligence Group. Site made with <a href="https://jekyllrb.com">Jekyll</a>, inspired by <a href="https://www.allanlab.org/">Allan Lab's website.</a></p>
+		  <p>We are part of the <a href="http://disi.unibo.it">Computer Science and Engineering Department</a> at the <a href="http://unibo.it">University of Bologna</a>, Italy.</p>
+            
+
+		   <p>  </p><p>
+            		  
+            
+		</div>
+		<!--<div class="col-sm-4">
+		  Funding:<br />
+		  - <a href="http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme">Vidi </a> and <a href='https://www.fom.nl/en/news/press-releases/2016/11/18/28634/'>Projectruimte</a> grants from <a href="http://www.nwo.nl">NWO</a> <br />
+		  - <a href="https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront">Frontier of Nanosciences</a>, a gravity program from <a href="http://www.nwo.nl">NWO</a>
+          - <a href='https://www.universiteitleiden.nl/en/news/2017/08/two-erc-grants-for-leiden-physics'>ERC starting grant</a>
+		</div>-->
+		<div class="col-sm-6" style="text-align: right">
+		  Contact:<br />
+		  BIG lab, Room 4136<br />
+		  Via dell'Università, 50<br />
+		  47522, Cesena (FC), Italy<br />
+          (<a href="https://goo.gl/maps/M56wkSTVZhbt6Ak17">Maps</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>

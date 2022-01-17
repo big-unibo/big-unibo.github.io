@@ -1,0 +1,15 @@
+.row.app-card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+  }
+.row.app-card > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.row.app-card .well {
+    height: 100%;
+    background-color: lightgreen;
+}
