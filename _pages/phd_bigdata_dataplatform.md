@@ -28,9 +28,12 @@ The course is held at the Cesena Campus (via dell'Università, 50). Students tha
 
 Duration: 10 hours
 
-- Tuesday 25/01/2022, 09:00-13:00, Room 2.11
+- Tuesday 25/01/2022, 09:00-13:00, Room 2.11 
+  - [Link to attend via Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDBhNDU4NjctNDc4ZS00MTliLWE3YmUtYzYwNzE0ODdiNjNh%40thread.v2/0?context=%7b%22Tid%22%3a%22e99647dc-1b08-454a-bf8c-699181b389ab%22%2c%22Oid%22%3a%22b06146b1-ee5b-4a4c-b3a5-2319e2ca0e51%22%7d)
 - Wednesday 26/01/2022, 10:00-13:00, Room 2.10
+  - [Link to attend via Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTkxOWRlMjktY2Q3ZS00ODVlLTk4NDEtNmI1ODAwZWE3Y2U5%40thread.v2/0?context=%7b%22Tid%22%3a%22e99647dc-1b08-454a-bf8c-699181b389ab%22%2c%22Oid%22%3a%22b06146b1-ee5b-4a4c-b3a5-2319e2ca0e51%22%7d)
 - Thursday 27/01/2022, 10:00-13:00, Room 2.11
+  - [Link to attend via Microsoft Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzNmMWY5M2ItMWI5Yy00MDk3LTkxYzQtMGJlZDVhODgxMWRi%40thread.v2/0?context=%7b%22Tid%22%3a%22e99647dc-1b08-454a-bf8c-699181b389ab%22%2c%22Oid%22%3a%22b06146b1-ee5b-4a4c-b3a5-2319e2ca0e51%22%7d)
 
 ## Exam
 
