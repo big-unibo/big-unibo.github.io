@@ -16,15 +16,17 @@ It is held within the [PhD in Computer Science and Engineering](https://disi.uni
 
 The course is subdivided into three parts. In the first part, an introduction to the world of big data is given, so as to bring up to speed the students that have no prior knowledge on the subject. In the second part, an in-depth analysis of the polyglot persistence theme is given, introducing the concepts of multistores and polystores and the techniques to query heterogeneous distributed database systems. In the last part, the metadata challenge is presented to discuss the main issues related to metadata generation, maintenance, and exploitation.
 
-(Course material will be published here).
+Material:
 
-<!-- - Introduction to Big Data
-- Polyglot persistence
-- The metadata challenge -->
+0. [Summary]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp/0-summary.pdf)
+0. [Introduction to Big Data]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp/1-introduction-to-big-data.pdf)
+0. Polyglot Persistence (TBP)
+0. The Metadata Challenge (TBP)
+
 
 ## Schedule
 
-The course is held at the Cesena Campus (via dell'Università, 50). Students that cannot physically attend the course can join online via Microsoft Teams (links will be published here).
+The course is held at the Cesena Campus (via dell'Università, 50). Students that cannot physically attend the course can join online via Microsoft Teams.
 
 Duration: 10 hours
 
