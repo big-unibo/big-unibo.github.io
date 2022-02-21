@@ -19,6 +19,7 @@ We carry out both theoretical research and practical studies, with the awareness
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Items -->
@@ -26,6 +27,9 @@ We carry out both theoretical research and practical studies, with the awareness
 
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/logo_big.png" alt="The Business Intelligence Group logo" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/FGCS_SI.png" alt="Call-for-paper for Elsevier FGCS's Special Issue on Advances in Data Platform Design, Management, and Optimization" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/BDAI_electronics_horizontal_light.png" alt="Call-for-paper for MDPI Electronics's Special Issue on Big Data and Artificial Intelligence for Industry 4.0" />
