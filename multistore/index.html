@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BIG - Multistore</title>
+  <meta name="description" content="BIG -- Multistore">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/app-cards.css">
+  <link rel="canonical" href="/multistore/">
+  <link rel="shortcut icon" type ="image/x-icon" href="/images/favicon.ico?v=2">
+
+
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	
+    <a class="navbar-brand" href="/">BIG @ UniBO</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="/">Home</a></li>
+		<li><a href="/team">Team</a></li>
+		<li><a href="/teaching">Teaching</a></li>
+		<li><a href="/publications">Publications</a></li>
+		<li><a href="/research">Research</a></li>
+		<li><a href="/pictures">(Pics)</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="textid" class="col-sm-12">
+  <h1 id="multistore">Multistore</h1>
+
+<!--<p><strong>FULL DOCUMENTATION</strong>: <a href="sabine-readme">sabine-readme</a>
+</p>-->
+
+<p>The success of NoSQL DBMSs has pushed the adoption of polyglot storage systems that take advantage of the best characteristics of different technologies and data models. While operational applications take great benefit from this choice, analytical applications suffer the absence of schema consistency, not only between different DBMSs but within a single NoSQL system as well.</p>
+
+<p><img src="/images/projects/multistore/intro-example.png" width="400px" /></p>
+
+<p>In this context, the discipline of data science is steering analysts away from traditional data warehousing and towards a more flexible and lightweight approach to data analysis. The idea is to perform OLAP analyses in a <i>pay-as-you-go</i> manner across heterogeneous schemas and data models, where the integration is progressively carried out by the user as the available data is explored.</p>
+
+<p>We propose an approach to support data analysis within a <strong>high-variety multistore</strong>, with heterogeneous schemas and overlapping records. Multistores are data management systems that enable query processing across different and heterogeneous databases; besides the distribution of data, complexity factors like schema heterogeneity and data replication must be resolved through integration and data fusion activities. The multistore solution that we have developed relies on a dataspace to provide the user with an integrated view of the available data.</p>
+
+<p><img src="/images/projects/multistore/overview.png" width="400px" /></p>
+
+<p>Our approach supports relational, document, wide-column, and key-value data models by automatically handling both data model and schema heterogeneity through a dataspace layer on top of the underlying DBMSs. The expressiveness we enable corresponds to GPSJ queries, which are the most common class of queries in OLAP applications. We rely on Nested Relational Algebra to define a cross-database execution plan. Different strategies to carry out joins and data fusion are evaluated by means of a self-learning black-box cost model, which estimates execution times and selects the most efficient plan. The system has been prototyped on Apache Spark.</p>
+
+<h2 id="downloads">Downloads</h2>
+
+<ul>
+<li>Set of queries: <a href="/downloads/multistore/queries.csv">link</a></li>
+<li>Dataset (scale factor 1): <a href="/downloads/multistore/sf1.zip">link</a></li>
+<li>Dataset (scale factor 10): <a href="/downloads/multistore/sf10.zip">link</a></li>
+<li>Dataset (scale factor 100): <a href="/downloads/multistore/sf100.zip">link</a></li>
+</ul>
+
+<h2 id="publications">Publications</h2>
+
+<p>Chiara Forresi, Matteo Francia, Enrico Gallinucci, Matteo Golfarelli: Cost-based optimization of multistore query plans. Submitted to the Information Systems Frontiers journal</p>
+<p>Chiara Forresi, Matteo Francia, Enrico Gallinucci, Matteo Golfarelli: <a href="https://doi.org/10.1007/978-3-030-82472-3_11">Optimizing Execution Plans in a Multistore</a>. ADBIS 2021: 136-151</p>
+<p>Chiara Forresi, Enrico Gallinucci, Matteo Golfarelli, Hamdi Ben Hamadou: <a href="https://doi.org/10.1007/s00778-021-00682-5">A dataspace-based framework for OLAP analyses in a high-variety multistore</a>. VLDB J. 30(6): 1017-1040 (2021)</p>
+<p>Hamdi Ben Hamadou, Enrico Gallinucci, Matteo Golfarelli: <a href="https://doi.org/10.1007/978-3-030-33223-5_16">Answering GPSJ Queries in a Polystore: A Dataspace-Based Approach</a>. ER 2019: 189-203</p>
+
+<style media="screen" type="text/css">
+
+.note {
+  font-size: 0.8em;
+}
+
+.logos {
+  float: left;
+  width: 33%;
+  height: 220px;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.missing {
+  color: red;
+}
+
+</style>
+
+
+</div>
+
+      </div>
+    </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-6">
+			
+		  <p>&copy 2020 Business Intelligence Group. Site made with <a href="https://jekyllrb.com">Jekyll</a>, inspired by <a href="https://www.allanlab.org/">Allan Lab's website.</a></p>
+		  <p>We are part of the <a href="http://disi.unibo.it">Computer Science and Engineering Department</a> at the <a href="http://unibo.it">University of Bologna</a>, Italy.</p>
+            
+
+		   <p>  </p><p>
+            		  
+            
+		</div>
+		<!--<div class="col-sm-4">
+		  Funding:<br />
+		  - <a href="http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme">Vidi </a> and <a href='https://www.fom.nl/en/news/press-releases/2016/11/18/28634/'>Projectruimte</a> grants from <a href="http://www.nwo.nl">NWO</a> <br />
+		  - <a href="https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront">Frontier of Nanosciences</a>, a gravity program from <a href="http://www.nwo.nl">NWO</a>
+          - <a href='https://www.universiteitleiden.nl/en/news/2017/08/two-erc-grants-for-leiden-physics'>ERC starting grant</a>
+		</div>-->
+		<div class="col-sm-6" style="text-align: right">
+		  Contact:<br />
+		  BIG lab, Room 4136<br />
+		  Via dell'Università, 50<br />
+		  47522, Cesena (FC), Italy<br />
+          (<a href="https://goo.gl/maps/M56wkSTVZhbt6Ak17">Maps</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>
