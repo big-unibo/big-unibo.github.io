@@ -1,7 +1,7 @@
 ---
-title: "BIG - PhD course: From Big Data to Data Platform"
+title: "PhD course: From Big Data to Data Platform"
 layout: textlay
-excerpt: "BIG -- PhD course: From Big Data to Data Platform"
+excerpt: "PhD course: From Big Data to Data Platform"
 sitemap: false
 permalink: /phd-course-from-big-data-to-data-platform-2223/
 ---
