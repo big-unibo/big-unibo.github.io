@@ -18,10 +18,10 @@ The course is subdivided into three parts. In the first part, an introduction to
 
 Material:
 
-0. [Summary]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp/0-summary.pdf)
-0. [Introduction to Big Data]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp/1-introduction-to-big-data.pdf)
-0. [Polyglot Persistence]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp/2-polyglot-persistence.pdf)
-0. [The Metadata Challenge]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp/3-the-metadata-challenge.pdf)
+0. [Summary]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/0-summary.pdf)
+0. [Introduction to Big Data]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/1-introduction-to-big-data.pdf)
+0. [Polyglot Persistence]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/2-polyglot-persistence.pdf)
+0. [The Metadata Challenge]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/3-the-metadata-challenge.pdf)
 
 ## Exam
 
