@@ -35,7 +35,7 @@ permalink: /multistore/
 
 ## Publications
 
-<p>Chiara Forresi, Matteo Francia, Enrico Gallinucci, Matteo Golfarelli: Cost-based optimization of multistore query plans. Submitted to the Information Systems Frontiers journal</p>
+<p>Chiara Forresi, Matteo Francia, Enrico Gallinucci, Matteo Golfarelli: <a href="https://doi.org/10.1007/s10796-022-10320-2">Cost-based optimization of multistore query plans</a>. Information Systems Frontiers (2022)</p>
 <p>Chiara Forresi, Matteo Francia, Enrico Gallinucci, Matteo Golfarelli: <a href="https://doi.org/10.1007/978-3-030-82472-3_11">Optimizing Execution Plans in a Multistore</a>. ADBIS 2021: 136-151</p>
 <p>Chiara Forresi, Enrico Gallinucci, Matteo Golfarelli, Hamdi Ben Hamadou: <a href="https://doi.org/10.1007/s00778-021-00682-5">A dataspace-based framework for OLAP analyses in a high-variety multistore</a>. VLDB J. 30(6): 1017-1040 (2021)</p>
 <p>Hamdi Ben Hamadou, Enrico Gallinucci, Matteo Golfarelli: <a href="https://doi.org/10.1007/978-3-030-33223-5_16">Answering GPSJ Queries in a Polystore: A Dataspace-Based Approach</a>. ER 2019: 189-203</p>
