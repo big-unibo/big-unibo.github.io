@@ -2,6 +2,21 @@
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
 
+- title: Big Data Analytics presso Easy Market
+  level: Master
+  field: Big Data
+  type: Project thesis
+  status: Open
+  year: 2023
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>, <a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>"
+  abstract: |
+    La società Easy Market con sede a Rimini si occupa della vendita on line di Voli e hotel.
+    Le ricerche on line generano giornalmente fino 1 miliardo di transazioni.
+    Easy market sta realizzando un sistema di Big Data Analytics con tecnologia Google per estrarre valore da questi dati.
+    Il tesista sarà coinvolto nella progettazione e realizzazione di tale sistema che ci si aspetta realizzi sia analisi batch (DW), sia analisi in tempo reale per ottimizzare i processi operativi.
+    Easy Market è alla ricerca di giovani talenti per ampliare la propria divisione di Business Intelligence e Data Science. La tesi rappresenta quindi un primo passo verso l’assunzione.
+
+
 - title: Automated cluster analysis
   level: Master
   field: Data Mining
@@ -15,20 +30,6 @@
     For instance, in the IRIS dataset, the same natural clusters exist when the `petal length` feature is considered as well as when two features `petal length` and `petal width` are considered.
     The student is asked to study existing approaches and implement such analysis using well known frameworks for AutoML written in Python.
 
-
-- title: Online integration and analysis of IoT data
-  level: Master
-  field: Data Mining, Big Data
-  type: Research thesis
-  status: Open
-  year:   
-  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "IoT applications are ubiquitous and their design requires solutions for the integration of heterogeneous data and the online analysis of such data. In this context, the goal of this thesis is twofold: (1) Studying platforms supporting the exchange and integration of data in IoT applications. In particular, FIWARE is an Open Source platform that provides interfaces to accelerate the development of IoT applications; and (2) applying tools for the real-time analysis of such data (e.g., Spark Streaming)"
-  link:
-  slides:
 
 - title: "Visualizzazione e ottimizzazione di profili di umidità per l'agricoltura di precisione"
   level: Master
@@ -44,33 +45,6 @@
   link:
   slides:
 
-- title: "Marketing Advice Time Optimization"
-  level: Master
-  field: Data Mining
-  type: Project thesis
-  status: Open
-  year:   
-  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "<A href='https://aivolutionsrl.com/'>AIvolution</A> è un'azienda fortemente innovativa che che opera nell'ambito dell'Intelligenza artificiale. L’efficacia di una comunicazione non dipende soltanto dall’interesse dell’utente nei confronti del contenuto, ma anche dal tempo di cui l’utente dispone per leggerla e agire di conseguenza. Inviare la comunicazione nel momento migliore per l’utente consente di incrementare il tasso di conversione e produce migliori risultati di marketing. Obiettivo della tesi è realizzare una soluzione AI-based che suggerisce l’orario migliore per l’invio delle comunicazioni a ciascun utente."
-  link:
-  slides:
-  
-- title: "Analisi di dati di elettrofisiologia"
-  level: Master
-  field: Data Mining, Big Data
-  type: Project thesis
-  status: Open
-  year:   
-  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "<A href='https://elements-ic.com/'>Elements</A> è un'azienda fortemente innovativa che progetta e produce strumentazione elettronica per le misure su pico e nanoscala nel campo dell'elettrochimica, che vanno dall'elettrofisiologia su cellule vive al rilevamento di nanopori a stato solido e bio. Elements cerca laureandi magistrali, con possibilita' di assunzione, per lo sviluppo di un modulo per l'analisi dei dati di misura sia in tempo reale (in streaming), sia in modalità batch. Il linguaggio utilizzato è Python, le tematiche affrontate vanno dalla BI al data streaming, allo sviluppo di interfacce."
-  link:
-  slides:
   
 - title: "Business Intelligence presso l'Istituto Nazionale di Fisica Nucleare"
   level: Master
@@ -86,33 +60,6 @@
   link:
   slides:
 
-- title: Sales forecasting
-  level: Master
-  type: Project thesis
-  field: Data Mining
-  status: Open
-  year:
-  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "L'obiettivo della tesi, proposta dall'azienda Titanex di San Marino, è quello di realizzare un sistema di forecasting delle vendite per fascia oraria da utilizzarsi in una catena di punti vendita in ambito fashion."
-  link:
-  slides:
-
-- title: ETL in un cluster Big Data
-  level: Master
-  type: Project thesis
-  field: Information Systems, Big Data
-  status: Open
-  year:
-  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "L'obiettivo della tesi, proposta dall'azienda Titanex di San Marino, è quello di implementare un processo ETL di alimentazione di un DW operando in contesto Big Data: la sorgente è un cluster Hadoop mentre la destinazione è un DBMS colonnare."
-  link:
-  slides:
 
 - title: Progettazione di un linguaggio visuale per la creazione di questionari
   level: Master
@@ -131,6 +78,77 @@
 ###
 
 ###
+
+
+- title: Online integration and analysis of IoT data
+  level: Master
+  field: Data Mining, Big Data
+  type: Research thesis
+  status: Closed
+  year:   
+  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "IoT applications are ubiquitous and their design requires solutions for the integration of heterogeneous data and the online analysis of such data. In this context, the goal of this thesis is twofold: (1) Studying platforms supporting the exchange and integration of data in IoT applications. In particular, FIWARE is an Open Source platform that provides interfaces to accelerate the development of IoT applications; and (2) applying tools for the real-time analysis of such data (e.g., Spark Streaming)"
+  link:
+  slides:
+
+- title: "Marketing Advice Time Optimization"
+  level: Master
+  field: Data Mining
+  type: Project thesis
+  status: Closed
+  year:   
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "<A href='https://aivolutionsrl.com/'>AIvolution</A> è un'azienda fortemente innovativa che che opera nell'ambito dell'Intelligenza artificiale. L’efficacia di una comunicazione non dipende soltanto dall’interesse dell’utente nei confronti del contenuto, ma anche dal tempo di cui l’utente dispone per leggerla e agire di conseguenza. Inviare la comunicazione nel momento migliore per l’utente consente di incrementare il tasso di conversione e produce migliori risultati di marketing. Obiettivo della tesi è realizzare una soluzione AI-based che suggerisce l’orario migliore per l’invio delle comunicazioni a ciascun utente."
+  link:
+  slides:
+  
+- title: "Analisi di dati di elettrofisiologia"
+  level: Master
+  field: Data Mining, Big Data
+  type: Project thesis
+  status: Closed
+  year:   
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "<A href='https://elements-ic.com/'>Elements</A> è un'azienda fortemente innovativa che progetta e produce strumentazione elettronica per le misure su pico e nanoscala nel campo dell'elettrochimica, che vanno dall'elettrofisiologia su cellule vive al rilevamento di nanopori a stato solido e bio. Elements cerca laureandi magistrali, con possibilita' di assunzione, per lo sviluppo di un modulo per l'analisi dei dati di misura sia in tempo reale (in streaming), sia in modalità batch. Il linguaggio utilizzato è Python, le tematiche affrontate vanno dalla BI al data streaming, allo sviluppo di interfacce."
+  link:
+  slides:
+
+- title: Sales forecasting
+  level: Master
+  type: Project thesis
+  field: Data Mining
+  status: Closed
+  year:
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "L'obiettivo della tesi, proposta dall'azienda Titanex di San Marino, è quello di realizzare un sistema di forecasting delle vendite per fascia oraria da utilizzarsi in una catena di punti vendita in ambito fashion."
+  link:
+  slides:
+
+- title: ETL in un cluster Big Data
+  level: Master
+  type: Project thesis
+  field: Information Systems, Big Data
+  status: Closed
+  year:
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: "L'obiettivo della tesi, proposta dall'azienda Titanex di San Marino, è quello di implementare un processo ETL di alimentazione di un DW operando in contesto Big Data: la sorgente è un cluster Hadoop mentre la destinazione è un DBMS colonnare."
+  link:
+  slides:
 
 - title: Pairs Trading - Progettazione, sviluppo e ottimizzazione di un modello di investimento basato sul Machine Learning
   level: Master

@@ -1,11 +1,25 @@
+- title: Fundamentals of Business Intelligence
+  language: English
+  teachers:
+  venue: Bologna Business School, Bologna
+  master: Master in Data Marketing and Analytics
+  link: https://www.bbs.unibo.eu/master-fulltime/data-marketing-and-analytics/
+  
 - title: Social Business Intelligence
-  language: Italian
+  language: English
   teachers:
   venue: Bologna Business School, Bologna
   master: Master in Data Science
   link: http://www.bbs.unibo.it/hp/master-fulltime/data-science
 
 - title: Business Intelligence and Data Warehouse
+  language: English
+  teachers:
+  venue: Bologna Business School, Bologna
+  master: Master in Data Science
+  link: http://www.bbs.unibo.it/hp/master-fulltime/data-science
+
+- title: Data Mining
   language: English
   teachers:
   venue: Bologna Business School, Bologna

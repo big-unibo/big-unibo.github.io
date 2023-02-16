@@ -1,4 +1,4 @@
-- title: Laurea in Ingegneria e scienze informatiche
+- title: Laurea in Ingegneria e Scienze Informatiche
   venue: University of Bologna, Cesena
   link: https://corsi.unibo.it/laurea/IngegneriaScienzeInformatiche
   courses:
@@ -12,6 +12,16 @@
     language: Italian
     teachers: Stefano Rizzi
     link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/378224
+
+- title: Laurea in Ingegneria Elettronica
+  venue: University of Bologna, Cesena
+  link: https://corsi.unibo.it/laurea/IngegneriaElettronicaEnergiaInformazione/index.html
+  courses:
+
+  - title: "99740 - LABORATORIO DI INGEGNERIA ELETTRONICA"
+    language: Italian
+    teachers: Matteo Francia
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/482467
 
 - title: Laurea Magistrale in Ingegneria e scienze informatiche
   venue: University of Bologna, Cesena
@@ -39,9 +49,9 @@
     link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/412632
 
   - title: "81932 - BIG DATA"
-    language: Italian
+    language: English
     teachers: Enrico Gallinucci
-    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/412684
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/412684
 
 - title: Laurea Magistrale in Ingegneria gestionale
   venue: University of Bologna, Bologna
@@ -58,7 +68,7 @@
     teachers: Stefano Rizzi
     link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/376559
 
-- title: Laurea Magistrale in Digital transformation management
+- title: Laurea Magistrale in Digital Transformation Management
   venue: University of Bologna, Cesena
   link: https://corsi.unibo.it/magistrale/DigitalTransformationManagement
   courses:
@@ -67,8 +77,22 @@
     language: English
     teachers: Matteo Golfarelli
     venue: University of Bologna, Cesena
-    course: Laurea Magistrale in Digital transformation management
+    course: Laurea Magistrale in Digital Transformation Management
     link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2021/466767
+
+  - title: "95630 - BIG DATA AND CLOUD PLATFORMS (Modulo 1)"
+    language: English
+    teachers: Enrico Gallinucci
+    venue: University of Bologna, Cesena
+    course: Laurea Magistrale in Digital Transformation Management
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/466768
+
+  - title: "95630 - BIG DATA AND CLOUD PLATFORMS (Modulo 2)"
+    language: English
+    teachers: Matteo Francia
+    venue: University of Bologna, Cesena
+    course: Laurea Magistrale in Digital Transformation Management
+    link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/466768
 
 - title: PhD in Computer Science and Engineering
   venue: University of Bologna
@@ -79,3 +103,8 @@
     language: English
     teachers: Enrico Gallinucci
     homelink: phd-course-from-big-data-to-data-platform
+
+  - title: "Data Platforms and Artificial Intelligence: Challenges and Applications"
+    language: English
+    teachers: Matteo Francia
+    homelink: 
