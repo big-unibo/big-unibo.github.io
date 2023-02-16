@@ -2,7 +2,7 @@
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
 
-- title: Big Data Analytics presso Easy Market
+- title: \[NEW\] Big Data Analytics presso Easy Market
   level: Master
   field: Big Data
   type: Project thesis
@@ -15,6 +15,18 @@
     Easy market sta realizzando un sistema di Big Data Analytics con tecnologia Google per estrarre valore da questi dati.
     Il tesista sarà coinvolto nella progettazione e realizzazione di tale sistema che ci si aspetta realizzi sia analisi batch (DW), sia analisi in tempo reale per ottimizzare i processi operativi.
     Easy Market è alla ricerca di giovani talenti per ampliare la propria divisione di Business Intelligence e Data Science. La tesi rappresenta quindi un primo passo verso l’assunzione.
+
+- title: \[NEW\] Multi-model data warehouse
+  level: Master
+  field: Business Intelligence
+  type: Research thesis
+  status: Open
+  year: 2023
+  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>"
+  abstract: |
+    Con la diffusione di DBMS che supportano molteplici modelli dati, i data warehouse possono essere spinti oltre la tradizionale implementazione sul modello relazionale.
+    L'obiettivo della tesi è quello di partire da un precedente lavoro di ricerca in questo ambito per studiare implementazioni che sfruttino efficientemente molteplici modelli.
+    In particolare, il focus sarà sulla progettazione, implementazione e test di un data warehouse che si appoggi su PostgreSQL (modello relazionale e documentale) e Neo4J (modello a grafo).
 
 
 - title: Automated cluster analysis
