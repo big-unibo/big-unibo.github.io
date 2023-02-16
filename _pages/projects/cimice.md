@@ -6,9 +6,9 @@ sitemap: false
 permalink: /cimice/
 ---
 
-# Halyomorpha halys
+# <i>Halyomorpha halys</i>
 
-Below are the links to access the applications developed by the BIG for the <a href="https://progetti.crpv.it/Home/ProjectDetail/79">Cimice.Net</a> project.
+Below are the links to access the applications developed by the BIG for the <a href="https://progetti.crpv.it/Home/ProjectDetail/79">Cimice.Net</a> project on the Brown Marmorated Stink Bug (<i>Halyomorpha Halys</i>) between 2020 and 2022.
 
 <div class="row app-card">
  <div class="col-sm-3 d-flex align-items-stretch">

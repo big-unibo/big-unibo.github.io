@@ -29,10 +29,10 @@ We carry out both theoretical research and practical studies, with the awareness
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/logo_big.png" alt="The Business Intelligence Group logo" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/FGCS_SI.png" alt="Call-for-paper for Elsevier FGCS's Special Issue on Advances in Data Platform Design, Management, and Optimization" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ISF_SI.png" alt="Call-for-paper for Springer's Special Issue on Data Platform Design, Management, and Optimization" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/BDAI_electronics_horizontal_light.png" alt="Call-for-paper for MDPI Electronics's Special Issue on Big Data and Artificial Intelligence for Industry 4.0" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/PrecAgri.png" alt="Call-for-paper for Frontiers in Big Data's Research Topic on Big Data and Decision Support Systems for Precision Agriculture" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/foto_campus_ctf.jpg" alt="The University's campus in Cesena (FC), Italy" />
