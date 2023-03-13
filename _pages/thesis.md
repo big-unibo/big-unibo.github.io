@@ -8,7 +8,7 @@ permalink: /thesis/
 
 # Thesis
 
-The BIG researchs group offers many thesis opportunities, usually aimed at Master students and related to research projects and/or collaborations with companies.
+The BIG research group offers many thesis opportunities, usually aimed at Master students and related to research projects and/or collaborations with companies.
 
 Check below the open proposals or contact us if you are looking for a thesis on Information Systems, Big Data, or Data Mining.
 

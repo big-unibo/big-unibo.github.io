@@ -28,6 +28,26 @@
     L'obiettivo della tesi è quello di partire da un precedente lavoro di ricerca in questo ambito per studiare implementazioni che sfruttino efficientemente molteplici modelli.
     In particolare, il focus sarà sulla progettazione, implementazione e test di un data warehouse che si appoggi su PostgreSQL (modello relazionale e documentale) e Neo4J (modello a grafo).
 
+- title: \[NEW\] Graph DB a supporto della data fabric presso Iconsulting
+  level: Master
+  field: Big Data
+  type: Project thesis
+  status: Open
+  year: 2023
+  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>"
+  abstract: |
+    Il dipartimento IT di una grande azienda italiana nell’ambito dei trasporti ha intrapreso un percorso di digital transformation che ha coinvolto tutto il mondo Analytics e ha visto 
+    Iconsulting protagonista nella definizione e implementazione di un framework di data governance ben strutturato in vari ambiti (data modeling, metadata management, data quality management, 
+    master data management). In questo contesto, è stata raccolta una grande quantità di metadati utili al monitoraggio dei processi. Con il supporto di un tool di data cataloging, è stato 
+    possibile censire i legami logici tra tali metadati per rappresentare il data lineage, la ownership e i ruoli di responsabilità, la struttura gerarchica dell’organizzazione aziendale, 
+    i termini del business glossary, ecc.
+    
+    Il progetto ha come obiettivo la realizzazione di un knowledge graph esportando le informazioni estratte dal data catalog in un graph DB, che consenta, attraverso interrogazioni 
+    in linguaggio specifico, di abilitare alcuni use case di Data Fabric, ovvero di attivare i metadati per ricavarne informazioni di valore e ottimizzare così costi e processi. 
+    Uno degli output finali sarà una dashboard in cui sono analizzati questi use case. Alcuni esempi sono: analisi delle entità che non hanno collegamenti ai nodi successivi, per 
+    identificare gli oggetti inutilizzati; identificazione degli oggetti business critical, che popolano molti processi critici a valle; individuazione di sinergie tra gruppi di 
+    lavoro con competenze simili per formare team più efficienti alla nascita di un nuovo progetto.
+
 
 - title: Automated cluster analysis
   level: Master
