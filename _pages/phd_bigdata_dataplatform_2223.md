@@ -14,10 +14,10 @@ It is held within the [PhD in Computer Science and Engineering](https://disi.uni
 
 ## Program
 
-The course is subdivided into three parts.
+The course is subdivided into three main parts.
 An introduction to the world of big data is given, so as to bring up to speed the students that have no prior knowledge on the subject.
 Then, an in-depth analysis of the polyglot persistence theme is given, introducing the concepts of multistores and polystores and the techniques to query heterogeneous distributed database systems.
-Finally, the main techniques based on artificial intelligence for smart management of data platforms are presented, with particular focus on discussing the main issues related to metadata generation, maintenance, and exploitation.
+Finally, the main techniques based on artificial intelligence for the smart management of data platforms are presented, with particular focus on discussing the main issues related to metadata generation, maintenance, and exploitation.
 
 Material:
 
