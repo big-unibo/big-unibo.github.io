@@ -1,27 +1,30 @@
 ---
-title: "PhD course: From Big Data to Data Platform"
+title: "Ph.D. course: Data Platforms and Artificial Intelligence: Challenges and Applications"
 layout: textlay
-excerpt: "PhD course: From Big Data to Data Platform"
+excerpt: "Ph.D. course: Data Platforms and Artificial Intelligence: Challenges and Applications"
 sitemap: false
-permalink: /phd-course-from-big-data-to-data-platform-2223/
+permalink: /phd-course-from-to-data-platform-2223/
 ---
 
-# From Big Data to Data Platform - Research and Challenges
+# Data Platforms and Artificial Intelligence: Challenges and Applications
 
-This PhD course discusses the transition from *big data architectures* to the broader notion of *data platforms* and introduces some of the research opportunities and open challenges around this topic.
+This PhD course discusses the transition from *big data architectures* to the broader notion of *data platforms* and introduces some of the research opportunities and open challenges related to the synergy of data platforms and artificial intelligence.
 
 It is held within the [PhD in Computer Science and Engineering](https://disi.unibo.it/it/didattica/dottorati-di-ricerca/computer-science-and-engineering/) at the University of Bologna.
 
 ## Program
 
-The course is subdivided into three parts. In the first part, an introduction to the world of big data is given, so as to bring up to speed the students that have no prior knowledge on the subject. In the second part, an in-depth analysis of the polyglot persistence theme is given, introducing the concepts of multistores and polystores and the techniques to query heterogeneous distributed database systems. In the last part, the metadata challenge is presented to discuss the main issues related to metadata generation, maintenance, and exploitation.
+The course is subdivided into three parts.
+An introduction to the world of big data is given, so as to bring up to speed the students that have no prior knowledge on the subject.
+Then, an in-depth analysis of the polyglot persistence theme is given, introducing the concepts of multistores and polystores and the techniques to query heterogeneous distributed database systems.
+Finally, the main techniques based on artificial intelligence for smart management of data platforms are presented, with particular focus on discussing the main issues related to metadata generation, maintenance, and exploitation.
 
 Material:
 
 0. [Summary]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/0-summary.pdf)
 0. [Introduction to Big Data]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/1-introduction-to-big-data.pdf)
 0. [Polyglot Persistence]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/2-polyglot-persistence.pdf)
-0. [The Metadata Challenge]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/3-the-metadata-challenge.pdf)
+0. [Smart Management through Artificial Intelligence]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/3-the-metadata-challenge.pdf)
 
 ## Exam
 
@@ -29,8 +32,8 @@ Students requiring an exam will be asked to produce an essay about possible inte
 
 ## Participation
 
-Students willing to follow the course are kindly asked to [send a notification of interest](mailto:m.francia@unibo.it?subject=[PhD Course FBD2DP] Notification of interest) to the teacher, indicating (i) existing issues with the indicated schedule (if any), (ii) the background level on big data, and (iii) whether the course will be followed online or in presence. The notification is neither binding nor required, but it is asked for organization purposes.
+Students willing to follow the course are kindly asked to [send a notification of interest](mailto:m.francia@unibo.it?subject=[DP2223] Notification of interest) to the teacher, indicating (i) existing issues with the indicated schedule (if any), (ii) the background level on big data, and (iii) whether the course will be followed online or in presence. The notification is neither binding nor required, but it is asked for organization purposes.
 
 ## Teacher
 
-[Matteo Francia](https://www.unibo.it/sitoweb/m.francia/) is Adjunct Professor at the University of Bologna, Cesena. He teaches Big Data and Cloud Platforms at the Master's Degree in Digital Trasformation Management. His research activities are focused on the topics of big data, NoSQL databases, social and conversational business intelligence, trajectory data analysis, precision agriculture.
+[Matteo Francia](https://www.unibo.it/sitoweb/m.francia/) is Assistant Professor at the University of Bologna, Cesena. He teaches Big Data and Cloud Platforms at the Master's Degree in Digital Trasformation Management. His research activities are focused on the topics of big data, NoSQL databases, social and conversational business intelligence, trajectory data analysis, precision agriculture.
