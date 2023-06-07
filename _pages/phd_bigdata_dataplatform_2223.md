@@ -27,6 +27,17 @@ Material:
 0. [Polyglot Persistence]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/2-polyglot-persistence.pdf)
 0. [Smart Management through Artificial Intelligence]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/3-the-metadata-challenge.pdf)
 
+## Schedule
+
+The course is held at the Cesena Campus (via dell'Università, 50). Students that cannot physically attend the course can join online via Microsoft Teams.
+
+Duration: 10 hours
+
+(Tentative) dates:
+- 2023-05-29 14.00 - 17.30
+- 2023-06-05 14.00 - 17.30
+- 2023-06-15 14.00 - 17.00
+
 ## Exam
 
 Students requiring an exam will be asked to produce an essay about possible intersections between their research interests and the topics/open issues presented in this course.
