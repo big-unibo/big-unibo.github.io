@@ -31,12 +31,14 @@ Material:
 
 The course is held at the Cesena Campus (via dell'Università, 50). Students that cannot physically attend the course can join online via Microsoft Teams.
 
+Join the team on Microsoft Teams: https://tinyurl.com/mujj8fsh
+
 Duration: 10 hours
 
-(Tentative) dates:
-- 2023-05-29 14.00 - 17.30
-- 2023-06-05 14.00 - 17.30
-- 2023-06-15 14.00 - 17.00
+Dates:
+-	Thu 2023-06-15 14:00 – 17:30
+-	Thu 2023-06-22 14:00 – 17:30
+-	Thu 2023-06-29 14:00 – 17:00
 
 ## Exam
 
