@@ -36,9 +36,9 @@ Join the team on Microsoft Teams: https://tinyurl.com/mujj8fsh
 Duration: 10 hours
 
 Dates:
--	Thu 2023-06-15 14:00 – 17:30, room 2.13
--	Thu 2023-06-22 14:00 – 17:30, room 2.13
--	Thu 2023-06-29 14:00 – 17:00, room 2.13
+- 2023-05-29 14.00 - 17.30, room 2.13
+- 2023-06-05 14.00 - 17.30, room 2.13
+- 2023-06-15 14.00 - 17.00, room 2.13
 
 ## Exam
 
