@@ -23,9 +23,7 @@ Main instructions are [here](https://jekyllrb.com/docs/installation/).
 to the webserver
   - To deploy, the site must be *built*, not *served*!
   - CI is implemented through Travis to automatically build the website (takes 1-2 minutes)
-  - On the webserver, the latest release must be pulled:
-    - A cronjob is used to automatically update the website every ten minutes; ```sudo crontab -e``` to edit cronjobs, ```sudo crontab -l``` to list them; once the file is updated, the cronjob is set (no need to launch/stop anything).
-    - Manual updates can be done by running the ```/home/update-big-website.sh``` script
+  - On the webserver, the latest release must be pulled: just go to ```/var/www/html/big``` ang  ```git pull```
 
 ## Biblio plugin
 
