@@ -2,6 +2,19 @@
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
 
+- title: \[NEW\] NoSQL Database Refactoring
+  level: Master
+  field: Big Data
+  type: Research thesis
+  status: Open
+  year: 2024
+  contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>"
+  abstract: |
+    La modellazione dei dati nei database NoSQL segue la filosofia aggregate-oriented, che prevede di strutturare le collezioni dei dati in funzione del workload - in aperta contrapposizione alla modellazione relazione, che è invece domain-oriented e quasi completamente agnostica rispetto alle query che si vorranno implementare. 
+    In tale contesto, una variazione nel workload del database NoSQL può avere un impatto significativo e ribaltare l'ottimalità delle scelte progettuali iniziali rispetto agli obiettivi preposti in termini di performance, occupazione di spazio, costo monetario, ecc. Diventa quindi importante individuare una modellazione alternativa dei dati che, oltre a permettere il ripristinare dell'ottimalità rispetto agli obiettivi iniziali, imponga un'attività di migrazione dei dati che sia fattibile e non eccessivamente costosa.
+    L'obiettivo della tesi è quello di implementare un algoritmo che permetta di esplorare lo spazio di ricerca delle possibili modellazioni alternative per individuare un set di soluzioni ottimali. In particolare, verranno affrontati i temi della modellazione di schemi attraverso ipergrafi e l'utilizzo di algoritmi genetici per l'esplorazione dello spazio di ricerca.
+    
+
 - title: \[NEW\] Stream Data Profiling
   level: Master
   field: Big Data
