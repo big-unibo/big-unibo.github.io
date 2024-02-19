@@ -2,7 +2,7 @@
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
 
-- title: Prompting and fine-tuning of LLMs
+- title: \[NEW\] Prompting and fine-tuning of LLMs
   level: Master
   field: Data Mining
   type: Research thesis
@@ -14,20 +14,7 @@
     In this direction, LLMs bridge such technological and cultural gap by enabling human-machine interaction through natural language. 
     In this research thesis, the student is asked to study the fundamentals of LLMs, the prompting and fine-tuning techniques, and to apply them to a system for smart irrigation, allowing the student to practice with cutting-edge technologies applied to a real-world case study. 
 
-- title: AutoML for cluster analysis
-  level: Master
-  field: Data Mining
-  type: Research thesis
-  status: Open
-  year: 2024
-  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
-  abstract: |
-    The context of this research thesis is Automated Machine Learning (AutoML).
-    This thesis focuses on (automated) cluster analysis and its goal is to study how natural clusters preserve in different feature spaces.
-    For instance, in the IRIS dataset, the same natural clusters exist when the `petal length` feature is considered as well as when two features `petal length` and `petal width` are considered.
-    The student is asked to study existing approaches and implement such analysis using well known frameworks for AutoML written in Python.
-
-- title: "Data Platforms for Agritech"
+- title: \[NEW\] "Data Platforms for Agritech"
   level: Master
   field: Data Mining
   type: Research thesis
@@ -91,6 +78,18 @@
     L'obiettivo è quello di fornire una metafora visuale per mostrare il profilo all'utente, che sia in grado di gestire la riduzione di dimensionalità (necessaria per fornire una visuale 2D o 3D) mantenendo una continuità incrementalmente (in funzione della continua evoluzione del profilo).
     Il focus della tesi sarà quindi sulla progettazione, implementazione e valutazione di una tecnica di visualizzazione dinamica di cluster di dati allo stato dell'arte.
     
+- title: AutoML for cluster analysis
+  level: Master
+  field: Data Mining
+  type: Research thesis
+  status: Open
+  year: 2024
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  abstract: |
+    The context of this research thesis is Automated Machine Learning (AutoML).
+    This thesis focuses on (automated) cluster analysis and its goal is to study how natural clusters preserve in different feature spaces.
+    For instance, in the IRIS dataset, the same natural clusters exist when the `petal length` feature is considered as well as when two features `petal length` and `petal width` are considered.
+    The student is asked to study existing approaches and implement such analysis using well known frameworks for AutoML written in Python.
 
 - title: Multi-model data warehouse
   level: Master
