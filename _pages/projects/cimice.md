@@ -15,7 +15,7 @@ Below are the links to access the applications developed by the BIG for the <a h
   <div class="well">
    <pubtit>MONITORING<br/>(free access)</pubtit>
    <p>Analytical dashboard of the collected data.</p>
-   <p><strong><a href="/projects/cimice/monitoring.php?lan=en">Link</a></strong></p>
+   <p><strong><a href="/projects/stink-bug/monitoring/">Link</a></strong></p>
   </div>
  </div>
  <div class="col-sm-3 d-flex align-items-stretch">
@@ -30,7 +30,14 @@ Below are the links to access the applications developed by the BIG for the <a h
   <div class="well">
    <pubtit>OPEN DATA<br/>(free access)</pubtit>
    <p>Download the collected data.</p>
-   <p><strong><a href="/downloads/BMSB/">Link</a></strong></p>
+   <p><strong><a href="/projects/stink-bug/open-data/">Link</a></strong></p>
+  </div>
+ </div>
+ <div class="col-sm-3 d-flex align-items-stretch">
+  <div class="well">
+   <pubtit>CODE SHARING<br/>(free access)</pubtit>
+   <p>Get the code for data pre-processing and analysis.</p>
+   <p><strong><a href="https://github.com/big-unibo/stink-bug">Link</a></strong></p>
   </div>
  </div>
 </div>
