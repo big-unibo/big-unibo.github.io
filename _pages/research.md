@@ -15,6 +15,7 @@ This page summarizes some of the main research projects that the BIG has been in
 - [Cimice.Net](/cimice)
 - [Multistore](/multistore)
 - [WeLASER](/welaser)
+- [Prescriptive watering](/watering)
 
 ## Closed projects
 
