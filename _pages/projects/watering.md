@@ -1,3 +1,11 @@
+---
+title: "Precision watering"
+layout: textlay
+excerpt: "Method and system for soil-moisture monitoring"
+sitemap: false
+permalink: /watering/
+---
+
 # Method and system for soil-moisture monitoring
 Precision farming market value as of 2023: 9.7 billions$, forecasting 21.9$ in 2031
 
