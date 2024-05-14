@@ -50,17 +50,17 @@
     <div class="container-fluid">
       <div class="row">
         <div id="textid" class="col-sm-12">
-  <h1 id="method-and-system-for-soil-moisture">Method and system for soil-moisture</h1>
+  <h1 id="method-and-system-for-soil-moisture-monitoring">Method and system for soil-moisture monitoring</h1>
 
-<p>Precision farming is a management approach that focuses on (near real-time) observation, measurement, and responses to variability in crops, fields and animals. 
+<p>Precision farming is a management approach that focuses on (near real-time) observation, measurement, and responses to variability in crops, and fields. 
 The main advantages of precision farming are greater efficiency and greater predictability, higher profit margins, soil monitoring, and higher yield.</p>
 
-<p>Precision farming market value as of 2023: USD 9.7 billions, forecasting USD 21.9 billions in 2031</p>
+<p>Precision farming market value as of 2023: USD 9.7 billion, forecasting USD 21.9 billion in 2031.</p>
 
 <p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/03b5709a-0467-43d2-95e7-39f8f9dcdbe7" alt="immagine" /></p>
 
 <p>Current technologies make it possible to assess both the quantity and quality of soil and plants, along with the use of advanced tools to monitor the soil
-We need operative solutions able to assess soil-moisture condition and optimize water resources</p>
+We need operative solutions able to assess soil-moisture conditions and optimize water resources</p>
 
 <h2 id="description">Description</h2>
 
@@ -68,25 +68,26 @@ We need operative solutions able to assess soil-moisture condition and optimize 
 In particular, our system:</p>
 
 <ul>
-  <li>is independent by soil features (no need for texture analysis)</li>
-  <li>does not need for start up/training steps (system fully capable from day 0)</li>
+  <li>is independent of the soil features (no need for texture analysis)</li>
+  <li>does not require cold-start training steps (working from day 0)</li>
   <li>is customizable based on crops and phenological states</li>
 </ul>
 
 <p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/47ca6610-032d-4ac8-b887-cc8bd0696186" alt="immagine" /></p>
 
-<p>Our system consists of a 2D and 3D sensor grid to detect quantitative soil features (e.g., humidity)
-Applying a functional profile of quantitative values enables the generation of a detailed profile.
-This can be implemented in a machine learning algorithm based on a neural network to achieve a vision of humidity profiles within a specified time range.</p>
+<p>Our system consists of a 2D and 3D sensor grid to detect quantitative soil features (e.g., humidity) with a limited number of sensors.</p>
 
 <p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/0eb430be-499b-47b2-8515-831448856de0" alt="immagine" /></p>
 
-<p>The number of usable sensors is limited.
-Achieving optimal precision levels (in centimeters) requires the use of a mapping function to estimate humidity in sensorless spots.</p>
+<p>Given the sensor data, the profiling of quantitative values enables the generation of a detailed profile.
+Achieving precision levels (in centimeters) requires the use of a mapping function to estimate humidity in sensorless spots. 
+This can be implemented in a machine learning algorithm based on a neural network to achieve a vision of humidity profiles within a specified time range.</p>
+
+<p>We provide two main profiling functions:</p>
 
 <ul>
-  <li>Soil Feature Unaware - SFU: exploiting sensor measurement only.</li>
-  <li>Soil Feature Aware- SFA: exploiting hydrological flux data to consider non-linearities and obtain a more precise estimation.</li>
+  <li>Soil Feature Unaware (SFU): exploiting sensor measurement only.</li>
+  <li>Soil Feature Aware (SFA): exploiting hydrological flux data to consider non-linearities and obtain a more precise estimation.</li>
 </ul>
 
 <p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/6ee8e55f-7cac-4a4b-ac78-bc4f67e41405" alt="immagine" /></p>
@@ -104,7 +105,8 @@ Empirical results show that the system:</p>
 
 <ul>
   <li>creates 2D and 3D moisture profiles of the field with a level of detail in cubic meters and centimeters</li>
-  <li>enables a 40% reduction in irrigation water usageReduced fertilizer costs due to decreased soil depletion</li>
+  <li>enables a 40% reduction in irrigation water usage</li>
+  <li>reduced fertilizer costs due to decreased soil depletion</li>
   <li>improves the quality and size of the fruits</li>
 </ul>
 
@@ -119,7 +121,7 @@ Empirical results show that the system:</p>
   <li>Owner: Alma Mater Studiorum – Università di Bologna</li>
 </ul>
 
-<p>The system is protected by the Patent Cooperation Treaty (PCT/IB2022/058461) from September 8th 2022</p>
+<p>The system is protected by the Patent Cooperation Treaty (PCT/IB2022/058461) from September 8, 2022.</p>
 
 <h2 id="contacts">Contacts</h2>
 
@@ -137,9 +139,8 @@ Empirical results show that the system:</p>
 <ul>
   <li>Laura Camanzi (laura.camanzi3@unibo.it)</li>
   <li>Andrea Germani (andrea.germani4@unibo.it)</li>
-  <li>Alma Mater Studiorum – Università di Bologna, Kowledge Transfer Office – Innovation Area (kto@unibo.it)</li>
+  <li>Alma Mater Studiorum – Università di Bologna, Knowledge Transfer Office – Innovation Area (kto@unibo.it)</li>
 </ul>
-
 
 </div>
 
