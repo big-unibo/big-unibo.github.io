@@ -67,12 +67,10 @@ Empirical results show that the system:
 
 ## Patented technology
 
-- Title: "Method and system for soil-moisture monitoring" ("Metodo e sistema per il monitoraggio dell'umidità del suolo"), registered as October 18th 2023 N. 102021000023162.
-- Owner: Alma Mater Studiorum – Università di Bologna
-
 The system is protected by the Patent Cooperation Treaty (PCT/IB2022/058461) from September 8, 2022.
 
-## Contacts 
+- Title: "Method and system for soil-moisture monitoring" ("Metodo e sistema per il monitoraggio dell'umidità del suolo"), registered as October 18th 2023 N. 102021000023162.
+- Owner: Alma Mater Studiorum – Università di Bologna
 
 Research team:
 
@@ -81,7 +79,7 @@ Research team:
 - Enrico Gallinucci, DISI --- University of Bologna
 - Joseph Giovanelli, DISI --- University of Bologna
 
-Contacts:
+## Contacts 
 
 - Laura Camanzi (laura.camanzi3@unibo.it)
 - Andrea Germani (andrea.germani4@unibo.it)
