@@ -33,15 +33,13 @@ Our system consists of a 2D and 3D sensor grid to detect quantitative soil featu
 Applying a functional profile of quantitative values enables the generation of a detailed profile.
 This can be implemented in a machine learning algorithm based on a neural network to achieve a vision of humidity profiles within a specified time range.
 
-![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/adb158fd-68d8-4b06-a980-a2f53549d10c)
+![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/0eb430be-499b-47b2-8515-831448856de0)
 
 The number of usable sensors is limited.
 Achieving optimal precision levels (in centimeters) requires the use of a mapping function to estimate humidity in sensorless spots. 
 
 - Soil Feature Unaware - SFU: exploiting sensor measurement only. 
 - Soil Feature Aware- SFA: exploiting hydrological flux data to consider non-linearities and obtain a more precise estimation.
-
-![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/0eb430be-499b-47b2-8515-831448856de0)
 
 ![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/6ee8e55f-7cac-4a4b-ac78-bc4f67e41405)
 
