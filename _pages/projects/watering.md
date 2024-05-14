@@ -20,7 +20,7 @@ We need operative solutions able to assess soil-moisture conditions and optimize
 
 ## Description
 
-Our goal is to implement an irrigation system capable of maintaining optimal humidity conditions.
+Our goal is to implement an irrigation system capable of maintaining optimal humidity conditions.
 In particular, our system:
 
 - is independent of the soil features (no need for texture analysis) 
