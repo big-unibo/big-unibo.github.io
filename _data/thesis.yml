@@ -170,7 +170,7 @@
   location: company
   status: Open
   year:   
-  contact: "<a href='mailto:alessandra.lumini@unibo.it'>Prof. Alessandra Lumini</a>"
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>, <a href='mailto:alessandra.lumini@unibo.it'>Prof. Alessandra Lumini</a>"
   supervisor:
   co-supervisor:
   student:
@@ -196,12 +196,12 @@
 
 ###
 
-- title: \[NEW\] Big Data Analytics presso Easy Market
+- title: Big Data Analytics presso Easy Market
   level: Master
   field: Big Data
   type: Project thesis
   location: company
-  status: Closed
+  status: ClosedToCheck
   year: 2023
   contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>, <a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>"
   abstract: |
