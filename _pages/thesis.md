@@ -8,14 +8,50 @@ permalink: /thesis/
 
 # Thesis
 
-The BIG research group offers many thesis opportunities, usually aimed at Master students and related to research projects and/or collaborations with companies.
+The BIG research group offers many thesis opportunities, usually (but not exclusively) aimed at Master students in Computer Science and Engineering and related to research projects and/or collaborations with companies.
+
+If you are looking for thesis opportunities with internship in a company, <a href="">click here</a> to see our availabilities.
 
 Check below the open proposals or contact us if you are looking for a thesis on Information Systems, Big Data, or Data Mining.
+
+## Open research thesis
 
 <div id="thesis">
 
 {% for thesis in site.data.thesis %}
-{% if thesis.status == "Open" %}
+{% if thesis.status == "Open" and thesis.location == "BIG" %}
+
+<strong>{{ thesis.title }}</strong><br>
+{{ thesis.level }} - {{ thesis.type }}<br>
+Field: {{ thesis.field }}<br>
+Status: <span class="thesis-status-{{ thesis.status }}">{{ thesis.status }}</span><br>
+Abstract: {{ thesis.abstract }}<br>
+Contact: {{ thesis.contact }}
+
+{% endif %}
+{% endfor %}
+
+{% for thesis in site.data.thesis %}
+{% if thesis.status == "Taken" %}
+
+<strong>{{ thesis.title }}</strong><br>
+{{ thesis.level }} - {{ thesis.type }}<br>
+Field: {{ thesis.field }}<br>
+Status: <span class="thesis-status-{{ thesis.status }}">{{ thesis.status }}</span><br>
+Abstract: {{ thesis.abstract }}<br>
+Contact: {{ thesis.contact }}
+
+{% endif %}
+{% endfor %}
+
+</div>
+
+## Open thesis within companies
+
+<div id="thesis">
+
+{% for thesis in site.data.thesis %}
+{% if thesis.status == "Open" and thesis.location == "company" %}
 
 <strong>{{ thesis.title }}</strong><br>
 {{ thesis.level }} - {{ thesis.type }}<br>
