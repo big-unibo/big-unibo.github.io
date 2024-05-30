@@ -1,6 +1,6 @@
 - name: Stefano Rizzi
   photo: RizziS.jpg
-  info: Full professor #, started Jan 2015
+  info: Full Professor #, started Jan 2015
   email: stefano.rizzi@unibo.it
   bio: Stefano Rizzi received his Ph.D. in Electronic Engineering and Computer Science in 1996 from the University of Bologna, Italy. Since 2005 he is Full Professor at the University of Bologna, where he is the head of the Business Intelligence Group and teaches Data Warehousing and Software Engineering. He has published more than 100 papers in refereed journals and international conferences mainly in the fields of data warehousing and pattern recognition, and a research book on data warehouse design. He joined several research projects on the above areas and has been involved in the PANDA thematic network of the European Union concerning pattern-base management systems. He is member of the Steering Committee of DOLAP and of the Editorial Board of DKE. He has been General Co-Chair of the 31st International Conference on Conceptual Modeling (ER 2012) and Program Co-Chair of the 1st International Workshop on Social Business Intelligence (SoBI 2013). His current research interests include data warehouse design and business intelligence, in particular multidimensional modeling, OLAP preferences, and what-if analysis.
 #  number_educ: 5
@@ -12,7 +12,7 @@
 
 - name: Matteo Golfarelli
   photo: GolfarelliM.jpg
-  info: Full professor #, started Oct 2019
+  info: Full Professor #, started Oct 2019
   email: matteo.golfarelli@unibo.it
   bio: "Matteo is full professor at the Department of Informatics - Science and Engineering of the University of Bologna and he teaches Information systems, Advanced Databases and Data Mining. He is the author of over 100 publications in international journals and conferences in the areas of pattern recognition, robotics, multi-agent systems and business intelligence, which is today his main research sector. His current research interests include distributed and semantic data warehouses, machine learning, social data analysis, trajectory mining and big data. He coordinated multiple research projects, national and international, in the aforementioned research areas. He is actively engaged in technology transfer in the information systems and business intelligence sectors, collaborates with public and private Italian companies and has been the scientific manager of numerous corporate agreements."
 
@@ -30,18 +30,18 @@
 
 - name: Chiara Forresi
   photo: ForresiC.jpg
-  info: PhD student 
+  info: PhD Student 
   email: chiara.forresi2@unibo.it
   bio: "Chiara Forresi graduated cum laude in Computer Science and Engineering in October 2020 at the University of Bologna. She is currently a PhD student in Data Science and Computation. Her main research interests are about techniques and methodologies to support data management and analysis in big data ecosystems."
 
-- name: Joseph Giovanelli
-  photo: GiovanelliJ.jpg
-  info: PhD student 
-  email: j.giovanelli@unibo.it
-  bio: "Joseph Giovanelli graduated cum laude in Computer Science and Engineering in March 2020 at the University of Bologna. His Master's Degree thesis focused on AutoML, in particular he has devised a methodology that takes into account the impact of data-preprocessing techniques and proposes more effective pipeline prototypes. Currently, he is a member of the B.I.G. research group, his main research interests concern the field of analytics on trajectory data, through artificial intelligence algorithms and big data technologies."
-
 - name: Manuele Pasini
   photo: PasiniM.jpg
-  info: PhD student 
+  info: PhD Student 
   email: manuele.pasini2@unibo.it
+  bio: ""
+
+- name: Alex Baiardi
+  photo: BaiardiA.jpg
+  info: Research Fellow
+  email: alex.baiardi@unibo.it
   bio: ""
