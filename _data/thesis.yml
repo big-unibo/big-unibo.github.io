@@ -146,7 +146,9 @@
     L'azienda Soilmec Spa cerca tesisti/tirocinanti da coinvolgere su diversi progetti, 
     tra cui la progettazione di sistemi di business intelligence, 
     la creazione di modelli finalizzati all'ottimizzazione degli impianti di sensoristica, 
-    lo sviluppo di applicazioni e funzionalità software avanzate per attività di controllo macchine, monitoraggio e analisi dati.
+    lo sviluppo di applicazioni e funzionalità software avanzate per attività di controllo macchine, monitoraggio e analisi dati. In particolare: 
+    1) Creazione di reportistica su PowerBI / Office365 dei dati macchina disponibili sul portale cloud DMS-Manager, al fine di fornire ai clienti una serie di modelli di reportistica che siano di ausilio al monitoraggio dei dati macchina - valutando inoltre l'integrazione con Microsoft Teams.
+    2) Ottimizzazione degli impianti di sensoristica per ridurre il numero di sensori presenti sulla macchina modellandone virtualmente alcuni sulla base delle informazioni disponibili o/e in seguito a test di caratterizzazione sperimentale e creazione di modelli di lavoro dedicati.
   link:
   slides:    
 
@@ -161,7 +163,11 @@
   supervisor:
   co-supervisor:
   student:
-  abstract: "L'INFN cerca laureandi con possibilita' di borsa di studio per lo sviluppo/evoluzione della propria infrastruttura di Business Intelligence. Le tecnologie coinvolte sono molteplici: Jasper, Tibco. Le tematiche vanno dallo sviluppo di reportistica, alla reportistica in tempo reale, all'utilizzo di sistemi NoSQL."
+  abstract: |
+    L'INFN cerca laureandi con possibilita' di borsa di studio per lo sviluppo/evoluzione della propria infrastruttura di Business Intelligence. Le tecnologie coinvolte sono molteplici: Jasper, Tibco. Le tematiche vanno dallo sviluppo di reportistica, alla reportistica in tempo reale, all'utilizzo di sistemi NoSQL.
+    1) Progettazione e sviluppo di modelli dati multidimensionali orientati all'analisi visiva (dashboard e report dinamici) da produrre con strumenti di Business Analytics avanzati basati su un servizio cloud Microsoft Power BI riservato per INFN.
+    2) Progettazione e sviluppo su infrastruttura microservice-oriented (Spring based) di librerie e componenti java dedicati all'ampliamento dell'attuale architettura di ETL (Extract Transform and Load). L'obiettivo é intercettare, filtrare ed elaborare dati provenienti da sorgenti NoSQL( MongoDB) implementate secondo il modello microservizi.
+    3) Progettazione e realizzazione di modelli dati orientati all'analisi statistica con scopo predittivo, basati su dati di settore amministrativo dell'INFN (Gare e acquisti). Un possibile obiettivo é identificare le categorie di acquisto (prodotti e servizi) che nel tempo abbiano subito o meno maggiori fluttuazioni di mercato ed il loro impatto compleassivo sul budget dell'ente.
   link:
   slides:
 
