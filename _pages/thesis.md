@@ -10,7 +10,7 @@ permalink: /thesis/
 
 The BIG research group offers many thesis opportunities, usually (but not exclusively) aimed at Master students in Computer Science and Engineering and related to research projects and/or collaborations with companies.
 
-Our open opportunities are shown below. If you are looking for a thesis with <span style='font-weight:bold'>internship in a company</span>, <a href="#open-thesis-with-companies">click here</a> to jump to the related opportunities.
+Our open opportunities are shown below. If you are looking for a thesis with <span style='font-weight:bold'>internship in a company</span>, <a href="#open-thesis-within-companies">click here</a> to jump to the related opportunities.
 
 If the open opportunities don't suite you but you still wished to pursue a thesis on Information Systems, Big Data, or Data Mining, don't hesitate to contact us.
 
