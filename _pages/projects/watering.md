@@ -47,17 +47,16 @@ We provide two main profiling functions:
 ![image](https://github.com/w4bo/img-dump/assets/18005592/a04abc29-e26e-4b8d-b4ca-4130c06cb396)
 
 The ideal humidity profile is defined by agricultural technicians in the form of a moisture matrix that can be adapted to the irrigation system.
-For instance,
 
-| Single wing | Double wing |
-|-|-|
-| ![image](https://github.com/w4bo/img-dump/assets/18005592/c62628a9-2739-49b2-b8a2-3b912430e472) | ![image](https://github.com/w4bo/img-dump/assets/18005592/d16f2cf2-aab1-4c21-ad18-5bb5ea66bf6b) |
+| Single wing | | Double wing |
+|-|-|-|
+| ![image](https://github.com/w4bo/img-dump/assets/18005592/c62628a9-2739-49b2-b8a2-3b912430e472) | | ![image](https://github.com/w4bo/img-dump/assets/18005592/d16f2cf2-aab1-4c21-ad18-5bb5ea66bf6b) |
 
 Then, the system modulates irrigation to achieve the desired profile.
 
-| Single wing | Double wing |
-|-|-|
-| ![image](https://github.com/w4bo/img-dump/assets/18005592/4331f0c9-7f0d-4377-9ce9-060e71300c41)| ![image](https://github.com/w4bo/img-dump/assets/18005592/f69e04d9-155c-493f-a341-6fbebebcd086)|
+| Single wing | | Double wing |
+|-|-|-|
+| ![image](https://github.com/w4bo/img-dump/assets/18005592/4331f0c9-7f0d-4377-9ce9-060e71300c41) | | ![image](https://github.com/w4bo/img-dump/assets/18005592/f69e04d9-155c-493f-a341-6fbebebcd086)|
 
 Tests were conducted on a yellow kiwi farm in Brisighella (RA) in comparison to the farmer's previous performances.
 
