@@ -11,12 +11,15 @@ permalink: /watering/
 Precision farming is a management approach that focuses on (near real-time) observation, measurement, and responses to variability in crops, and fields. 
 The main advantages of precision farming are greater efficiency and greater predictability, higher profit margins, soil monitoring, and higher yield.
 
-Precision farming market value as of 2023: USD 9.7 billion, forecasting USD 21.9 billion in 2031.
-
-![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/03b5709a-0467-43d2-95e7-39f8f9dcdbe7)
-
 Current technologies make it possible to assess both the quantity and quality of soil and plants, along with the use of advanced tools to monitor the soil
 We need operative solutions able to assess soil-moisture conditions and optimize water resources
+
+Empirical results show that our system:
+
+1. Reduces the usage of water and fertilizers when necessary
+2. Reduces the risk of plant asphyxiation
+3. Improves the quality and quantity of the harvest
+4. Can control water stress
 
 ## Description
 
@@ -27,11 +30,11 @@ In particular, our system:
 - does not require cold-start training steps (working from day 0)
 - is customizable based on crops and phenological states
 
-![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/47ca6610-032d-4ac8-b887-cc8bd0696186)
+![image](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/47ca6610-032d-4ac8-b887-cc8bd0696186)
 
 Our system consists of a 2D and 3D sensor grid to detect quantitative soil features (e.g., humidity) with a limited number of sensors.
 
-![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/0eb430be-499b-47b2-8515-831448856de0)
+![image](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/0eb430be-499b-47b2-8515-831448856de0)
 
 Given the sensor data, achieving a soil profile with a precision level in the order of centimeters requires the use of a mapping function to estimate humidity in sensorless spots. 
 The profiling function can be implemented with a machine learning algorithm based on neural networks.
@@ -41,7 +44,7 @@ We provide two main profiling functions:
 - Soil Feature Unaware (SFU): exploiting sensor measurement only. 
 - Soil Feature Aware (SFA): exploiting hydrological flux data to consider non-linearities and obtain a more precise estimation.
 
-![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/6ee8e55f-7cac-4a4b-ac78-bc4f67e41405)
+![image](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/6ee8e55f-7cac-4a4b-ac78-bc4f67e41405)
 
 The ideal humidity profile is defined by agricultural technicians in the form of a moisture matrix that can be adapted to the irrigation system.
 For instance,
@@ -51,7 +54,7 @@ For instance,
 - Double wing 
 ![image](https://github.com/w4bo/img-dump/assets/18005592/d16f2cf2-aab1-4c21-ad18-5bb5ea66bf6b)
 
-Then, system modulates irrigation to achieve the desired profile.
+Then, the system modulates irrigation to achieve the desired profile.
 
 - Single wing 
 ![image](https://github.com/w4bo/img-dump/assets/18005592/4331f0c9-7f0d-4377-9ce9-060e71300c41)
@@ -60,7 +63,7 @@ Then, system modulates irrigation to achieve the desired profile.
 
 Tests were conducted on a yellow kiwi farm in Brisighella (RA) in comparison to the farmer's previous performances.
 
-![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/d33c848f-5fb0-480e-a7f1-85e05692a19b)
+![image](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/d33c848f-5fb0-480e-a7f1-85e05692a19b)
 
 Empirical results show that the system:
 
@@ -69,7 +72,7 @@ Empirical results show that the system:
 - reduced fertilizer costs due to decreased soil depletion
 - improves the quality and size of the fruits
 
-![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/3fa887dc-8160-4c66-ab9b-e9881f880ab3)
+![image](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/3fa887dc-8160-4c66-ab9b-e9881f880ab3)
 
 
 ## Patented technology
