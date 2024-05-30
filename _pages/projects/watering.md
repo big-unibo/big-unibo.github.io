@@ -44,22 +44,20 @@ We provide two main profiling functions:
 - Soil Feature Unaware (SFU): exploiting sensor measurement only. 
 - Soil Feature Aware (SFA): exploiting hydrological flux data to consider non-linearities and obtain a more precise estimation.
 
-![image](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/6ee8e55f-7cac-4a4b-ac78-bc4f67e41405)
+![image](https://github.com/w4bo/img-dump/assets/18005592/a04abc29-e26e-4b8d-b4ca-4130c06cb396)
 
 The ideal humidity profile is defined by agricultural technicians in the form of a moisture matrix that can be adapted to the irrigation system.
 For instance,
 
-- Single wing 
-![image](https://github.com/w4bo/img-dump/assets/18005592/c62628a9-2739-49b2-b8a2-3b912430e472)
-- Double wing 
-![image](https://github.com/w4bo/img-dump/assets/18005592/d16f2cf2-aab1-4c21-ad18-5bb5ea66bf6b)
+| Single wing | Double wing |
+|-|-|
+| ![image](https://github.com/w4bo/img-dump/assets/18005592/c62628a9-2739-49b2-b8a2-3b912430e472) | ![image](https://github.com/w4bo/img-dump/assets/18005592/d16f2cf2-aab1-4c21-ad18-5bb5ea66bf6b) |
 
 Then, the system modulates irrigation to achieve the desired profile.
 
-- Single wing 
-![image](https://github.com/w4bo/img-dump/assets/18005592/4331f0c9-7f0d-4377-9ce9-060e71300c41)
-- Double wing 
-![image](https://github.com/w4bo/img-dump/assets/18005592/f69e04d9-155c-493f-a341-6fbebebcd086)
+| Single wing | Double wing |
+|-|-|
+| ![image](https://github.com/w4bo/img-dump/assets/18005592/4331f0c9-7f0d-4377-9ce9-060e71300c41)| ![image](https://github.com/w4bo/img-dump/assets/18005592/f69e04d9-155c-493f-a341-6fbebebcd086)|
 
 Tests were conducted on a yellow kiwi farm in Brisighella (RA) in comparison to the farmer's previous performances.
 
