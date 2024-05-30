@@ -43,13 +43,20 @@ We provide two main profiling functions:
 
 ![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/6ee8e55f-7cac-4a4b-ac78-bc4f67e41405)
 
-The ideal humidity profile is defined by agricultural technicians in the form of a moisture matrix.
+The ideal humidity profile is defined by agricultural technicians in the form of a moisture matrix that can be adapted to the irrigation system.
+For instance,
 
-![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/d263892d-1ec6-4d72-a22d-9f13e1d2192c)
+- Single wing 
+![image](https://github.com/w4bo/img-dump/assets/18005592/c62628a9-2739-49b2-b8a2-3b912430e472)
+- Double wing 
+![image](https://github.com/w4bo/img-dump/assets/18005592/d16f2cf2-aab1-4c21-ad18-5bb5ea66bf6b)
 
-The system modulates irrigation to achieve the desired profile.
+Then, system modulates irrigation to achieve the desired profile.
 
-![immagine](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/9cdeca22-509c-4d4d-af06-328d4d035692)
+- Single wing 
+![image](https://github.com/w4bo/img-dump/assets/18005592/4331f0c9-7f0d-4377-9ce9-060e71300c41)
+- Double wing 
+![image](https://github.com/w4bo/img-dump/assets/18005592/f69e04d9-155c-493f-a341-6fbebebcd086)
 
 Tests were conducted on a yellow kiwi farm in Brisighella (RA) in comparison to the farmer's previous performances.
 
