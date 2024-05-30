@@ -70,7 +70,7 @@ Jump to [staff](#staff), [alumni](#alumni), [lab visitors](#lab-visitors).
 <div class="col-sm-6 clearfix">
   <img src="/images/teampic/RizziS.jpg" class="img-responsive" width="25%" style="float: left" />
   <h4>Stefano Rizzi</h4>
-  <i>Full professor<br>email: <stefano.rizzi@unibo.it></i>
+  <i>Full Professor<br>email: <stefano.rizzi@unibo.it></i>
   <ul style="overflow: hidden">
 
   
@@ -99,7 +99,7 @@ Jump to [staff](#staff), [alumni](#alumni), [lab visitors](#lab-visitors).
 <div class="col-sm-6 clearfix">
   <img src="/images/teampic/GolfarelliM.jpg" class="img-responsive" width="25%" style="float: left" />
   <h4>Matteo Golfarelli</h4>
-  <i>Full professor<br>email: <matteo.golfarelli@unibo.it></i>
+  <i>Full Professor<br>email: <matteo.golfarelli@unibo.it></i>
   <ul style="overflow: hidden">
 
   
@@ -194,7 +194,7 @@ Jump to [staff](#staff), [alumni](#alumni), [lab visitors](#lab-visitors).
 <div class="col-sm-6 clearfix">
   <img src="/images/teampic/ForresiC.jpg" class="img-responsive" width="25%" style="float: left" />
   <h4>Chiara Forresi</h4>
-  <i>PhD student<br>email: <chiara.forresi2@unibo.it></i>
+  <i>PhD Student<br>email: <chiara.forresi2@unibo.it></i>
   <ul style="overflow: hidden">
 
   
@@ -221,9 +221,9 @@ Jump to [staff](#staff), [alumni](#alumni), [lab visitors](#lab-visitors).
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/GiovanelliJ.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Joseph Giovanelli</h4>
-  <i>PhD student<br>email: <j.giovanelli@unibo.it></i>
+  <img src="/images/teampic/PasiniM.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Manuele Pasini</h4>
+  <i>PhD Student<br>email: <manuele.pasini2@unibo.it></i>
   <ul style="overflow: hidden">
 
   
@@ -254,9 +254,9 @@ Jump to [staff](#staff), [alumni](#alumni), [lab visitors](#lab-visitors).
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/PasiniM.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Manuele Pasini</h4>
-  <i>PhD student<br>email: <manuele.pasini2@unibo.it></i>
+  <img src="/images/teampic/BaiardiA.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Alex Baiardi</h4>
+  <i>Research Fellow<br>email: <alex.baiardi@unibo.it></i>
   <ul style="overflow: hidden">
 
   
@@ -306,9 +306,9 @@ team.md
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/LeoniAG.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Anna Giulia Leoni</h4>
-  <i>2019-2021, now working as software developer at Onit, Cesena <br> Role: Research fellow</i>
+  <img src="/images/teampic/GiovanelliJ.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Joseph Giovanelli</h4>
+  <i>2020-2023, now working as Research Fellow at the University of Bologna <br> Role: PhD student</i>
   <ul style="overflow: hidden">
 
   </ul>
@@ -325,9 +325,9 @@ team.md
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/SantoliniN.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Nicola Santolini</h4>
-  <i>2019-2021, now working as software developer at Onit, Cesena <br> Role: Research fellow</i>
+  <img src="/images/teampic/LeoniAG.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Anna Giulia Leoni</h4>
+  <i>2019-2021, now working as Business Analytics Consultant at Iconsulting, Bologna <br> Role: Research fellow</i>
   <ul style="overflow: hidden">
 
   </ul>
@@ -345,6 +345,25 @@ team.md
 
 
 <div class="row">
+
+
+<div class="col-sm-6 clearfix">
+  <img src="/images/teampic/SantoliniN.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Nicola Santolini</h4>
+  <i>2019-2021, now working as Software Developer at Onit, Cesena <br> Role: Research fellow</i>
+  <ul style="overflow: hidden">
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 <div class="col-sm-6 clearfix">
@@ -359,11 +378,15 @@ team.md
 
 
 
+</div>
 
 
 
 
 
+
+
+<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -378,15 +401,11 @@ team.md
 
 
 
-</div>
 
 
 
 
 
-
-
-<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -401,6 +420,29 @@ team.md
 
 
 
+</div>
+
+
+
+
+
+
+
+<div class="row">
+
+
+<div class="col-sm-6 clearfix">
+  <img src="/images/teampic/TurricchiaE.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Elisa Turricchia</h4>
+  <i>2010-2013, now working as Business Analytics Team Leader at Iconsulting, Bologna <br> Role: PhD student</i>
+  <ul style="overflow: hidden">
+
+  </ul>
+</div>
+
+
+
+
 
 
 
@@ -409,9 +451,9 @@ team.md
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/TurricchiaE.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Elisa Turricchia</h4>
-  <i>2010-2013, now working as Business Analytics Team Leader at Iconsulting, Bologna <br> Role: PhD student</i>
+  <img src="/images/teampic/PiriniT.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Tommaso Pirini</h4>
+  <i>2016-2018, now working as a teacher and freelance consultant <br> Role: Postdoc research fellow</i>
   <ul style="overflow: hidden">
 
   </ul>
@@ -432,25 +474,6 @@ team.md
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/PiriniT.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Tommaso Pirini</h4>
-  <i>2016-2018, now working as a teacher and freelance consultant <br> Role: Postdoc research fellow</i>
-  <ul style="overflow: hidden">
-
-  </ul>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-sm-6 clearfix">
   <img src="/images/teampic/QuercioliD.jpg" class="img-responsive" width="25%" style="float: left" />
   <h4>Daniele Quercioli</h4>
   <i>2016, now working as a freelance data scientist <br> Role: Research fellow</i>
@@ -462,12 +485,12 @@ team.md
 
 
 
+
+
+
+
+
 </div>
-
-
-
-
-
 
 
 ## Former visitors, BSc/ MSc students

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Precision watering</title>
+  <meta name="description" content="Method and system for soil-moisture monitoring">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/app-cards.css">
+  <link rel="canonical" href="/watering/">
+  <link rel="shortcut icon" type ="image/x-icon" href="/images/favicon.ico?v=2">
+  <meta name="google-site-verification" content="oicXbN-zWzq0xFFNlZfMeZaUJb_Lz4SLswkqyHNayHQ" />
+  
+
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	
+    <a class="navbar-brand" href="/">BIG @ UniBO</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="/">Home</a></li>
+		<li><a href="/team">Team</a></li>
+		<li><a href="/teaching">Teaching</a></li>
+		<li><a href="/thesis">Thesis</a></li>
+		<li><a href="/publications">Publications</a></li>
+		<li><a href="/research">Research</a></li>
+		<li><a href="/pictures">(Pics)</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="textid" class="col-sm-12">
+  <h1 id="method-and-system-for-soil-moisture-monitoring">Method and system for soil-moisture monitoring</h1>
+
+<p>Precision farming is a management approach that focuses on (near real-time) observation, measurement, and responses to variability in crops, and fields. 
+The main advantages of precision farming are greater efficiency and greater predictability, higher profit margins, soil monitoring, and higher yield.</p>
+
+<p>Current technologies make it possible to assess both the quantity and quality of soil and plants, along with the use of advanced tools to monitor the soil
+We need operative solutions able to assess soil-moisture conditions and optimize water resources</p>
+
+<p>Empirical results show that our system:</p>
+
+<ol>
+  <li>Reduces the usage of water and fertilizers when necessary</li>
+  <li>Reduces the risk of plant asphyxiation</li>
+  <li>Improves the quality and quantity of the harvest</li>
+  <li>Can control water stress</li>
+</ol>
+
+<h2 id="description">Description</h2>
+
+<p>We implement a smart irrigation system capable of maintaining optimal humidity conditions.
+In particular, our system:</p>
+
+<ul>
+  <li>is independent of the soil features (no need for texture analysis)</li>
+  <li>does not require cold-start training steps (working from day 0)</li>
+  <li>is customizable based on crops and phenological states</li>
+</ul>
+
+<p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/47ca6610-032d-4ac8-b887-cc8bd0696186" alt="image" /></p>
+
+<p>Our system consists of a 2D and 3D sensor grid to detect quantitative soil features (e.g., humidity) with a limited number of sensors.</p>
+
+<p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/0eb430be-499b-47b2-8515-831448856de0" alt="image" /></p>
+
+<p>Given the sensor data, achieving a soil profile with a precision level in the order of centimeters requires the use of a mapping function to estimate humidity in sensorless spots. 
+The profiling function can be implemented with a machine learning algorithm based on neural networks.</p>
+
+<p>We provide two main profiling functions:</p>
+
+<ul>
+  <li>Soil Feature Unaware (SFU): exploiting sensor measurement only.</li>
+  <li>Soil Feature Aware (SFA): exploiting hydrological flux data to consider non-linearities and obtain a more precise estimation.</li>
+</ul>
+
+<p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/6ee8e55f-7cac-4a4b-ac78-bc4f67e41405" alt="image" /></p>
+
+<p>The ideal humidity profile is defined by agricultural technicians in the form of a moisture matrix that can be adapted to the irrigation system.
+For instance,</p>
+
+<ul>
+  <li>Single wing 
+<img src="https://github.com/w4bo/img-dump/assets/18005592/c62628a9-2739-49b2-b8a2-3b912430e472" alt="image" /></li>
+  <li>Double wing 
+<img src="https://github.com/w4bo/img-dump/assets/18005592/d16f2cf2-aab1-4c21-ad18-5bb5ea66bf6b" alt="image" /></li>
+</ul>
+
+<p>Then, the system modulates irrigation to achieve the desired profile.</p>
+
+<ul>
+  <li>Single wing 
+<img src="https://github.com/w4bo/img-dump/assets/18005592/4331f0c9-7f0d-4377-9ce9-060e71300c41" alt="image" /></li>
+  <li>Double wing 
+<img src="https://github.com/w4bo/img-dump/assets/18005592/f69e04d9-155c-493f-a341-6fbebebcd086" alt="image" /></li>
+</ul>
+
+<p>Tests were conducted on a yellow kiwi farm in Brisighella (RA) in comparison to the farmer’s previous performances.</p>
+
+<p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/d33c848f-5fb0-480e-a7f1-85e05692a19b" alt="image" /></p>
+
+<p>Empirical results show that the system:</p>
+
+<ul>
+  <li>creates 2D and 3D moisture profiles of the field with a level of detail in cubic meters and centimeters</li>
+  <li>enables a 40% reduction in irrigation water usage</li>
+  <li>reduced fertilizer costs due to decreased soil depletion</li>
+  <li>improves the quality and size of the fruits</li>
+</ul>
+
+<p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/3fa887dc-8160-4c66-ab9b-e9881f880ab3" alt="image" /></p>
+
+<h2 id="patented-technology">Patented technology</h2>
+
+<p>The system is protected by the Patent Cooperation Treaty (PCT/IB2022/058461) from September 8, 2022.</p>
+
+<ul>
+  <li>Title: “Method and system for soil-moisture monitoring” (“Metodo e sistema per il monitoraggio dell’umidità del suolo”), registered as October 18th 2023 N. 102021000023162.</li>
+  <li>Owner: Alma Mater Studiorum – Università di Bologna</li>
+</ul>
+
+<p>Research team:</p>
+
+<ul>
+  <li>Matteo Golfarelli, DISI — University of Bologna</li>
+  <li>Matteo Francia, DISI — University of Bologna</li>
+  <li>Enrico Gallinucci, DISI — University of Bologna</li>
+  <li>Joseph Giovanelli, DISI — University of Bologna</li>
+</ul>
+
+<h2 id="contacts">Contacts</h2>
+
+<ul>
+  <li>Laura Camanzi (laura.camanzi3@unibo.it)</li>
+  <li>Andrea Germani (andrea.germani4@unibo.it)</li>
+  <li>Alma Mater Studiorum – Università di Bologna, Knowledge Transfer Office – Innovation Area (kto@unibo.it)</li>
+</ul>
+
+</div>
+
+      </div>
+    </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-6">
+		  <!--Site made with <a href="https://jekyllrb.com">Jekyll</a>, inspired by <a href="https://www.allanlab.org/">Allan Lab's website.</a-->
+		  <p>&copy 2023 Business Intelligence Group.</p>
+		  <p>We are part of the <a href="http://disi.unibo.it">Computer Science and Engineering Department</a> at the <a href="http://unibo.it">University of Bologna</a>, Italy.</p>
+		</div>
+		<!--<div class="col-sm-4">
+		  Funding:<br />
+		  - <a href="http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme">Vidi </a> and <a href='https://www.fom.nl/en/news/press-releases/2016/11/18/28634/'>Projectruimte</a> grants from <a href="http://www.nwo.nl">NWO</a> <br />
+		  - <a href="https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront">Frontier of Nanosciences</a>, a gravity program from <a href="http://www.nwo.nl">NWO</a>
+          - <a href='https://www.universiteitleiden.nl/en/news/2017/08/two-erc-grants-for-leiden-physics'>ERC starting grant</a>
+		</div>-->
+		<div class="col-sm-6" style="text-align: right">
+		  <!--Contact:<br />-->
+		  BIG lab, Room 4136<br />
+		  <a href="https://goo.gl/maps/M56wkSTVZhbt6Ak17">Via dell'Università, 50<br />
+		  47522, Cesena (FC), Italy</a>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>
