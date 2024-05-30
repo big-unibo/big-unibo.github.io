@@ -161,7 +161,11 @@
   supervisor:
   co-supervisor:
   student:
-  abstract: "L'INFN cerca laureandi con possibilita' di borsa di studio per lo sviluppo/evoluzione della propria infrastruttura di Business Intelligence. Le tecnologie coinvolte sono molteplici: Jasper, Tibco. Le tematiche vanno dallo sviluppo di reportistica, alla reportistica in tempo reale, all'utilizzo di sistemi NoSQL."
+  abstract: |
+    L'INFN cerca laureandi con possibilita' di borsa di studio per lo sviluppo/evoluzione della propria infrastruttura di Business Intelligence. Le tecnologie coinvolte sono molteplici: Jasper, Tibco. Le tematiche vanno dallo sviluppo di reportistica, alla reportistica in tempo reale, all'utilizzo di sistemi NoSQL.
+    - Progettazione e sviluppo di modelli dati multidimensionali orientati all'analisi visiva (dashboard e report dinamici) da produrre con strumenti di Business Analytics avanzati basati su un servizio cloud Microsoft Power BI riservato per INFN.
+    - Progettazione e sviluppo su infrastruttura microservice-oriented (Spring based) di librerie e componenti java dedicati all'ampliamento dell'attuale architettura di ETL (Extract Transform and Load). L'obiettivo é intercettare, filtrare ed elaborare dati provenienti da sorgenti NoSQL( MongoDB) implementate secondo il modello microservizi.
+    - Progettazione e realizzazione di modelli dati orientati all'analisi statistica con scopo predittivo, basati su dati di settore amministrativo dell'INFN (Gare e acquisti). Un possibile obiettivo é identificare le categorie di acquisto (prodotti e servizi) che nel tempo abbiano subito o meno maggiori fluttuazioni di mercato ed il loro impatto compleassivo sul budget dell'ente.
   link:
   slides:
 
