@@ -21,18 +21,22 @@ Empirical results show that our system:
 3. Improves the quality and quantity of the harvest
 4. Can control water stress
 
+<video width="540" height="310" controls>
+  <source src="https://big.csr.unibo.it/resources/watering/video-en.mp4" type="video/mp4">
+</video>
+
 ## Description
 
 We implement a smart irrigation system capable of maintaining optimal humidity conditions.
 In particular, our system:
 
-- is independent of the soil features (no need for texture analysis) 
-- does not require cold-start training steps (working from day 0)
-- is customizable based on crops and phenological states
+- Is independent of the soil features (no need for texture analysis) 
+- Does not require cold-start training steps (working from day 0)
+- Is customizable based on crops and phenological states
 
 ![image](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/47ca6610-032d-4ac8-b887-cc8bd0696186)
 
-Our system consists of a 2D and 3D sensor grid to detect quantitative soil features (e.g., humidity) with a limited number of sensors.
+Our system consists of a 2D (or 3D) sensor grid to detect quantitative soil features (e.g., humidity) with a limited number of sensors.
 
 ![image](https://github.com/big-unibo/big-unibo.github.io/assets/18005592/0eb430be-499b-47b2-8515-831448856de0)
 
