@@ -111,6 +111,24 @@
     In particolare, il focus sarà sulla progettazione, implementazione e test di un data warehouse che si appoggi su PostgreSQL (modello relazionale e documentale) e Neo4J (modello a grafo).
 
   
+- title: "Proposte di tesi presso Iconsulting"
+  level: Master
+  field: Big Data
+  type: Project thesis
+  location: company
+  status: Open
+  year:   
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>, <a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: |
+    L'azienda Iconsulting cerca tesisti/tirocinanti da coinvolgere su progetti cliente su tecnologie e paradigmi di frontiera.
+    AMBITO 1: conduzione di un'analisi dettagliata su prestazioni, scalabilità ed efficienza di Spark Streaming e Kafka Streaming integrati con Azure Event Hub entrambe le tecnologie, con l'obiettivo di fornire una guida pratica e esaustiva per la selezione dell'architettura più idonea a soddisfare le esigenze specifiche e i diversi scenari di utilizzo all'interno dell'azienda.
+    AMBITO 2: sviluppo di un'architettura avanzata su Databricks per l'ingestion e l'elaborazione di dati provenienti da sensori IoT implementando una robusta pipeline di elaborazione ed analisi dati in tempo reale, conducendo inoltre un'analisi dettagliata su prestazioni e affidabilità della soluzione proposta su casi d'uso reali e concreti.
+  link:
+  slides:  
+  
 - title: "Analista/Progettistista/sviluppatore di soluzioni IT presso Romagna Tech"
   level: Master
   field: Business Intelligence
