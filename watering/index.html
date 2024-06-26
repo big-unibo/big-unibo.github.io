@@ -67,20 +67,24 @@ We need operative solutions able to assess soil-moisture conditions and optimize
   <li>Can control water stress</li>
 </ol>
 
+<video width="540" height="310" controls="">
+  <source src="https://big.csr.unibo.it/resources/watering/video-en.mp4" type="video/mp4" />
+</video>
+
 <h2 id="description">Description</h2>
 
 <p>We implement a smart irrigation system capable of maintaining optimal humidity conditions.
 In particular, our system:</p>
 
 <ul>
-  <li>is independent of the soil features (no need for texture analysis)</li>
-  <li>does not require cold-start training steps (working from day 0)</li>
-  <li>is customizable based on crops and phenological states</li>
+  <li>Is independent of the soil features (no need for texture analysis)</li>
+  <li>Does not require cold-start training steps (working from day 0)</li>
+  <li>Is customizable based on crops and phenological states</li>
 </ul>
 
 <p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/47ca6610-032d-4ac8-b887-cc8bd0696186" alt="image" /></p>
 
-<p>Our system consists of a 2D and 3D sensor grid to detect quantitative soil features (e.g., humidity) with a limited number of sensors.</p>
+<p>Our system consists of a 2D (or 3D) sensor grid to detect quantitative soil features (e.g., humidity) with a limited number of sensors.</p>
 
 <p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/0eb430be-499b-47b2-8515-831448856de0" alt="image" /></p>
 
@@ -94,26 +98,45 @@ The profiling function can be implemented with a machine learning algorithm base
   <li>Soil Feature Aware (SFA): exploiting hydrological flux data to consider non-linearities and obtain a more precise estimation.</li>
 </ul>
 
-<p><img src="https://github.com/big-unibo/big-unibo.github.io/assets/18005592/6ee8e55f-7cac-4a4b-ac78-bc4f67e41405" alt="image" /></p>
+<p><img src="https://github.com/w4bo/img-dump/assets/18005592/a04abc29-e26e-4b8d-b4ca-4130c06cb396" alt="image" /></p>
 
-<p>The ideal humidity profile is defined by agricultural technicians in the form of a moisture matrix that can be adapted to the irrigation system.
-For instance,</p>
+<p>The ideal humidity profile is defined by agricultural technicians in the form of a moisture matrix that can be adapted to the irrigation system.</p>
 
-<ul>
-  <li>Single wing 
-<img src="https://github.com/w4bo/img-dump/assets/18005592/c62628a9-2739-49b2-b8a2-3b912430e472" alt="image" /></li>
-  <li>Double wing 
-<img src="https://github.com/w4bo/img-dump/assets/18005592/d16f2cf2-aab1-4c21-ad18-5bb5ea66bf6b" alt="image" /></li>
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th>Single wing</th>
+      <th> </th>
+      <th>Double wing</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://github.com/w4bo/img-dump/assets/18005592/c62628a9-2739-49b2-b8a2-3b912430e472" alt="image" /></td>
+      <td> </td>
+      <td><img src="https://github.com/w4bo/img-dump/assets/18005592/d16f2cf2-aab1-4c21-ad18-5bb5ea66bf6b" alt="image" /></td>
+    </tr>
+  </tbody>
+</table>
 
 <p>Then, the system modulates irrigation to achieve the desired profile.</p>
 
-<ul>
-  <li>Single wing 
-<img src="https://github.com/w4bo/img-dump/assets/18005592/4331f0c9-7f0d-4377-9ce9-060e71300c41" alt="image" /></li>
-  <li>Double wing 
-<img src="https://github.com/w4bo/img-dump/assets/18005592/f69e04d9-155c-493f-a341-6fbebebcd086" alt="image" /></li>
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th>Single wing</th>
+      <th> </th>
+      <th>Double wing</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="https://github.com/w4bo/img-dump/assets/18005592/4331f0c9-7f0d-4377-9ce9-060e71300c41" alt="image" /></td>
+      <td> </td>
+      <td><img src="https://github.com/w4bo/img-dump/assets/18005592/f69e04d9-155c-493f-a341-6fbebebcd086" alt="image" /></td>
+    </tr>
+  </tbody>
+</table>
 
 <p>Tests were conducted on a yellow kiwi farm in Brisighella (RA) in comparison to the farmer’s previous performances.</p>
 
