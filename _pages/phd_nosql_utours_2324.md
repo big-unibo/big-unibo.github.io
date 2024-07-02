@@ -16,9 +16,9 @@ It is held within the [PhD in Computer Science](???) at the University of Tours,
 
 The course is subdivided into the following parts.
 - An introduction to the world of big data is given to explain why we need non-relational data models.
-- An in-depth analysis on Document-based and (property) Graph data models is given.
+- An in-depth analysis of Document-based and (property) Graph data models is given.
 - An in-depth analysis of the polyglot persistence theme is given, introducing the concepts of multistores and polystores and the techniques to query heterogeneous distributed database systems.
-- Techniques for the smart management of data platforms are presented, with particular focus on discussing the main issues related to storing and exploiting lineage data with graph databases.
+- Techniques for the smart management of data platforms are presented, with a particular focus on discussing the main issues related to storing and exploiting lineage data with graph databases.
 
 ## Schedule
 
@@ -39,4 +39,4 @@ Students requiring an exam will be asked to produce an essay about possible inte
 
 ## Teacher
 
-[Matteo Francia](https://www.unibo.it/sitoweb/m.francia/) is Assistant Professor at the University of Bologna, Cesena. He teaches Big Data and Cloud Platforms at the Master's Degree in Digital Trasformation Management. His research activities are focused on the topics of big data, NoSQL databases, social and conversational business intelligence, trajectory data analysis, and precision agriculture.
+[Matteo Francia](https://www.unibo.it/sitoweb/m.francia/) is Assistant Professor at the University of Bologna, Cesena. He teaches Big Data and Cloud Platforms at the Master's Degree in Digital Transformation Management. His research activities are focused on the topics of big data, NoSQL databases, social and conversational business intelligence, trajectory data analysis, and precision agriculture.
