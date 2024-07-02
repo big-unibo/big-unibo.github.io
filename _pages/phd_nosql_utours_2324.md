@@ -10,11 +10,12 @@ permalink: /phd-nosql-utours-2324/
 
 This PhD course discusses the issues related to data modeling and NoSQL applications and introduces some of the research opportunities and open challenges related to their synergy with data platforms.
 
-It is held within the [PhD in Computer Science](???) at the University of Tours, France.
+It is held within the [PhD in Computer Science](https://collegedoctoral-cvl.fr/as/ed/page.pl?page=ed551&site=CDCVL) at the University of Tours, France.
 
 ## Program
 
 The course is subdivided into the following parts.
+
 - An introduction to the world of big data is given to explain why we need non-relational data models.
 - An in-depth analysis of Document-based and (property) Graph data models is given.
 - An in-depth analysis of the polyglot persistence theme is given, introducing the concepts of multistores and polystores and the techniques to query heterogeneous distributed database systems.
