@@ -107,4 +107,14 @@
   - title: "Data Platforms and Artificial Intelligence: Challenges and Applications"
     language: English
     teachers: Matteo Francia
-    homelink: 
+    homelink: phd-course-from-big-data-to-data-platform
+
+- title: PhD in Computer Sciences
+  venue: University of Tours
+  link: 
+  courses:
+
+  - title: "Data modeling and NoSQL applications for data platforms"
+    language: English
+    teachers: Matteo Francia
+    homelink: phd-nosql-utours-2324
