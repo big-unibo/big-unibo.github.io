@@ -111,6 +111,24 @@
     In particolare, il focus sarà sulla progettazione, implementazione e test di un data warehouse che si appoggi su PostgreSQL (modello relazionale e documentale) e Neo4J (modello a grafo).
 
   
+- title: "[NEW] Data Engineering Internship at Technogym"
+  level: Master
+  field: Big Data, Data Mining
+  type: Project thesis
+  location: company
+  status: Open
+  year:   
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+  supervisor:
+  co-supervisor:
+  student:
+  abstract: |
+    Technogym is looking for Junior Data Engineers, who will be part of a team working on data infrastructure and data pipelines to support the analysis and modeling of both internal data and customer data, across all products of the Technogym Ecosystem.
+    In this role, interns will work with a team of Data Scientists and Data Analysts and collaborate cross-functionally with Marketing, Product Marketing, and other departments working on Technogym Products - ultimately ensuring that the data infrastructure is robust, scalable, and efficient, enabling the delivery of actionable insights.
+    <a href='https://careers.technogym.com/job/Cesena-Data-Engineering-Internship-FC/1099301901/'>Click here</a> for more information.
+  link:
+  slides:  
+  
 - title: "Proposte di tesi presso Iconsulting"
   level: Master
   field: Big Data
