@@ -34,12 +34,13 @@ The course is held at the Cesena Campus (via dell'Università, 50). Students tha
 
 Join the team on Microsoft Teams: https://tinyurl.com/mujj8fsh
 
-Duration: 10 hours
+Duration: 12 hours
 
 Dates:
-- 2023-05-29 14.00 - 17.30, room 2.13
-- 2023-06-05 14.00 - 17.30, room 2.13
-- 2023-06-15 14.00 - 17.00, room 2.13
+
+- 2023-05-29 14.00 - 18.00, room 2.13
+- 2023-06-05 14.00 - 18.00, room 2.13
+- 2023-06-15 14.00 - 18.00, room 2.13
 
 ## Exam
 
@@ -47,7 +48,7 @@ Students requiring an exam will be asked to produce an essay about possible inte
 
 ## Participation
 
-Students willing to follow the course are kindly asked to [send a notification of interest](mailto:m.francia@unibo.it?subject=[DP2223] Notification of interest) to the teacher, indicating (i) existing issues with the indicated schedule (if any), (ii) the background level on big data, and (iii) whether the course will be followed online or in presence. The notification is neither binding nor required, but it is asked for organization purposes.
+Students willing to follow the course are kindly asked to [send a notification of interest](mailto:m.francia@unibo.it?subject=[DP2526] Notification of interest) to the teacher, indicating (i) existing issues with the indicated schedule (if any), (ii) the background level on big data, and (iii) whether the course will be followed online or in presence. The notification is neither binding nor required, but it is asked for organization purposes.
 
 ## Teacher
 
