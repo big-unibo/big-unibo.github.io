@@ -18,10 +18,20 @@
   link: https://corsi.unibo.it/laurea/IngegneriaElettronicaEnergiaInformazione/index.html
   courses:
 
-  - title: "99740 - LABORATORIO DI INGEGNERIA ELETTRONICA"
+  - title: "A.Y. 23/24 - 16692 - LABORATORIO DI INFORMATICA"
+    language: Italian
+    teachers: Matteo Francia
+    link: https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2023/493416
+
+  - title: "A.Y. 22/23 - 99740 - LABORATORIO DI INGEGNERIA ELETTRONICA"
     language: Italian
     teachers: Matteo Francia
     link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/482467
+
+  - title: "A.Y. 21/22 - 09730 - FONDAMENTI DI INFORMATICA (Modulo 3)"
+    language: Italian
+    teachers: Matteo Francia
+    link: https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2021/469199
 
 - title: Laurea Magistrale in Ingegneria e scienze informatiche
   venue: University of Bologna, Cesena
@@ -93,6 +103,13 @@
     venue: University of Bologna, Cesena
     course: Laurea Magistrale in Digital Transformation Management
     link: http://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/466768
+
+  - title: "95631 - MACHINE LEARNING AND DATA MINING (Modulo 2)"
+    language: English
+    teachers: Matteo Francia
+    venue: University of Bologna, Cesena
+    course: Laurea Magistrale in Digital Transformation Management
+    link: https://www.unibo.it/it/studiare/dottorati-master-specializzazioni-e-altra-formazione/insegnamenti/insegnamento/2024/466769
 
 - title: PhD in Computer Science and Engineering
   venue: University of Bologna
