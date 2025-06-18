@@ -12,7 +12,7 @@ The peer-review system is facing a critical imbalance: while paper submissions c
 
 ## Simulator
 
-For reproducibility, the code of the simulator is available at [https://github.com/big-unibo/token-based-peer-review/]().
+For reproducibility, the data and code of the simulator are available at <https://github.com/big-unibo/token-based-peer-review/>.
 
 ## Survey
 
