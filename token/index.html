@@ -54,10 +54,6 @@
 
 <p>The peer-review system is facing a critical imbalance: while paper submissions continue to grow, reviewer availability remains stagnant, resulting in longer decision times and increased editorial workloads. Voluntary and reward-based initiatives have proven insufficient in resolving this issue. We propose a token-based mechanism that transforms peer-reviewing from a voluntary activity into a reciprocal obligation. Authors are required to spend tokens earned through reviewing in order to submit papers, ensuring a balanced review-to-submission ratio. Supported by a developed simulator, the token-based model significantly reduces editorial queues and review times, while incentivizing timely and high-quality reviews.</p>
 
-<h2 id="simulator">Simulator</h2>
-
-<p>For reproducibility, the data and code of the simulator are available at <a href="https://github.com/big-unibo/token-based-peer-review/">https://github.com/big-unibo/token-based-peer-review/</a>.</p>
-
 <h2 id="survey">Survey</h2>
 
 <p>From March to April 2025, we opened an <a href="https://forms.gle/pDZbro8WhbrqDnLfA">anonymous survey</a> among Chief and Associate Editors of the computer science scientific journals, chosen by varying different areas, publishers, and quality of the journals. Out of 100 invitations, we collected 30 answers. The aggregated outcomes are here reported.</p>
@@ -190,6 +186,132 @@
     </ul>
   </li>
 </ul>
+
+<h2 id="simulator">Simulator</h2>
+
+<p>For reproducibility, the data and code of the simulator are available at <a href="https://github.com/big-unibo/token-based-peer-review/">https://github.com/big-unibo/token-based-peer-review/</a>.</p>
+
+<h3 id="data-sources">Data sources</h3>
+
+<p>All statistics used to configure the simulator are retrieved from the following sources:</p>
+<ul>
+  <li>The <a href="https://dblp.uni-trier.de/db/">DBLP computer science bibliography</a>, which provides its dataset in XML format at <a href="https://dblp.uni-trier.de/xml/">this link</a>.</li>
+  <li>The <a href="https://www.scimagojr.com/">Scimago Journal &amp; Country Rank</a> website, considering in particular the journals under the <a href="https://www.scimagojr.com/journalrank.php?area=1700">Computer Science area</a>.</li>
+  <li>The official websites of more than 700 journals, among those listed by Scimago in the reference above.</li>
+  <li>The survey mentioned above.</li>
+</ul>
+
+<h3 id="parameters">Parameters</h3>
+
+<p>The simulator provides the following parameters:</p>
+
+<ul>
+  <li><em>Number of researchers</em>: the number of agents in the simulation, which will act as authors and reviewers.
+    <ul>
+      <li>Default: 135972.</li>
+      <li>This is based on DBLP statistics and corresponds to the number of active authors in 2024, divided by the average number of authors per paper; thus, each agent corresponds to a group of researchers.</li>
+    </ul>
+  </li>
+  <li><em>Initial tokens per researcher</em>: the number of tokens assigned to each agent when the token-based mechanism is activated.
+    <ul>
+      <li>Default: 3.</li>
+    </ul>
+  </li>
+  <li><em>Daily paper generation probability</em>: the daily probability with which each agent generates a new paper to submit.
+    <ul>
+      <li>Default: 0.023.</li>
+      <li>This is based on DBLP statistics, so that the same amount of papers submitted in 2024 is generated in the simulation. The number of submitted papers is determined as the number of papers published in 2024 divided by the an acceptance rate of 0.19, which is the average acceptance rate collected from the websites of over 700 journals.</li>
+    </ul>
+  </li>
+  <li><em>Probability of 2 (instead of 3) reviews</em>: the probability that a paper is submitted to a journal requiring 2 reviews instead of 3.
+    <ul>
+      <li>Default: 0.73.</li>
+      <li>This is based on the average number of reviews declared on the websites of over 700 journals.</li>
+    </ul>
+  </li>
+  <li><em>Probability of accepting invite (Lazy reviewer)</em>: the probability that a lazy reviewer (i.e., one who does not need tokens) accepts a reviewing invitation.
+    <ul>
+      <li>Default: 0.2.</li>
+      <li>This is based on the average number of invites sent per review declared by the people interviewed in our survey.</li>
+    </ul>
+  </li>
+  <li><em>Probability of accepting invite (Eager reviewer)</em>: the probability that an eager reviewer (i.e., one who needs tokens to submit a paper) accepts a reviewing invitation.
+    <ul>
+      <li>Default: 1.0.</li>
+    </ul>
+  </li>
+  <li><em>N. of daily invites per needed review</em>: the number of invites that an editor sends in a day for each review that must be assigned.
+    <ul>
+      <li>Default: 1.</li>
+    </ul>
+  </li>
+  <li><em>N. of days before tokens are enable</em>: the number of days after which the token-based mechanism is activated; before that, generated papers are automatically submitted.
+    <ul>
+      <li>Default: 1825 (5 years).</li>
+      <li>An initialization period of 3+ years is recommended for the system to stabilize.</li>
+    </ul>
+  </li>
+  <li><em>Enable max n. of yearly reviews per author</em>: if enabled, reviewers refuse any invitation if they have done <em>enough</em> reviews in the previous 365 days.
+    <ul>
+      <li>Default: yes.</li>
+      <li>If enabled, the maximum number of yearly reviews per reviewer varies from 4 to 34; the distribution of this value to the researchers is made in a way to ensure that the yearly demand for reviews is met (considering the default number of researchers with the default probability of paper generation), ensuring the continuity of the system.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="simulation-process">Simulation process</h3>
+
+<p>The iterations of the simulation correspond to days. Also, the simulator assumes the existence of a single Publisher Management System (PMS).</p>
+
+<p>Each researcher is associated with a <strong>status</strong>, that determines the probability to accept a review invitation (see parameters above):</p>
+<ul>
+  <li><em>Eager</em> if the researcher needs the assignment of new reviews to earn the tokens needed to submit one or more papers.</li>
+  <li><em>Lazy</em> if otherwise.</li>
+</ul>
+
+<p>When a review is assigned, the reviewing time is randomly picked based on the histogram of reviewing times declared by the journals’ websites that we crawled. This reviewing time can be updated if the reviewer becomes eager for tokens.</p>
+
+<p>Every day, the following operations are carried out.</p>
+<ul>
+  <li>For every researcher
+    <ul>
+      <li><strong>Generate papers to submit</strong>
+        <ul>
+          <li>Randomly determine whether the author is ready to submit a paper (based on the <em>Daily paper generation probability</em>); in such a case, the number of reviewers required (based on the <em>Probability of 2 (instead of 3) reviews</em>) is randomly picked and the paper is added to the researcher’s queue of papers to submit.</li>
+        </ul>
+      </li>
+      <li><strong>Submit reviews (and earn tokens, if enabled)</strong>
+        <ul>
+          <li>If the researcher has papers to review scheduled for the current day, the review is submitted and a token is collected (if tokens are enabled)</li>
+        </ul>
+      </li>
+      <li><strong>Submit papers (and spend tokens, if enabled)</strong>
+        <ul>
+          <li>If the researcher has papers to submit, he/she submits them based on the availability of tokens (if tokens are enabled)</li>
+        </ul>
+      </li>
+      <li><strong>Update status (if tokens are enabled)</strong>
+        <ul>
+          <li>If more tokens are needed, the researchers anticipates the reviewing time of the assigned reviews that will grant the necessary tokens</li>
+          <li>If more reviews are needed to earn the necessary token, the reviewer becomes <em>eager</em>; otherwise he/she remains (or goes back to being) <em>lazy</em></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>For the PMS
+    <ul>
+      <li><strong>Invite reviewers for submitted papers</strong>
+        <ul>
+          <li>Each paper is handled 4 days after its submission</li>
+          <li>For every review needed by the paper, <em>n</em> reviewers are randomly invited, where <em>n</em> is the <em>N. of daily invites per needed review</em></li>
+          <li>The probability of the reviewer accepting the invite depends on his/her status and his/her number of reviews already accepted in the last 365 days</li>
+          <li>If the review is accepted by an <em>eager</em> reviewer, his/her status is possibly set back to <em>lazy</em> if this token fullfils his/her need for tokens</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 
 </div>
 
