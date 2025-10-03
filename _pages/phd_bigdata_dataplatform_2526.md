@@ -23,10 +23,10 @@ The course is subdivided into the following parts.
 
 Material:
 
-0. [Summary]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/0-summary.pdf)
-0. [Introduction to Big Data]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/1-introduction-to-big-data.pdf)
-0. [Data Platforms and Polyglot Persistence]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/2-polyglot-persistence.pdf)
-0. [Smart Management through Artificial Intelligence]({{ site.url }}{{ site.baseurl }}/resources/fbd2dp2223/3-the-metadata-challenge.pdf)
+
+0. Introduction to Big Data
+0. Data Platforms and Polyglot Persistence
+0. Smart Management through Artificial Intelligence)
 
 ## Schedule
 
