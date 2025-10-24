@@ -28,20 +28,14 @@
   email: m.francia@unibo.it
   bio: "Matteo Francia earned his Ph.D. in Computer Science and Engineering from The University of Bologna, Italy. He is an assistant professor at The University of Bologna, where he is a member of the Business Intelligence Group and teaches subjects related to Big Data and Cloud Platforms. His research focuses on advanced analytics and unconventional data, with particular reference to trajectory, social, and sensor data. He authored publications in international conferences and journals on these subjects, including Information Systems, Information Systems Frontiers, IEEE Transactions on Knowledge and Data Engineering, DOLAP, EDBT, and ER. He was a visiting scholar at The University of Queensland in 2019. He received the MSc and BSc with honors from the University of Bologna in 2017 and 2014, respectively."
 
-- name: Chiara Forresi
-  photo: ForresiC.jpg
-  info: PhD Student 
-  email: chiara.forresi2@unibo.it
-  bio: "Chiara Forresi graduated cum laude in Computer Science and Engineering in October 2020 at the University of Bologna. She is currently a PhD student in Data Science and Computation. Her main research interests are about techniques and methodologies to support data management and analysis in big data ecosystems."
-
 - name: Manuele Pasini
   photo: PasiniM.jpg
   info: PhD Student 
-  email: manuele.pasini2@unibo.it
-  bio: ""
+  email: manuele.pasini@unibo.it
+  bio: "Manuele Pasini graduated cum laude in Computer Science and Engineering in March 2023 at the University of Bologna. His Master’s Degree thesis focused on Precision Agriculture, exploiting data-driven approaches to provide irrigation recommendations. He is currently a PhD student in Computer Science and Engineering at University of Bologna and a member of the B.I.G. research group; his main research interests concern the field of data modeling and analytics, with major focus on data architectures for digital twins’ ecosystems in the field of Precision Agriculture."
 
 - name: Alex Baiardi
   photo: BaiardiA.jpg
   info: Research Fellow
   email: alex.baiardi@unibo.it
-  bio: ""
+  bio: "Alex Baiardi is a research fellow at the University of Bologna, where he is part of the BIG (Business Intelligence Group) research group. He graduated cum laude in Computer Science and Engineering, his research interests range from big data analytics, machine learning and information management systems. Currently, he works on the development of advanced methodologies for data analysis and optimization in business and industrial contexts, with a focus on distributed architectures and business intelligence tools with a particular focus on the precision agriculture domain."
