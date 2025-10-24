@@ -192,38 +192,9 @@ Jump to [staff](#staff), [alumni](#alumni), [lab visitors](#lab-visitors).
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/ForresiC.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Chiara Forresi</h4>
-  <i>PhD Student<br>email: <chiara.forresi2@unibo.it></i>
-  <ul style="overflow: hidden">
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  </ul>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-sm-6 clearfix">
   <img src="/images/teampic/PasiniM.jpg" class="img-responsive" width="25%" style="float: left" />
   <h4>Manuele Pasini</h4>
-  <i>PhD Student<br>email: <manuele.pasini2@unibo.it></i>
+  <i>PhD Student<br>email: <manuele.pasini@unibo.it></i>
   <ul style="overflow: hidden">
 
   
@@ -242,15 +213,11 @@ Jump to [staff](#staff), [alumni](#alumni), [lab visitors](#lab-visitors).
 
 
 
-</div>
 
 
 
 
 
-
-
-<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -275,12 +242,12 @@ Jump to [staff](#staff), [alumni](#alumni), [lab visitors](#lab-visitors).
 
 
 
-
-
-
-
-
 </div>
+
+
+
+
+
 
 
 
@@ -306,9 +273,9 @@ team.md
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/GiovanelliJ.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Joseph Giovanelli</h4>
-  <i>2020-2023, now working as Research Fellow at the University of Bologna <br> Role: PhD student</i>
+  <img src="/images/teampic/ForresiC.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Chiara Forresi</h4>
+  <i>2021-2025, now working as Big Data Engineer at Agile Lab, Bologna <br> Role: PhD Student</i>
   <ul style="overflow: hidden">
 
   </ul>
@@ -322,6 +289,29 @@ team.md
 
 
 
+
+
+<div class="col-sm-6 clearfix">
+  <img src="/images/teampic/GiovanelliJ.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Joseph Giovanelli</h4>
+  <i>2020-2023, now working as Research Fellow at the University of Bologna <br> Role: PhD student</i>
+  <ul style="overflow: hidden">
+
+  </ul>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -336,15 +326,11 @@ team.md
 
 
 
-</div>
 
 
 
 
 
-
-
-<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -359,11 +345,15 @@ team.md
 
 
 
+</div>
 
 
 
 
 
+
+
+<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -378,15 +368,11 @@ team.md
 
 
 
-</div>
 
 
 
 
 
-
-
-<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -401,11 +387,15 @@ team.md
 
 
 
+</div>
 
 
 
 
 
+
+
+<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -420,15 +410,11 @@ team.md
 
 
 
-</div>
 
 
 
 
 
-
-
-<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -443,11 +429,15 @@ team.md
 
 
 
+</div>
 
 
 
 
 
+
+
+<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -462,15 +452,11 @@ team.md
 
 
 
-</div>
 
 
 
 
 
-
-
-<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -485,12 +471,12 @@ team.md
 
 
 
-
-
-
-
-
 </div>
+
+
+
+
+
 
 
 ## Former visitors, BSc/ MSc students
