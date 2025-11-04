@@ -19,14 +19,12 @@ The course is subdivided into the following parts.
 - An introduction to the world of big data is given, so as to bring up to speed the students that have no prior knowledge on the subject.
 - An in-depth analysis of the polyglot persistence theme is given, introducing the concepts of multistores and polystores and the techniques to query heterogeneous distributed database systems.
 - The main techniques based on artificial intelligence for the smart management of data platforms are presented, with particular focus on discussing the main issues related to metadata generation, maintenance, and exploitation.
-- Finally, challeges and applications related to the field of precision agricolture are presented.
 
 Material:
 
-
-0. Introduction to Big Data
+0. [Introduction to Big Data](https://w4bo.github.io/AA2526-unibo-phddataplat/01-bigdata)
 0. Data Platforms and Polyglot Persistence
-0. Smart Management through Artificial Intelligence)
+0. Smart Management through Artificial Intelligence
 
 ## Schedule
 
