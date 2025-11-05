@@ -36,7 +36,7 @@ Duration: 12 hours
 
 Dates:
 
-- 2057-11-07 13.00 - 17.00, room 2.7 (Cesena Campus)
+- 2025-11-07 13.00 - 17.00, room 2.7 (Cesena Campus)
 - 2025-11-21 13.00 - 17.00, room 2.7 (Cesena Campus)
 - 2025-11-28 13.00 - 17.00, room 2.7 (Cesena Campus)
 
