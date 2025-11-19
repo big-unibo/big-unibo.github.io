@@ -23,7 +23,7 @@ The course is subdivided into the following parts.
 Material:
 
 0. [Introduction to Big Data](https://w4bo.github.io/AA2526-unibo-phddataplat/01-bigdata)
-0. Data Platforms and Polyglot Persistence
+0. Data Platforms ([Towards data platforms](https://w4bo.github.io/AA2526-unibo-bigdataandcloudplatforms/01-dataplatforms#/data-platform) and [Lakehouse](https://w4bo.github.io/AA2526-unibo-bigdataandcloudplatforms/06-storage#/data-lakehouse-2)) and [Polyglot Persistence](https://w4bo.github.io/AA2526-unibo-phddataplat/02-polyglotpersistence#/title-slide)
 0. Smart Management through Artificial Intelligence
 
 ## Schedule
