@@ -44,7 +44,7 @@ Dates:
 
 Students requiring an exam will be asked to produce an essay about possible intersections between their research interests and the topics/open issues presented in this course.
 
-To get CFUs (deadline Oct 31, 2026), write and send me a short essay (about 4/5 pages using [this IEEE template](https://w4bo.github.io/AA2526-unibo-phddataplat/01-bigdata#/exam))
+To get CFUs (deadline Oct 31, 2026), write and send me a short essay (about 4/5 pages using [this IEEE template](https://ieeecs-media.computer.org/assets/zip/ieeetran-final_sub.zip))
 
 - Deepen at least one of the covered topics
 - Discuss relationships between your research interests and the topics presented in the course
