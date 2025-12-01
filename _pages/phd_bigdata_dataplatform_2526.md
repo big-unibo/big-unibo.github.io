@@ -60,7 +60,7 @@ Or... submit a paper! We have an open special issue on these topics
 Students willing to follow the course are kindly asked to [send a notification of interest](mailto:m.francia@unibo.it?subject=[DP2526] Notification of interest) to the teacher, indicating
 
 1. existing issues with the indicated schedule (if any),
-2,the background level on big data, and
+2. the background level on big data, and
 3. whether the course will be followed online or in presence.
 
 The notification is neither binding nor required, but it is asked for organization purposes.
