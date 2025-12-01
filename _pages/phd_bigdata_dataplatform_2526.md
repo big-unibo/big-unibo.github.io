@@ -44,9 +44,26 @@ Dates:
 
 Students requiring an exam will be asked to produce an essay about possible intersections between their research interests and the topics/open issues presented in this course.
 
+To get CFUs, write and send me a short essay (about 4/5 pages using this IEEE template)
+
+- Deepen at least one of the covered topics
+- Discuss relationships between your research interests and the topics presented in the course
+
+Or... submit a paper! We have an open special issue on these topics
+
+- [Data Management, Integration, and Interoperability](https://www.mdpi.com/journal/electronics/special_issues/Q710A28880), Journal: Electronics, IF 2.6
+- Closes Dec 31, 2025 (let me know if you are interested and need more time!)
+
+
 ## Participation
 
-Students willing to follow the course are kindly asked to [send a notification of interest](mailto:m.francia@unibo.it?subject=[DP2526] Notification of interest) to the teacher, indicating (i) existing issues with the indicated schedule (if any), (ii) the background level on big data, and (iii) whether the course will be followed online or in presence. The notification is neither binding nor required, but it is asked for organization purposes.
+Students willing to follow the course are kindly asked to [send a notification of interest](mailto:m.francia@unibo.it?subject=[DP2526] Notification of interest) to the teacher, indicating
+
+1. existing issues with the indicated schedule (if any),
+2,the background level on big data, and
+3. whether the course will be followed online or in presence.
+
+The notification is neither binding nor required, but it is asked for organization purposes.
 
 ## Teacher
 
