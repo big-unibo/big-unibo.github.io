@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7.8'
+          ruby-version: '3.4.7'
           bundler-cache: true
       - name: Install gems
         continue-on-error: true
