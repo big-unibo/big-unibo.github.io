@@ -2,11 +2,11 @@
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
 
-- title: Sviluppo di algoritmi di Machine Learning per il riconoscimento di fenomeni agricoli.
+- title: Sviluppo di algoritmi di Machine Learning per il riconoscimento di fenomeni agricoli (@Winet srl).
   level: Bachelor/Master
   field: Machine Learning and Data Mining
   type: Research thesis
-  location: Winet srl.
+  location: company
   status: Open
   year: 2025
   contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a> <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
@@ -15,7 +15,7 @@
 - title: Progettazione e analisi di reti IoT LoRaWAN per il monitoraggio ambientale.
   level: Bachelor/Master
   type: Research thesis
-  location: Winet srl.
+  location: company
   status: Open
   year: 2025
   contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a> <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
