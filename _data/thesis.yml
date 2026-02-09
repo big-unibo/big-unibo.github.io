@@ -2,6 +2,25 @@
 ## Level: Master, Bachelor
 ## Type: Research, Project, Compilation
 
+- title: Sviluppo di algoritmi di Machine Learning per il riconoscimento di fenomeni agricoli.
+  level: Bachelor/Master
+  field: Machine Learning and Data Mining
+  type: Research thesis
+  location: Winet srl.
+  status: Open
+  year: 2025
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a> <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  abstract: L'agricoltura di precisione richiede strumenti avanzati per il monitoraggio continuo e automatico delle condizioni colturali e ambientali. L'utilizzo di dati multisorgente (es. immagini, sensori meteo e ambientali, trappole intelligenti) rappresenta una risorsa chiave per la comprensione della dinamica dei sistemi agricoli. La presente tesi si propone di sviluppare e valutare algoritmi di machine learning con particolare riferimento all'identificazione di insetti, alla stima della fase fenologica delle colture e al rilevamento di anomalie ambientali. L'obiettivo finale della tesi è fornire soluzioni algoritmiche scalabili e affidabili a supporto dei sistemi decisionali in ambito agricolo.
+
+- title: Progettazione e analisi di reti IoT LoRaWAN per il monitoraggio ambientale.
+  level: Bachelor/Master
+  type: Research thesis
+  location: Winet srl.
+  status: Open
+  year: 2025
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a> <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  abstract: Le reti LoRaWAN offrono opportunità per il monitoraggio ambientale distribuito. La tesi si concentra sulla progettazione, implementazione e analisi di una rete IoT LoRaWAN e sul confronto con soluzioni edge/cloud. Le attività possono includere la validazione sperimentale attraverso test sul campo. L'obiettivo è fornire linee guida progettuali e risultati quantitativi utili allo sviluppo di sistemi IoT efficienti e affidabili per il monitoraggio ambientale continuo.
+
 - title: \[NEW\] Prompting and fine-tuning of LLMs for data science tasks
   level: Master
   field: Business Intelligence and Data Mining
@@ -26,32 +45,7 @@
   contact: "<a href='mailto:enrico.gallinucci@unibo.it'>Dr. Enrico Gallinucci</a>"
   abstract: |
     Data modeling in NoSQL databases follows an aggregate-oriented philosophy, which involves structuring data collections based on the workload—standing in clear contrast to relational modeling, which is domain-oriented and almost completely agnostic to the queries that will be implemented. The optimization of performances and costs of a NoSQL databases build on the design of data models that are consistent with the workload and that minimize the consumption of resources. In this context, it is crucial to understand the query mechanisms and cost models of the NoSQL databases made available by cloud providers and to effectively predict the cost of the adoption of different data models. 
-
-- title: Data Platforms for Agritech
-  level: Master
-  field: Data Mining
-  type: Research thesis
-  location: BIG
-  status: Open
-  year: 2024
-  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
-  abstract: |
-    Digital transformation is one of the most disruptive trends of recent years, and
-    the synergy of information and communications technologies and precision agriculture is fostering new potential in the agritech domain. Indeed, data-driven
-    decision support systems are now taking on a major role due to the spread of
-    the internet of (robotic) things devices coupled with artificial intelligence and
-    machine learning, which make it possible to precisely act in every aspect of the
-    life cycle of agricultural assets. In this context, data platforms answer the issues
-    related to data collection, processing, exploitation, and management.
-    The goal of the project is to engineer a domain-level data platform to collect,
-    integrate, and manage every data relevant to the Agritech Spoke 3. Domain
-    level refers to high-level agritech problems or areas of analysis that should be
-    addressed and supported by the proposed system. Indeed, the data platform
-    must collect and integrate data, and support the analytic workloads of the six
-    partners of the Agritech Spoke 3.
-  link:
-  slides:
-    
+   
 - title: AutoML for cluster analysis
   level: Master
   field: Data Mining
@@ -66,7 +60,6 @@
     For instance, in the IRIS dataset, the same natural clusters exist when the `petal length` feature is considered as well as when two features `petal length` and `petal width` are considered.
     The student is asked to study existing approaches and implement such analysis using well known frameworks for AutoML written in Python.
 
-  
 - title: "Data Engineering Internship at Technogym"
   level: Master
   field: Big Data, Data Mining
@@ -181,6 +174,32 @@
   slides:
 
 ###
+
+
+- title: Data Platforms for Agritech
+  level: Master
+  field: Data Mining
+  type: Research thesis
+  location: ClosedToCheck
+  status: Open
+  year: 2024
+  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>, <a href='mailto:m.francia@unibo.it'>Dr. Matteo Francia</a>"
+  abstract: |
+    Digital transformation is one of the most disruptive trends of recent years, and
+    the synergy of information and communications technologies and precision agriculture is fostering new potential in the agritech domain. Indeed, data-driven
+    decision support systems are now taking on a major role due to the spread of
+    the internet of (robotic) things devices coupled with artificial intelligence and
+    machine learning, which make it possible to precisely act in every aspect of the
+    life cycle of agricultural assets. In this context, data platforms answer the issues
+    related to data collection, processing, exploitation, and management.
+    The goal of the project is to engineer a domain-level data platform to collect,
+    integrate, and manage every data relevant to the Agritech Spoke 3. Domain
+    level refers to high-level agritech problems or areas of analysis that should be
+    addressed and supported by the proposed system. Indeed, the data platform
+    must collect and integrate data, and support the analytic workloads of the six
+    partners of the Agritech Spoke 3.
+  link:
+  slides:
 
 - title: NoSQL Database Refactoring
   level: Master
