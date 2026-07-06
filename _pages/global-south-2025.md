@@ -12,9 +12,9 @@ PROGETTI DI COOPERAZIONE INTERNAZIONALE ALLO SVILUPPO DEI DIPARTIMENTI – BANDO
 
 ## Partners
 
-- Department of Computer Science and Engineering (DISI)  
-- Department of History and Cultures (DISCI) 
-- Department of Agricultural and Food Sciences (DISTAL) 
+- DISI: Department of Computer Science and Engineering
+- DISTAL: Department of Agricultural and Food Sciences
+- DISCI: Department of History and Cultures
 - Samarkand State University (SamSU) -- Uzbekistan
 
 ## People
@@ -23,8 +23,8 @@ PROGETTI DI COOPERAZIONE INTERNAZIONALE ALLO SVILUPPO DEI DIPARTIMENTI – BANDO
 - DISTAL: Prof. Elena Baldi, Prof. Diana Di Gioia, Prof. Moreno Toselli  
 - DISCI: Dott. Simone Mantellini, Dott. Andrea Zinzani  
 
-# Project
-     
+## Project
+
 The relationships between UNIBO and Samarkand started in 2001, thanks to the Uzbek-Italian Archaeological Project (UIAP) with a collaboration between DISCI and the Samarkand Institute of Archaeology, Agency for Cultural Heritage of the Republic of Uzbekistan, and it is still ongoing thanks to the support of UNIBO ALMASCAVI. In 2017, a delegation from UNIBO was invited to attend the celebration of SamSU's 90th anniversary. Later, in 2019, UNIBO funded a Summer School at SamSU entitled “Environment and archaeology: linking the past and the future for a sustainable development of the Samarkand territory” that promoted the mobility of 11 students and 3 professors from UNIBO to SamSU, and 3 professors from SamSU to UNIBO. In 2023, DISTAL was funded within the Erasmus+ International Credit Mobility program (Key Action 1, Learning mobility for higher education students and staff) to promote the mobility of 4 Uzbekistan students, 2 PhD students, and 1 professor to UNIBO, along with 3 teaching staff members moving from UNIBO to SamSU. In 2025, an Erasmus+ Capacity Building in the Higher Education (Higher Education Modernization to boost the Uzbekistan Agricultural system and promote excellence and regional development), coordinated by Prof. Toselli, was financed. UNIBO-Samarkand ties deepened with visits to Uzbekistan by Italian President Sergio Mattarella in 2023 (with the UIAP Co-director Simone Mantellini; LINK), and the UNIBO Rector Prof. Giovanni Molari in 2024 (LINK). Since 2024, UNIBO has joined the “Knowledge Networks” project, led by University Cà Foscari and supported by Italy’s Foreign Ministry; UNIBO leads the cluster on water resource management to foster cooperation on water issues between Italy and Central Asian states. 
 With respect to past projects, this project brings innovation and optimization of water resources by studying the policies of water usage and applying them to innovative solutions based on sensors and artificial intelligence. 
      
@@ -44,6 +44,10 @@ The number of academic staff at the institute is 40. The institute has 6 BSc, 8 
 technicians and students.  
      
 ## Project objectives
+
+<div style="text-align: center"
+<img width="605" src="https://github.com/user-attachments/assets/ef4f4c88-e03f-4324-8afc-8118482dfecc" />
+</div>
 
 Water resources and related governance framework constitute a key angle to understand the processes of territorial transformation in the Samarkand region from a diachronic perspective. Over the last decade territorial transformations were shaped by climate change (reduction of winter snowfall, heat waves and variations in average annual precipitations), which were combined to land degradation and soils salinization issues. Therefore, it is strategic today to understand how institutions at different scales and local communities are dealing with these territorial transformations and uncertainties in water availability and are adapting to climate change effects in terms of governance reconfigurations, water distribution, agricultural changes and socio-spatial practices more in general. Moreover, new technologies for irrigation management play a key role in this process of transformation and international cooperation where it will be strategic to ensure sustainable agriculture and water security for local communities. The project aims to: 
 
