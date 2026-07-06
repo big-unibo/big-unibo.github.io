@@ -8,7 +8,7 @@ permalink: /global-south-2025/
 
 # Eco-Climate Crisis And Water Resources In Uzbekistan Between Past And Future: Governance, Strategies And Solutions In The Samarkand Region
 
-PROGETTI DI COOPERAZIONE INTERNAZIONALE ALLO SVILUPPO DEI DIPARTIMENTI – BANDO “UNIBO – GLOBAL SOUTH” 
+PROGETTI DI COOPERAZIONE INTERNAZIONALE ALLO SVILUPPO DEI DIPARTIMENTI – BANDO "UNIBO – GLOBAL SOUTH"
 
 ## Partners
 
@@ -19,7 +19,7 @@ PROGETTI DI COOPERAZIONE INTERNAZIONALE ALLO SVILUPPO DEI DIPARTIMENTI – BANDO
 
 ## People
 
-- DISI: **Dott. Matteo Francia**, Prof. Matteo Golfarelli, Dott. Enrico Gallinucci, Dott. Alex Baiardi, Dott. Manuele Pasini 
+- DISI: **Dott. Matteo Francia (PI)**, Prof. Matteo Golfarelli, Dott. Enrico Gallinucci, Dott. Alex Baiardi, Dott. Manuele Pasini 
 - DISTAL: Prof. Elena Baldi, Prof. Diana Di Gioia, Prof. Moreno Toselli  
 - DISCI: Dott. Simone Mantellini, Dott. Andrea Zinzani  
 
