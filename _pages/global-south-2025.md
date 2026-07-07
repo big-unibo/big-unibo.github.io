@@ -12,16 +12,17 @@ PROGETTI DI COOPERAZIONE INTERNAZIONALE ALLO SVILUPPO DEI DIPARTIMENTI – BANDO
 
 ## Partners
 
-- DISI: Department of Computer Science and Engineering
-- DISTAL: Department of Agricultural and Food Sciences
-- DISCI: Department of History and Cultures
-- Samarkand State University (SamSU) -- Uzbekistan
+- DISI: Department of Computer Science and Engineering, Bologna, Italy
+- DISTAL: Department of Agricultural and Food Sciences, Bologna, Italy
+- DISCI: Department of History and Cultures, Bologna, Italy
+- SamSU: Samarkand State University, Uzbekistan
 
 ## People
 
 - DISI: **Dott. Matteo Francia (PI)**, Prof. Matteo Golfarelli, Dott. Enrico Gallinucci, Dott. Alex Baiardi, Dott. Manuele Pasini 
 - DISTAL: Prof. Elena Baldi, Prof. Diana Di Gioia, Prof. Moreno Toselli  
-- DISCI: Dott. Simone Mantellini, Dott. Andrea Zinzani  
+- DISCI: Dott. Simone Mantellini, Dott. Andrea Zinzani
+- SamSU: Prof. Toshpulot Rajabov
 
 ## Project
 
@@ -44,10 +45,6 @@ The number of academic staff at the institute is 40. The institute has 6 BSc, 8 
 technicians and students.  
      
 ## Project objectives
-
-<div style="text-align: center"
-<img width="605" src="https://github.com/user-attachments/assets/ef4f4c88-e03f-4324-8afc-8118482dfecc" />
-</div>
 
 Water resources and related governance framework constitute a key angle to understand the processes of territorial transformation in the Samarkand region from a diachronic perspective. Over the last decade territorial transformations were shaped by climate change (reduction of winter snowfall, heat waves and variations in average annual precipitations), which were combined to land degradation and soils salinization issues. Therefore, it is strategic today to understand how institutions at different scales and local communities are dealing with these territorial transformations and uncertainties in water availability and are adapting to climate change effects in terms of governance reconfigurations, water distribution, agricultural changes and socio-spatial practices more in general. Moreover, new technologies for irrigation management play a key role in this process of transformation and international cooperation where it will be strategic to ensure sustainable agriculture and water security for local communities. The project aims to: 
 
