@@ -167,20 +167,20 @@
   slides:
 
 
-- title: Progettazione di un linguaggio visuale per la creazione di questionari
-  level: Master
-  type: Project thesis
-  field: Information Systems
-  status: Open
-  location: BIG
-  year:
-  contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
-  supervisor:
-  co-supervisor:
-  student:
-  abstract: "Obiettivo della tesi è quello di progettare e realizzare un linguaggio visuale per la generazione di questionari dinamici, in maniera più evoluta rispetto alla gestione fornita dagli strumenti gratuiti disponibili (ad esempio, Google Form). Nell'ambito di vari progetti di ricerca raccogliamo informazioni da utenti tramite questionari sottoposti mediante dispositivi mobili. Per semplificare la realizzazione dei questionari si vuole creare uno strumento che permetta di realizzarli senza competenze di programmazione e con elevata espressività, similmente ad un flow chart (ad esempio, gestione if-then-else e cicli)."
-  link:
-  slides:
+# - title: Progettazione di un linguaggio visuale per la creazione di questionari
+#   level: Master
+#   type: Project thesis
+#   field: Information Systems
+#   status: Open
+#   location: BIG
+#   year:
+#   contact: "<a href='mailto:matteo.golfarelli@unibo.it'>Prof. Matteo Golfarelli</a>"
+#   supervisor:
+#   co-supervisor:
+#   student:
+#   abstract: "Obiettivo della tesi è quello di progettare e realizzare un linguaggio visuale per la generazione di questionari dinamici, in maniera più evoluta rispetto alla gestione fornita dagli strumenti gratuiti disponibili (ad esempio, Google Form). Nell'ambito di vari progetti di ricerca raccogliamo informazioni da utenti tramite questionari sottoposti mediante dispositivi mobili. Per semplificare la realizzazione dei questionari si vuole creare uno strumento che permetta di realizzarli senza competenze di programmazione e con elevata espressività, similmente ad un flow chart (ad esempio, gestione if-then-else e cicli)."
+#   link:
+#   slides:
 
 ###
 
