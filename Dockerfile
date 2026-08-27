@@ -1,4 +1,4 @@
-FROM ruby:3.2
+FROM ruby:3.4
 RUN mkdir /materials
 COPY Gemfile* /materials/
 WORKDIR /materials
